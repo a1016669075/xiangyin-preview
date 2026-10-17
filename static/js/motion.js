@@ -1,79 +1,34 @@
-/* M01: optional first-session intro and a bounded decorative scroll layer. */
+/* M01: the sidebar brand enters once; document content is never animated. */
 (() => {
-  const intro = document.querySelector('[data-home-reveal]');
-  if (!intro || intro.homeMotion) return;
-  const decor = intro.querySelector('[data-home-parallax]');
-  const title = intro.querySelector('h1');
+  const brand = document.querySelector('.site-sidebar .brand');
+  if (!brand || brand.dataset.brandReveal) return;
+  brand.dataset.brandReveal = 'complete';
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  const fine = matchMedia('(hover:hover) and (pointer:fine)');
-  const compact = matchMedia('(max-width:850px)');
   const navigation = performance.getEntriesByType('navigation')[0];
-  let allowed = false, played = false, near = true, frame = 0, disposed = false;
-  const animations = new Set(), cleanups = [];
+  let seen = false;
   try {
-    const key = 'xiangyin.home-reveal.v1', seen = sessionStorage.getItem(key);
+    const key = 'xiangyin.sidebar-brand.v1';
+    seen = !!sessionStorage.getItem(key);
     sessionStorage.setItem(key, 'seen');
-    allowed = !seen && !reduced.matches && !document.hidden && !location.hash &&
-      !new URLSearchParams(location.search).has('region') && (!navigation || navigation.type === 'navigate');
-  } catch (_) { /* No storage means a complete static opening. */ }
-  function on(target, event, handler, options) {
-    target.addEventListener(event, handler, options);
-    cleanups.push(() => target.removeEventListener(event, handler, options));
-  }
+  } catch (_) { /* If storage is unavailable, at most one entry per page load. */ }
+  if (seen || reduced.matches || document.hidden || !brand.animate || (navigation && navigation.type !== 'navigate')) return;
+  const style = getComputedStyle(brand);
+  const events = new AbortController();
+  const animation = brand.animate([
+    {opacity: 0, transform: `translateY(${style.getPropertyValue('--m01-y').trim()})`},
+    {opacity: 1, transform: 'translateY(0)'}
+  ], {duration: parseFloat(style.getPropertyValue('--m01-duration')),
+    easing: style.getPropertyValue('--motion-ease').trim(), fill: 'backwards'});
+  brand.dataset.brandReveal = 'playing';
   function finish() {
-    animations.forEach(animation => animation.cancel());
-    animations.clear();
-    intro.dataset.homeReveal = 'complete';
+    animation.cancel();
+    brand.dataset.brandReveal = 'complete';
+    events.abort();
   }
-  function settle() {
-    finish();
-    cancelAnimationFrame(frame); frame = 0;
-    decor.style.removeProperty('transform');
-  }
-  function play(element, keyframes, duration, delay, easing) {
-    const animation = element.animate(keyframes, {duration, delay, easing, fill:'backwards'});
-    animations.add(animation);
-    animation.finished.then(() => {
-      animations.delete(animation);
-      if (!animations.size) intro.dataset.homeReveal = 'complete';
-    }, () => animations.delete(animation));
-  }
-  function start() {
-    if (played || !allowed || !near || document.hidden || reduced.matches || !intro.animate) return;
-    played = true; intro.dataset.homeReveal = 'playing';
-    play(title, [{filter:'blur(5px)', transform:'translateY(7px)', opacity:1},
-      {filter:'blur(0)', transform:'translateY(0)', opacity:1}], 900, 0, 'cubic-bezier(.22,.6,.3,1)');
-    intro.querySelectorAll('[data-home-ink]').forEach((path, i) => {
-      play(path, [{strokeDasharray:'1 1', strokeDashoffset:1}, {strokeDasharray:'1 1', strokeDashoffset:0}],
-        1450, 70 + i * 32, 'cubic-bezier(.25,.5,.25,1)');
-    });
-  }
-  function update() {
-    frame = 0;
-    if (disposed || !near || document.hidden || reduced.matches || !fine.matches || compact.matches) return;
-    const bounds = intro.getBoundingClientRect();
-    const y = Math.max(-18, Math.min(18, -bounds.top * .045));
-    const tilt = Math.max(0, Math.min(4, (1 + bounds.top / Math.max(1, bounds.height)) * 4));
-    decor.style.transform = `perspective(1000px) translate3d(0,${y.toFixed(2)}px,0) rotateX(${tilt.toFixed(2)}deg) scale(${(1 - tilt * .005).toFixed(3)})`;
-  }
-  function requestUpdate() {
-    if (!frame && near && !disposed && !document.hidden && !reduced.matches && fine.matches && !compact.matches)
-      frame = requestAnimationFrame(update);
-  }
-  function preferenceChange() { settle(); if (reduced.matches) played = true; requestUpdate(); }
-  on(reduced, 'change', preferenceChange); on(fine, 'change', preferenceChange); on(compact, 'change', preferenceChange);
-  on(window, 'scroll', requestUpdate, {passive:true}); on(window, 'resize', requestUpdate, {passive:true});
-  on(document, 'visibilitychange', () => { if (document.hidden) { played = true; settle(); } else requestUpdate(); });
-  on(window, 'pagehide', () => { played = true; settle(); });
-  on(window, 'pageshow', event => { if (event.persisted) { played = true; settle(); requestUpdate(); } });
-  const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
-    near = entries[0].isIntersecting;
-    if (near) { start(); requestUpdate(); } else settle();
-  }) : null;
-  if (observer) observer.observe(intro); else { start(); requestUpdate(); }
-  intro.homeMotion = {destroy() {
-    disposed = true; settle(); observer?.disconnect(); cleanups.forEach(off => off()); delete intro.homeMotion;
-  }};
+  reduced.addEventListener('change', finish, {signal: events.signal});
+  document.addEventListener('visibilitychange', () => { if (document.hidden) finish(); }, {signal: events.signal});
+  window.addEventListener('pagehide', finish, {signal: events.signal});
+  animation.finished.then(finish, finish);
 })();
 
 /* M04: reading bookmark */
@@ -89,7 +44,6 @@
   const mobileDirectory = reading.querySelector('.mobile-question-directory');
   const currentLabel = reading.querySelector('[data-reading-current]');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  const narrow = matchMedia('(max-width: 850px)');
   const events = new AbortController();
   const listen = (target, name, callback, options = {}) => target.addEventListener(name, callback, {...options, signal: events.signal});
   let current = -1, scrollFrame = 0, positionFrame = 0, operation = 0, locating = null;
@@ -136,9 +90,15 @@
     measureBookmarks();
   }
   function headerOffset() {
-    const header = document.querySelector('.site-header');
-    const position = header && getComputedStyle(header).position;
-    return position === 'fixed' || position === 'sticky' ? Math.max(24, header.getBoundingClientRect().bottom + 16) : 24;
+    const bounds = reading.getBoundingClientRect();
+    const center = bounds.left + bounds.width / 2;
+    return [...document.querySelectorAll('.site-header, .site-sidebar')].reduce((offset, header) => {
+      const position = getComputedStyle(header).position;
+      const rect = header.getBoundingClientRect();
+      // A fixed left sidebar does not cover the article's top anchor.
+      return (position === 'fixed' || position === 'sticky') && rect.top <= 0 && rect.left < center && rect.right > center
+        ? Math.max(offset, rect.bottom + 16) : offset;
+    }, 24);
   }
   function updatePosition() {
     positionFrame = 0;
@@ -158,6 +118,9 @@
     clearTimeout(highlightTimer);
     if (highlighted) highlighted.classList.remove('reading-highlight');
     highlighted = null;
+  }
+  function duration(token) {
+    return parseFloat(getComputedStyle(reading).getPropertyValue(token));
   }
   function cancelLocation() {
     operation++;
@@ -182,7 +145,7 @@
       if (!reduced.matches) {
         highlighted = headings[index];
         highlighted.classList.add('reading-highlight');
-        highlightTimer = setTimeout(clearHighlight, 800);
+        highlightTimer = setTimeout(clearHighlight, duration('--m04-heading-duration'));
       }
     }
   }
@@ -195,8 +158,8 @@
     scrollFrame = requestAnimationFrame(() => {
       if (id !== operation) return;
       const start = scrollY, end = destination(index);
-      const duration = animate && !reduced.matches ? (narrow.matches ? 320 : Math.min(520, 320 + Math.abs(end - start) * .055)) : 0;
-      if (!duration || Math.abs(end - start) < 2) {
+      const travelDuration = animate && !reduced.matches ? duration('--m04-tag-duration') : 0;
+      if (!travelDuration || Math.abs(end - start) < 2) {
         window.scrollTo({top: end, behavior: 'instant'});
         finishLocation(id, index, focus);
         return;
@@ -204,7 +167,7 @@
       const started = performance.now();
       function step(now) {
         if (id !== operation) return;
-        const progress = Math.min(1, (now - started) / duration);
+        const progress = Math.min(1, (now - started) / travelDuration);
         window.scrollTo({top: start + (end - start) * (1 - Math.pow(1 - progress, 3)), behavior: 'instant'});
         if (progress < 1) scrollFrame = requestAnimationFrame(step);
         else finishLocation(id, index, focus);

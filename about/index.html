@@ -13,30 +13,39 @@
   <script src="/xiangyin-preview/preview-data.js" defer></script>
   <script src="/xiangyin-preview/static/js/pages-preview.js" defer></script>
   <script src="/xiangyin-preview/static/js/site.js" defer></script>
+  <link rel="stylesheet" href="/xiangyin-preview/static/css/sidebar-tokens.css">
+  <link rel="stylesheet" href="/xiangyin-preview/static/css/motion.css">
+  <script src="/xiangyin-preview/static/js/motion.js" defer></script>
   
+  <link rel="stylesheet" href="/xiangyin-preview/static/css/sidebar.css">
 </head>
-<body data-pages-base="/xiangyin-preview" data-pages-path="/about/">
+<body class="sidebar-layout " data-pages-base="/xiangyin-preview" data-pages-path="/about/">
   <a class="skip-link" href="#main">跳到正文</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="/xiangyin-preview/" aria-label="乡音中国首页"><span class="brand-seal" aria-hidden="true">音</span><span class="brand-name">乡音中国<span class="brand-note">记录方言 · 走近生活</span></span></a>
-      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span>菜单</span><span class="menu-icon" aria-hidden="true"></span></button>
-      <nav class="site-nav" id="site-nav" aria-label="主导航">
-        <a href="/xiangyin-preview/regions/">地区探索</a>
-        <a href="/xiangyin-preview/library/">方言资料</a>
-        <a href="/xiangyin-preview/surveys/">方言社会调查</a>
-        <a href="/xiangyin-preview/about/" aria-current="page">关于项目</a>
-        <div class="nav-secondary"><a href="/xiangyin-preview/questionnaire/">问卷</a><a href="/xiangyin-preview/comments/">留言</a></div>
-      </nav>
-    </div>
-  </header>
-  <main id="main" tabindex="-1">
+  <div class="site-shell" id="app-shell" >
+    <aside class="site-sidebar" aria-label="网站导航">
+<a class="brand" href="/xiangyin-preview/" aria-label="乡音中国首页"><span class="brand-name">乡音中国</span><span class="brand-note">记录方言 · 留住乡音</span></a>
+<button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">展开导航 <span aria-hidden="true">＋</span></button>
+<div class="nav-scroll" id="site-nav"><nav class="primary-nav" aria-label="主要栏目"><a class="nav-item" href="/xiangyin-preview/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5 9 3 15 5 21 3v16l-6 2-6-2-6 2ZM9 3v16M15 5v16"/></svg><span>地区资料</span></a>
+<span class="nav-divider" aria-hidden="true"></span>
+<a class="nav-item" href="/xiangyin-preview/media/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18ZM10 8l6 4-6 4Z"/></svg><span>媒体中的方言</span></a>
+<a class="nav-item" href="/xiangyin-preview/research/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h6l3 2 3-2h6v15h-6l-3 2-3-2H3ZM12 6v15"/></svg><span>方言学术研究</span></a>
+<a class="nav-item" href="/xiangyin-preview/policies/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 8 3v6c0 5-3.7 8.5-8 11-4.3-2.5-8-6-8-11V5Z"/></svg><span>政策保护</span></a>
+<a class="nav-item" href="/xiangyin-preview/surveys/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM2 20v-3a7 7 0 0 1 14 0v3ZM16 4a3 3 0 0 1 0 6M18 13a6 6 0 0 1 4 6"/></svg><span>方言社会调查</span></a>
+</nav><nav class="secondary-nav" aria-label="参与与项目"><a class="nav-item" href="/xiangyin-preview/questionnaire/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h9l5 5v13H5ZM14 3v6h5M8 13h8M8 17h6"/></svg><span>问卷填写</span></a>
+<a class="nav-item" href="/xiangyin-preview/comments/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11a9 9 0 0 1-12 8.5L3 21l1.5-6A9 9 0 1 1 21 11ZM7 11h.1M12 11h.1M17 11h.1"/></svg><span>留言</span></a>
+<a class="nav-item" href="/xiangyin-preview/about/" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18ZM12 11v6M12 7v.1"/></svg><span>关于项目</span></a>
+</nav>
+<form class="sidebar-search" action="/xiangyin-preview/library/" role="search"><label for="sidebar-search">搜索资料</label><div><input id="sidebar-search" name="q" type="search" maxlength="200" placeholder="地区、题名或关键词"><button type="submit" aria-label="搜索资料"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg></button></div></form>
+<div class="sidebar-bottom"><div class="sidebar-landscape" aria-hidden="true"></div><p>一方水土，一方声音。</p><span>展示预览 · 合成示例资料</span></div></div></aside>
+
+    <main id="main" tabindex="-1">
 <div class="page-wrap inner-page info-page">
   <nav class="breadcrumb" aria-label="面包屑"><a href="/xiangyin-preview/">首页</a><span aria-hidden="true">/</span><span aria-current="page">关于乡音中国</span></nav>
   <header class="page-heading"><p class="eyebrow">ABOUT THE PROJECT</p><h1>关于乡音中国</h1><p>乡音中国以地区为线索，连接访谈、媒体作品、研究资料与方言社会调查，让语言回到具体的人和生活。</p></header>
   <div class="info-message"><span class="info-character" aria-hidden="true">音</span><div><p>本项目由党老师个人主办，围绕方言开展资料整理与研究。地区入口用于资料导航，不代表方言分区。</p><a class="text-link" href="/xiangyin-preview/#explore">先去探索地区资料 <span aria-hidden="true">→</span></a></div></div>
 </div>
 </main>
+  </div>
   <footer class="site-footer">
     <div class="footer-inner">
       <div><a class="footer-brand" href="/xiangyin-preview/">乡音中国</a><p>一方水土，一种声音。</p></div>

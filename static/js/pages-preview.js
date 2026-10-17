@@ -44,6 +44,12 @@
       else link.removeAttribute('aria-current');
     });
   }
+  if (path === '/') {
+    const closed = params.get('panel') === 'closed';
+    document.querySelector('#app-shell').classList.toggle('panel-closed', closed);
+    document.querySelector('#region-panel').hidden = closed;
+    document.querySelector('#reopen-panel').hidden = !closed;
+  }
 
   const kind = Object.keys(routes).find(key => path === `/${routes[key]}/`) || '';
   const listing = path === '/library/' || Boolean(kind);

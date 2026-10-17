@@ -2,10 +2,33 @@
   "region": {
     "name": "云南",
     "slug": "yunnan",
-    "description": "空状态的合成测试。数字来自本文件的演示数组；这里没有资料，不代表该地区的真实资料情况。",
+    "description": "此处为暂无资料的合成测试状态，不代表该地区的实际资料情况。",
     "city_label": "",
     "active_count": 0
   },
+  "groups": [
+    {
+      "key": "interview",
+      "label": "方言访谈",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/yunnan/?kind=interview",
+      "contents": []
+    },
+    {
+      "key": "media",
+      "label": "媒体作品",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/yunnan/?kind=media",
+      "contents": []
+    },
+    {
+      "key": "related",
+      "label": "相关研究与资料",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/yunnan/?kind=related",
+      "contents": []
+    }
+  ],
   "contents": [],
   "query": "",
   "kind": "",

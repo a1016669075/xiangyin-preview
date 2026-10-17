@@ -2,14 +2,56 @@
   "region": {
     "name": "广东",
     "slug": "guangdong",
-    "description": "长标题与单条资料的合成测试状态。纸张按实际内容自然容纳，卡片不截断标题，也不制造无意义的收藏或访问数字。",
+    "description": "单条长标题的合成示例，用于检查完整阅读与地区切换；不对应真实采访。",
     "city_label": "",
     "active_count": 1
   },
+  "groups": [
+    {
+      "key": "interview",
+      "label": "方言访谈",
+      "total": 1,
+      "url": "/xiangyin-preview/regions/guangdong/?kind=interview",
+      "contents": [
+        {
+          "id": "sidebar-guangdong-0",
+          "title": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事",
+          "url": "/xiangyin-preview/content/sidebar-guangdong-0/",
+          "summary": "这是一条有意写长的演示标题，用于核对自然换行、卡片高度和纸面切换；不对应真实采访。",
+          "category_label": "访谈实录",
+          "kind": "interview",
+          "kind_label": "访谈实录",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "访谈实录",
+            "叙事文章",
+            "广东"
+          ],
+          "action_label": "阅读访谈"
+        }
+      ]
+    },
+    {
+      "key": "media",
+      "label": "媒体作品",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/guangdong/?kind=media",
+      "contents": []
+    },
+    {
+      "key": "related",
+      "label": "相关研究与资料",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/guangdong/?kind=related",
+      "contents": []
+    }
+  ],
   "contents": [
     {
+      "id": "sidebar-guangdong-0",
       "title": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事",
-      "url": "/xiangyin-preview/content/alignment-guangdong-0/",
+      "url": "/xiangyin-preview/content/sidebar-guangdong-0/",
       "summary": "这是一条有意写长的演示标题，用于核对自然换行、卡片高度和纸面切换；不对应真实采访。",
       "category_label": "访谈实录",
       "kind": "interview",
@@ -36,7 +78,7 @@
   "results": [
     {
       "title": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事",
-      "url": "/xiangyin-preview/content/alignment-guangdong-0/",
+      "url": "/xiangyin-preview/content/sidebar-guangdong-0/",
       "kind": "interview"
     }
   ]
