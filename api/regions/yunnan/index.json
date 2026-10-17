@@ -1,0 +1,20 @@
+{
+  "region": {
+    "name": "云南",
+    "slug": "yunnan",
+    "description": "空状态的合成测试。数字来自本文件的演示数组；这里没有资料，不代表该地区的真实资料情况。",
+    "city_label": "",
+    "active_count": 0
+  },
+  "contents": [],
+  "query": "",
+  "kind": "",
+  "group_counts": {
+    "interview": 0,
+    "media": 0,
+    "related": 0
+  },
+  "matched_count": 0,
+  "filtered_count": 0,
+  "results": []
+}

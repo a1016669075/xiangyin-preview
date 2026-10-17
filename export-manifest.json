@@ -1,0 +1,293 @@
+{
+  "formatVersion": 1,
+  "basePath": "/xiangyin-preview",
+  "syntheticOnly": true,
+  "databaseUnchanged": true,
+  "inputDatabaseSha256": "35bd6dbf386655045722844491446eb6fa2f44dd6fbb59fe15a1cd645e6c4dc1",
+  "sourceContentCount": 12,
+  "publishedContentCount": 12,
+  "accountCount": 0,
+  "commentSubmission": false,
+  "pages": [
+    "/",
+    "/regions/",
+    "/library/",
+    "/interviews/",
+    "/media/",
+    "/research/",
+    "/policies/",
+    "/surveys/",
+    "/about/",
+    "/participate/",
+    "/questionnaire/",
+    "/comments/",
+    "/regions/sichuan/",
+    "/regions/guangdong/",
+    "/regions/yunnan/",
+    "/content/alignment-project/",
+    "/content/alignment-policy-text/",
+    "/content/alignment-policy-cover/",
+    "/content/alignment-research/",
+    "/content/alignment-audio/",
+    "/content/alignment-animation/",
+    "/content/alignment-guangdong-0/",
+    "/content/alignment-sichuan-0/",
+    "/content/alignment-sichuan-1/",
+    "/content/alignment-sichuan-2/",
+    "/content/alignment-sichuan-3/",
+    "/content/alignment-sichuan-4/"
+  ],
+  "attachmentCount": 1,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "about/index.html",
+      "bytes": 3336,
+      "sha256": "86ee6bd8406c298d535d4324a382b6b747c2413a98d76c973fbef2d9fb7a601b"
+    },
+    {
+      "path": "api/regions/guangdong/index.json",
+      "bytes": 1363,
+      "sha256": "2829ef935ccb437c37014a4e7c9085180d4badfe6ce3d58fa2cfbccb4afa78b7"
+    },
+    {
+      "path": "api/regions/sichuan/index.json",
+      "bytes": 2237,
+      "sha256": "07806ea77dd85d7aed7cd00f057bd81b8e5c6fa6ee7377e262b8bb877e6b9b19"
+    },
+    {
+      "path": "api/regions/yunnan/index.json",
+      "bytes": 449,
+      "sha256": "a78774988497b0243aaa87d9695721f880e35844ac096e8f22ba4947bb9c358b"
+    },
+    {
+      "path": "assets/attachments/1.png",
+      "bytes": 1669,
+      "sha256": "648ede23e5e0f64e5b3e6f648e6691a9bddf91b86f2a4f938ecf14c798b26eb8"
+    },
+    {
+      "path": "comments/index.html",
+      "bytes": 3583,
+      "sha256": "ac2088aa62b505d947d73449cb857600478bfe584c10666787c37acc7fec58a1"
+    },
+    {
+      "path": "content/alignment-animation/index.html",
+      "bytes": 4211,
+      "sha256": "c3a9d356988b79691bd2d7705bd3e04e36f09ff87acfe2345bc91ad804ee51c8"
+    },
+    {
+      "path": "content/alignment-audio/index.html",
+      "bytes": 4234,
+      "sha256": "5448ee275f661d9f6f2d197af50aa3e4e6d50f731af623e095590e4a13de323e"
+    },
+    {
+      "path": "content/alignment-guangdong-0/index.html",
+      "bytes": 5054,
+      "sha256": "3f7c5fea81541b4e66b612384be7a44b9afcdef230f20ec72d851bd7e40bfcad"
+    },
+    {
+      "path": "content/alignment-policy-cover/index.html",
+      "bytes": 4565,
+      "sha256": "10e06ff55a5981adfad518aa79d72b783d032f68a1c7b37c71f0a9302dea18f0"
+    },
+    {
+      "path": "content/alignment-policy-text/index.html",
+      "bytes": 4371,
+      "sha256": "5c577b5760f5c2b7693b214a6b0cc43347986dc613a913b61f58f816c855303b"
+    },
+    {
+      "path": "content/alignment-project/index.html",
+      "bytes": 4521,
+      "sha256": "5d37385d46990be8068b9d4a4f4e01c6fbd36628b08c955a83465aa474eff5da"
+    },
+    {
+      "path": "content/alignment-research/index.html",
+      "bytes": 4480,
+      "sha256": "cdb84a378cdf8c952547d4d62ec19e3c1b77c1b82af9c2b2e563c47a47381d88"
+    },
+    {
+      "path": "content/alignment-sichuan-0/index.html",
+      "bytes": 18614,
+      "sha256": "d42f4b3452c5fb50cbf112846e227dcdd7229e66061ee7fa03ee5510ca4d1d95"
+    },
+    {
+      "path": "content/alignment-sichuan-1/index.html",
+      "bytes": 6320,
+      "sha256": "c0f1cccd9c5a4f06040d0020cf11455ccb479cb93fcfa65ce0ebef8ed9255a80"
+    },
+    {
+      "path": "content/alignment-sichuan-2/index.html",
+      "bytes": 5809,
+      "sha256": "87c392ea50f4b9c507664bfc6ac0468fa423f6211a95741b0a81dc218cdd15bb"
+    },
+    {
+      "path": "content/alignment-sichuan-3/index.html",
+      "bytes": 6272,
+      "sha256": "dc5a115db723f40d415664d3a559d6d7458963deb28e2a35992f55c6e06df971"
+    },
+    {
+      "path": "content/alignment-sichuan-4/index.html",
+      "bytes": 18554,
+      "sha256": "17c635a9eb85dbec0e74f2bc6c54c08c92977de906bd5d7df660ce54bf07b092"
+    },
+    {
+      "path": "index.html",
+      "bytes": 219797,
+      "sha256": "93100a54381c1dc50bd97d31b926f6d5867f9e1354f259ed0346b6076f02b4f4"
+    },
+    {
+      "path": "interviews/index.html",
+      "bytes": 6415,
+      "sha256": "c360ea2be46cf8c5cdc085cc77752715a0d360f13afe9e5a1971f39454e80943"
+    },
+    {
+      "path": "library/index.html",
+      "bytes": 10865,
+      "sha256": "60873d4a9fc677e2dfa9a37aa8f7b5a2932933ea8151d143c04716e768bb979f"
+    },
+    {
+      "path": "media/index.html",
+      "bytes": 10077,
+      "sha256": "3f0ada4cb4c93d50e07acf4ed458bf825f3c4ff90d72db7e4c7d1c12a3c7e7f8"
+    },
+    {
+      "path": "participate/index.html",
+      "bytes": 3827,
+      "sha256": "5842f14f0d05982d67c90cc5b48f25b3b4a681c7d3ba9408173a1cc74b6499c0"
+    },
+    {
+      "path": "policies/index.html",
+      "bytes": 5661,
+      "sha256": "73964fb48701e4310d12cab4927f37113cabd1ce448915a377aa5339b8742cd3"
+    },
+    {
+      "path": "preview-data.js",
+      "bytes": 37975,
+      "sha256": "9c5dd3469be3e60defaed77b2549423812bf3fa6f2cc06fe718dcc8aa88c07f0"
+    },
+    {
+      "path": "preview-data.json",
+      "bytes": 37948,
+      "sha256": "715c169e90259aa2b904f7dc2ecb3a8a203c5d1d4978650bec4747637a208d78"
+    },
+    {
+      "path": "questionnaire/index.html",
+      "bytes": 3371,
+      "sha256": "afc37b694912843859b6446c76c91563ed9a3a79647e6e9b8dde5eb2061e2586"
+    },
+    {
+      "path": "regions/guangdong/index.html",
+      "bytes": 5537,
+      "sha256": "acc386dea0c20b5195dc92a51da404895840f179c127eb5f0b1e0b0c2e328a25"
+    },
+    {
+      "path": "regions/index.html",
+      "bytes": 4036,
+      "sha256": "2b93d551fdd55d79128dedd2c3abd779314037ddb6c4f9133a1d855d5815df82"
+    },
+    {
+      "path": "regions/sichuan/index.html",
+      "bytes": 7763,
+      "sha256": "2b3c8ff2d09d1357623b6aaaf4819cf32c50ea8d34e24ba8ff655e418baa3dbe"
+    },
+    {
+      "path": "regions/yunnan/index.html",
+      "bytes": 4792,
+      "sha256": "b5d1b25b768c91a3b5aea187efbbefc5f4324ba6c9d47ab6adc34e6fafc5971f"
+    },
+    {
+      "path": "research/index.html",
+      "bytes": 4954,
+      "sha256": "601c3399cba74fd56a51458d2465e886c59b71e4dadf0f67a0a9dd51ebc42cbc"
+    },
+    {
+      "path": "static/css/discovery.css",
+      "bytes": 5024,
+      "sha256": "fc63c013262edf5fc9884b4ebe83fd5b28d44f9f1e4d7725060923f864d2ae2f"
+    },
+    {
+      "path": "static/css/functions.css",
+      "bytes": 6681,
+      "sha256": "68b0f4f62f3a471cf300ec4fcaeffa8b0e1829f860860e72360f941c00a1f811"
+    },
+    {
+      "path": "static/css/home-discovery.css",
+      "bytes": 6370,
+      "sha256": "db2a871c90d53092b9ae729de0aa99315945e74108be8f2fda723109db653780"
+    },
+    {
+      "path": "static/css/motion.css",
+      "bytes": 13561,
+      "sha256": "fce0713cad7285c97184d9811fb7d4ff62c45737b2d861900b2f713931a0d22c"
+    },
+    {
+      "path": "static/css/site.css",
+      "bytes": 26986,
+      "sha256": "99b4790e79e3addb7409114bc0b7b0f5a43441c64ccfc1e9301177d082108402"
+    },
+    {
+      "path": "static/img/favicon.svg",
+      "bytes": 266,
+      "sha256": "17854c11fe8edca93089706b87f3e61f80a8def21f47d651b0e7f761df1fa424"
+    },
+    {
+      "path": "static/img/media-preview/animation-frames.svg",
+      "bytes": 1020,
+      "sha256": "f13dabe1e8026d00ef5150b33c98f3d1c7887f273d2e9baeba0f18ff39c0c774"
+    },
+    {
+      "path": "static/img/media-preview/music-ribbons.svg",
+      "bytes": 1011,
+      "sha256": "d5aa8a4dc2d99a190b5b98ba4833148fbeb624788753b3b2f6c9df4c37d61cff"
+    },
+    {
+      "path": "static/img/media-preview/voice-script.svg",
+      "bytes": 913,
+      "sha256": "083ff0874777edd59283f739315022a3ba7eb8a3bfe5aa642c8d0b1fa1a1fcc1"
+    },
+    {
+      "path": "static/js/media-preview.js",
+      "bytes": 5389,
+      "sha256": "c3b52674f72c25918bf9956e6b2dc6bbb862dd41deef93f80f5a4ddb5dbd8dc4"
+    },
+    {
+      "path": "static/js/motion.js",
+      "bytes": 14173,
+      "sha256": "40464ab08f8ba512b7ca385e62eb63948a4b9aba36f8e9f7390881a0120b9330"
+    },
+    {
+      "path": "static/js/pages-preview.js",
+      "bytes": 8793,
+      "sha256": "941081bb8962344fa4927befe1b945b258d7a7644c70345a0adbf5d5a0e0f8c5"
+    },
+    {
+      "path": "static/js/questionnaire-guide.js",
+      "bytes": 1309,
+      "sha256": "48bc980e07bbc48d59cd1115cc47acfec70c7e22411c0b0e4385cc9a47d68a22"
+    },
+    {
+      "path": "static/js/site.js",
+      "bytes": 9018,
+      "sha256": "551a77a4c2a89980d427a70548929526eb75fb576280703065b72d8e27d160a0"
+    },
+    {
+      "path": "static/maps/SOURCE.md",
+      "bytes": 1646,
+      "sha256": "34e9d03bb9d243e78ae83ddeb0da421ca208ea061589420ce02b50ff47b3c7b0"
+    },
+    {
+      "path": "static/maps/china-gs-2019-1823.jpg",
+      "bytes": 315123,
+      "sha256": "56a0cf7b8d5e97c7e6488666b2f74c0736c4a0a90761bb060b703178201aeb84"
+    },
+    {
+      "path": "surveys/index.html",
+      "bytes": 4401,
+      "sha256": "5463c9ca08f2da61609d419363d64557160d13cf4e3e89aa36174705b7e110c2"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "region": {
+    "name": "四川",
+    "slug": "sichuan",
+    "description": "把日常里的一句招呼，放回它发生的街巷与生活。以下标题、摘要与计数均为合成示例。",
+    "city_label": "",
+    "active_count": 5
+  },
+  "contents": [
+    {
+      "title": "一碗茶之间，听见家乡",
+      "url": "/xiangyin-preview/content/alignment-sichuan-0/",
+      "summary": "从一声问候开始，读一段关于声音与归属的日常。",
+      "category_label": "访谈实录",
+      "kind": "interview",
+      "kind_label": "访谈实录",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "访谈实录",
+        "问答访谈",
+        "四川"
+      ],
+      "action_label": "阅读访谈"
+    },
+    {
+      "title": "把家常话写进一首歌",
+      "url": "/xiangyin-preview/content/alignment-sichuan-1/",
+      "summary": "作品介绍的合成版式示例，不提供真实音视频或播放链接。",
+      "category_label": "音乐",
+      "kind": "media",
+      "kind_label": "媒体中的方言",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "媒体中的方言 · 音乐",
+        "四川",
+        "作品介绍"
+      ],
+      "action_label": "查看作品介绍"
+    }
+  ],
+  "query": "",
+  "kind": "",
+  "group_counts": {
+    "interview": 3,
+    "media": 2,
+    "related": 0
+  },
+  "matched_count": 5,
+  "filtered_count": 5,
+  "results": [
+    {
+      "title": "一碗茶之间，听见家乡",
+      "url": "/xiangyin-preview/content/alignment-sichuan-0/",
+      "kind": "interview"
+    },
+    {
+      "title": "把家常话写进一首歌",
+      "url": "/xiangyin-preview/content/alignment-sichuan-1/",
+      "kind": "media"
+    },
+    {
+      "title": "合成资料：回乡时的一段对话",
+      "url": "/xiangyin-preview/content/alignment-sichuan-2/",
+      "kind": "interview"
+    },
+    {
+      "title": "合成资料：日常表达的声音笔记",
+      "url": "/xiangyin-preview/content/alignment-sichuan-3/",
+      "kind": "media"
+    },
+    {
+      "title": "合成资料：院子里的问候",
+      "url": "/xiangyin-preview/content/alignment-sichuan-4/",
+      "kind": "interview"
+    }
+  ]
+}

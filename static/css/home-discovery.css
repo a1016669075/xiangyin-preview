@@ -1,0 +1,55 @@
+/* Compact home composition: stable navigation, geography and reading paper. */
+.discovery-home .home-intro{position:relative;isolation:isolate;align-items:center;min-height:168px;padding:16px 0;gap:24px}
+.discovery-home .home-intro-copy{display:grid;grid-template-columns:270px minmax(0,1fr);align-items:center;gap:0 22px}
+.discovery-home .home-intro .eyebrow{grid-column:1/-1;margin:0 0 5px;font-size:10px;letter-spacing:2px}
+.discovery-home .home-intro h1{font-size:33px;line-height:1.28;margin:0}
+.discovery-home .home-title-phrase{display:block}
+.discovery-home .intro-note{font-size:13px;line-height:1.9;max-width:255px;margin:0}
+.discovery-home .home-search{width:300px;position:relative;z-index:1}
+.discovery-home .home-search>p{font-size:11px}
+.home-soundprint{position:absolute;pointer-events:none;z-index:-1;right:205px;top:-18px;width:350px;height:200px;transform-origin:center;overflow:hidden;opacity:.56}
+.home-soundprint svg{width:100%;height:100%;display:block}
+.home-entry-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:20px}
+.home-entry-grid>a{display:flex;align-items:center;gap:15px;padding:12px 22px;min-height:78px;border-right:1px solid var(--line)}
+.home-entry-grid>a:first-child{padding-left:0}.home-entry-grid>a:last-child{border:0}
+.home-entry-letter{font:34px/1 var(--serif);color:var(--copper)}
+.home-entry-grid strong{font-size:15px;font-weight:500;display:block}
+.home-entry-grid small,.section-english{display:block;font:10px/1.6 var(--sans);letter-spacing:1px;color:var(--muted)}
+.home-entry-grid>a>span:last-child{margin-left:auto;color:var(--copper)}
+.home-entry-grid>a:hover strong{color:var(--copper)}
+.discovery-home .region-section-heading{margin-bottom:10px}.discovery-home .region-section-heading h2{font-size:22px;margin:0}
+.discovery-home .region-explorer{grid-template-columns:minmax(0,44fr) minmax(0,56fr);gap:10px}
+.region-geography{min-width:0;display:flex;flex-direction:column;padding:12px 10px 14px 0}
+.region-map{margin:0}.region-map-surface{position:relative;background:white;border:1px solid var(--line)}
+.region-map-surface>img{display:block;width:100%;height:auto}
+/* Hide only the title and legend margins; keep the original map and its geometry. */
+.region-map-surface:before,.region-map-surface:after{content:'';position:absolute;left:0;background:#fff;pointer-events:none;z-index:1}
+.region-map-surface:before{top:0;width:17.65%;height:4.16%}
+.region-map-surface:after{bottom:0;width:26.47%;height:25.21%}
+.region-map-point{position:absolute;left:var(--map-x);top:var(--map-y);width:28px;height:28px;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;color:var(--green);border:1px solid currentColor;border-radius:50%;background:#fffef9d9}
+.region-map-point:before{content:'';width:8px;height:8px;border-radius:50%;background:currentColor}
+.region-map-point>span{position:absolute;bottom:24px;white-space:nowrap;padding:1px 6px;background:var(--paper-light);border:1px solid var(--line);border-radius:2px;font:11px/1.7 var(--sans)}
+.region-map-point[aria-current=true]{color:var(--copper);box-shadow:0 0 0 4px #9b634922}
+.region-map-point[aria-current=true]>span{color:white;background:var(--green);border-color:var(--green)}
+.region-map-point:focus-visible{outline:3px solid var(--copper);outline-offset:4px;z-index:2}
+.region-map figcaption{color:var(--muted);font:10px/1.7 var(--sans);padding-top:8px}.region-map figcaption a{text-decoration:underline;margin-left:8px}
+.region-geography .region-choices{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 8px}
+.xy-v3-region .region-geography .region-choice{color:var(--green);border-color:#c8d0bd;font:14px/1.4 var(--sans);padding:8px 12px;min-height:38px;background:transparent;gap:8px}
+.xy-v3-region .region-geography .region-choice[aria-current=true]{background:var(--green);color:var(--paper)}
+.xy-v3-region .region-geography .region-choice:hover{border-color:var(--green)}
+.region-geography-footer{display:flex;gap:12px;justify-content:space-between;align-items:baseline;margin-top:auto}
+.region-geography-footer p{font-size:10px;color:var(--muted)}
+.region-directory-note{padding:30px;border-left:2px solid var(--line);margin-top:24px;color:var(--muted)}
+.discovery-home .region-panel{padding:20px 23px 16px}
+.discovery-home .panel-heading h2{font-size:37px;margin-top:3px}
+.discovery-home .region-description{margin:8px 0 12px;font-size:12px}
+.discovery-home .region-content-list{grid-template-columns:1fr;gap:9px}
+.discovery-home .region-content-list .content-card{padding:9px 14px 6px;min-height:0}
+.discovery-home .region-content-list .content-card h3{font-size:19px;margin:4px 0 2px}
+.discovery-home .region-content-list .content-card p{margin-top:3px;line-height:1.65}
+.discovery-home .region-content-list .text-link{min-height:28px;margin-top:2px}
+.discovery-home .panel-bottom{gap:5px;align-items:start;flex-direction:column}
+.discovery-home .panel-bottom .text-link{min-height:30px}
+@media(max-width:1100px){.discovery-home .home-intro-copy{grid-template-columns:240px 1fr;gap:0 12px}.discovery-home .home-search{width:260px}.home-entry-grid>a{padding-inline:12px;gap:10px}.home-entry-grid strong{font-size:13px}.home-soundprint{right:100px}}
+@media(max-width:850px){.discovery-home .home-intro-copy{display:block}.discovery-home .home-intro h1{font-size:34px}.discovery-home .intro-note{margin-top:12px;max-width:100%}.discovery-home .home-search{width:100%;max-width:none}.home-entry-grid{grid-template-columns:1fr 1fr}.home-entry-grid>a{padding:12px!important;border-bottom:1px solid var(--line)}.home-entry-grid>a:nth-child(2){border-right:0}.home-entry-grid>a:nth-child(3){border-bottom:0}.discovery-home .region-explorer{grid-template-columns:1fr}.region-geography{padding-right:0}.discovery-home .region-section-heading>p{display:none}.home-soundprint{right:0;top:0;width:260px;height:180px;opacity:.35}.region-geography-footer{margin-top:6px}.discovery-home .region-panel{padding:20px}.discovery-home .region-content-list .content-card h3{font-size:20px}.discovery-home .region-content-list .content-card p{font-size:14px}.discovery-home .region-content-list .text-link{font-size:13px;min-height:40px}}
+@media(prefers-reduced-motion:reduce),(pointer:coarse){.home-soundprint{transform:none!important}}

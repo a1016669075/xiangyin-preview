@@ -1,0 +1,273 @@
+window.XIANGYIN_PREVIEW = {
+  "basePath": "/xiangyin-preview",
+  "syntheticOnly": true,
+  "items": [
+    {
+      "slug": "alignment-project",
+      "title": "合成课题 · 街巷里的乡音",
+      "searchText": "合成课题 · 街巷里的乡音 合成示例：完整保留介绍与出处，供页面和权限检查。 合成正文，不代表真实研究或政策。    ",
+      "kind": "survey_project",
+      "category": "",
+      "categoryName": "",
+      "topic": "",
+      "topicName": "",
+      "regions": [],
+      "regionNames": [],
+      "url": "/xiangyin-preview/content/alignment-project/",
+      "cardHtml": "\n<article class=\"content-card\">\n  \n  \n  <div class=\"card-meta\"><span>方言社会调查</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-project/\">合成课题 · 街巷里的乡音</a></h3>\n  \n  \n  \n  <p>合成示例：完整保留介绍与出处，供页面和权限检查。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-project/\">了解调查项目<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-policy-text",
+      "title": "合成文件 · 无封面时的完整文字列表",
+      "searchText": "合成文件 · 无封面时的完整文字列表 合成示例：完整保留介绍与出处，供页面和权限检查。 合成正文，不代表真实研究或政策。    ",
+      "kind": "policy",
+      "category": "",
+      "categoryName": "",
+      "topic": "",
+      "topicName": "",
+      "regions": [],
+      "regionNames": [],
+      "url": "/xiangyin-preview/content/alignment-policy-text/",
+      "cardHtml": "\n<article class=\"content-card policy-row\">\n  \n  \n  <div class=\"card-meta\"><span>方言政策</span><span>正式文件</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-policy-text/\">合成文件 · 无封面时的完整文字列表</a></h3>\n  \n  <div class=\"research-meta\"><span>合成机构</span></div>\n  \n  <p>合成示例：完整保留介绍与出处，供页面和权限检查。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-policy-text/\">阅读资料介绍<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-policy-cover",
+      "title": "合成保护资料 · 语言记录与传承",
+      "searchText": "合成保护资料 · 语言记录与传承 合成示例：完整保留介绍与出处，供页面和权限检查。 合成正文，不代表真实研究或政策。    ",
+      "kind": "policy",
+      "category": "",
+      "categoryName": "",
+      "topic": "",
+      "topicName": "",
+      "regions": [],
+      "regionNames": [],
+      "url": "/xiangyin-preview/content/alignment-policy-cover/",
+      "cardHtml": "\n<article class=\"content-card has-cover policy-row\">\n  <a class=\"card-art\" href=\"/xiangyin-preview/content/alignment-policy-cover/\" tabindex=\"-1\" aria-hidden=\"true\"><img src=\"/xiangyin-preview/assets/attachments/1.png\" alt=\"\" loading=\"lazy\"></a>\n  \n  <div class=\"card-meta\"><span>语言保护资料</span><span>报道</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-policy-cover/\">合成保护资料 · 语言记录与传承</a></h3>\n  \n  <div class=\"research-meta\"></div>\n  <p class=\"card-source\">来源：合成出处</p>\n  <p>合成示例：完整保留介绍与出处，供页面和权限检查。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-policy-cover/\">阅读资料介绍<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-research",
+      "title": "合成研究 · 语言与日常交往",
+      "searchText": "合成研究 · 语言与日常交往 合成示例：完整保留介绍与出处，供页面和权限检查。 合成正文，不代表真实研究或政策。 合成作者   社会语言学",
+      "kind": "research",
+      "category": "",
+      "categoryName": "",
+      "topic": "sociolinguistics",
+      "topicName": "社会语言学",
+      "regions": [],
+      "regionNames": [],
+      "url": "/xiangyin-preview/content/alignment-research/",
+      "cardHtml": "\n<article class=\"content-card\">\n  \n  \n  <div class=\"card-meta\"><span>方言研究</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-research/\">合成研究 · 语言与日常交往</a></h3>\n  <div class=\"research-meta\"><span>合成作者</span><span>2026 年</span><span>社会语言学</span></div>\n  \n  \n  <p>合成示例：完整保留介绍与出处，供页面和权限检查。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-research/\">阅读研究介绍<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-audio",
+      "title": "合成示例 · 音频与文字",
+      "searchText": "合成示例 · 音频与文字 合成示例：完整保留介绍与出处，供页面和权限检查。 合成正文，不代表真实研究或政策。   音频与文字 ",
+      "kind": "media",
+      "category": "audio",
+      "categoryName": "音频与文字",
+      "topic": "",
+      "topicName": "",
+      "regions": [],
+      "regionNames": [],
+      "url": "/xiangyin-preview/content/alignment-audio/",
+      "cardHtml": "\n<article class=\"content-card media-row\">\n  \n  <div class=\"media-type-mark\" aria-hidden=\"true\">音频与文字</div>\n  <div class=\"card-meta\"><span>媒体中的方言 · 音频与文字</span><span>作品介绍</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-audio/\">合成示例 · 音频与文字</a></h3>\n  \n  \n  \n  <p>合成示例：完整保留介绍与出处，供页面和权限检查。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-audio/\">查看作品介绍<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-animation",
+      "title": "合成示例 · 动画",
+      "searchText": "合成示例 · 动画 合成示例：完整保留介绍与出处，供页面和权限检查。 合成正文，不代表真实研究或政策。   动画 ",
+      "kind": "media",
+      "category": "animation",
+      "categoryName": "动画",
+      "topic": "",
+      "topicName": "",
+      "regions": [],
+      "regionNames": [],
+      "url": "/xiangyin-preview/content/alignment-animation/",
+      "cardHtml": "\n<article class=\"content-card media-row\">\n  \n  <div class=\"media-type-mark\" aria-hidden=\"true\">动画</div>\n  <div class=\"card-meta\"><span>媒体中的方言 · 动画</span><span>作品介绍</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-animation/\">合成示例 · 动画</a></h3>\n  \n  \n  \n  <p>合成示例：完整保留介绍与出处，供页面和权限检查。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-animation/\">查看作品介绍<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-guangdong-0",
+      "title": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事",
+      "searchText": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事 这是一条有意写长的演示标题，用于核对自然换行、卡片高度和纸面切换；不对应真实采访。 合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n     广东",
+      "kind": "interview",
+      "category": "",
+      "categoryName": "",
+      "topic": "",
+      "topicName": "",
+      "regions": [
+        "guangdong"
+      ],
+      "regionNames": [
+        "广东"
+      ],
+      "url": "/xiangyin-preview/content/alignment-guangdong-0/",
+      "cardHtml": "\n<article class=\"content-card\">\n  \n  \n  <div class=\"card-meta\"><span>访谈实录</span><span>叙事文章</span><span>广东</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-guangdong-0/\">从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事</a></h3>\n  \n  \n  \n  <p>这是一条有意写长的演示标题，用于核对自然换行、卡片高度和纸面切换；不对应真实采访。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-guangdong-0/\">阅读访谈<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-sichuan-0",
+      "title": "一碗茶之间，听见家乡",
+      "searchText": "一碗茶之间，听见家乡 从一声问候开始，读一段关于声音与归属的日常。 合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n  1. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 2. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 3. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 4. 从一声问候开始，谈谈方言、生活和地方记忆，以及这些变化如何发生？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 5. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 6. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 7. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 8. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 9. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 10. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 11. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 12. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n   四川",
+      "kind": "interview",
+      "category": "",
+      "categoryName": "",
+      "topic": "",
+      "topicName": "",
+      "regions": [
+        "sichuan"
+      ],
+      "regionNames": [
+        "四川"
+      ],
+      "url": "/xiangyin-preview/content/alignment-sichuan-0/",
+      "cardHtml": "\n<article class=\"content-card\">\n  \n  \n  <div class=\"card-meta\"><span>访谈实录</span><span>问答访谈</span><span>四川</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-sichuan-0/\">一碗茶之间，听见家乡</a></h3>\n  \n  \n  \n  <p>从一声问候开始，读一段关于声音与归属的日常。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-sichuan-0/\">阅读访谈<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-sichuan-1",
+      "title": "把家常话写进一首歌",
+      "searchText": "把家常话写进一首歌 作品介绍的合成版式示例，不提供真实音视频或播放链接。 合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n   音乐  四川",
+      "kind": "media",
+      "category": "music",
+      "categoryName": "音乐",
+      "topic": "",
+      "topicName": "",
+      "regions": [
+        "sichuan"
+      ],
+      "regionNames": [
+        "四川"
+      ],
+      "url": "/xiangyin-preview/content/alignment-sichuan-1/",
+      "cardHtml": "\n<article class=\"content-card media-row\">\n  \n  <div class=\"media-type-mark\" aria-hidden=\"true\">音乐</div>\n  <div class=\"card-meta\"><span>媒体中的方言 · 音乐</span><span>四川</span><span>作品介绍</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-sichuan-1/\">把家常话写进一首歌</a></h3>\n  \n  \n  \n  <p>作品介绍的合成版式示例，不提供真实音视频或播放链接。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-sichuan-1/\">查看作品介绍<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-sichuan-2",
+      "title": "合成资料：回乡时的一段对话",
+      "searchText": "合成资料：回乡时的一段对话  合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n     四川",
+      "kind": "interview",
+      "category": "",
+      "categoryName": "",
+      "topic": "",
+      "topicName": "",
+      "regions": [
+        "sichuan"
+      ],
+      "regionNames": [
+        "四川"
+      ],
+      "url": "/xiangyin-preview/content/alignment-sichuan-2/",
+      "cardHtml": "\n<article class=\"content-card\">\n  \n  \n  <div class=\"card-meta\"><span>访谈实录</span><span>叙事文章</span><span>四川</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-sichuan-2/\">合成资料：回乡时的一段对话</a></h3>\n  \n  \n  \n  \n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-sichuan-2/\">阅读访谈<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-sichuan-3",
+      "title": "合成资料：日常表达的声音笔记",
+      "searchText": "合成资料：日常表达的声音笔记  合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n   音乐  四川",
+      "kind": "media",
+      "category": "music",
+      "categoryName": "音乐",
+      "topic": "",
+      "topicName": "",
+      "regions": [
+        "sichuan"
+      ],
+      "regionNames": [
+        "四川"
+      ],
+      "url": "/xiangyin-preview/content/alignment-sichuan-3/",
+      "cardHtml": "\n<article class=\"content-card media-row\">\n  \n  <div class=\"media-type-mark\" aria-hidden=\"true\">音乐</div>\n  <div class=\"card-meta\"><span>媒体中的方言 · 音乐</span><span>四川</span><span>作品介绍</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-sichuan-3/\">合成资料：日常表达的声音笔记</a></h3>\n  \n  \n  \n  \n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-sichuan-3/\">查看作品介绍<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    {
+      "slug": "alignment-sichuan-4",
+      "title": "合成资料：院子里的问候",
+      "searchText": "合成资料：院子里的问候  合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n合成资料，用于核对完整阅读和地区链接；不对应真实人物或作品。\n\n  1. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 2. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 3. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 4. 从一声问候开始，谈谈方言、生活和地方记忆，以及这些变化如何发生？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 5. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 6. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 7. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 8. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 9. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 10. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 11. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n 12. 平日里，怎样用乡音与人打招呼？ 合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n合成回答：语言随着生活流动。这里用长段落检查阅读目录是否定位准确，不代表真实采访。\n\n   四川",
+      "kind": "interview",
+      "category": "",
+      "categoryName": "",
+      "topic": "",
+      "topicName": "",
+      "regions": [
+        "sichuan"
+      ],
+      "regionNames": [
+        "四川"
+      ],
+      "url": "/xiangyin-preview/content/alignment-sichuan-4/",
+      "cardHtml": "\n<article class=\"content-card\">\n  \n  \n  <div class=\"card-meta\"><span>访谈实录</span><span>问答访谈</span><span>四川</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-sichuan-4/\">合成资料：院子里的问候</a></h3>\n  \n  \n  \n  \n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-sichuan-4/\">阅读访谈<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    }
+  ],
+  "homeStates": {
+    "sichuan": {
+      "region": {
+        "name": "四川",
+        "slug": "sichuan",
+        "description": "把日常里的一句招呼，放回它发生的街巷与生活。以下标题、摘要与计数均为合成示例。",
+        "city_label": "",
+        "active_count": 5
+      },
+      "contentsHtml": "\n<article class=\"content-card\">\n  \n  \n  <div class=\"card-meta\"><span>访谈实录</span><span>问答访谈</span><span>四川</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-sichuan-0/?from=%2Fxiangyin-preview%2F%3Fregion%3Dsichuan%23region-panel\">一碗茶之间，听见家乡</a></h3>\n  \n  \n  \n  <p>从一声问候开始，读一段关于声音与归属的日常。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-sichuan-0/?from=%2Fxiangyin-preview%2F%3Fregion%3Dsichuan%23region-panel\">阅读访谈<span aria-hidden=\"true\">→</span></a>\n</article>\n\n<article class=\"content-card\">\n  \n  \n  <div class=\"card-meta\"><span>媒体中的方言 · 音乐</span><span>四川</span><span>作品介绍</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-sichuan-1/?from=%2Fxiangyin-preview%2F%3Fregion%3Dsichuan%23region-panel\">把家常话写进一首歌</a></h3>\n  \n  \n  \n  <p>作品介绍的合成版式示例，不提供真实音视频或播放链接。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-sichuan-1/?from=%2Fxiangyin-preview%2F%3Fregion%3Dsichuan%23region-panel\">查看作品介绍<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    "guangdong": {
+      "region": {
+        "name": "广东",
+        "slug": "guangdong",
+        "description": "长标题与单条资料的合成测试状态。纸张按实际内容自然容纳，卡片不截断标题，也不制造无意义的收藏或访问数字。",
+        "city_label": "",
+        "active_count": 1
+      },
+      "contentsHtml": "\n<article class=\"content-card\">\n  \n  \n  <div class=\"card-meta\"><span>访谈实录</span><span>叙事文章</span><span>广东</span><span class=\"sample-label\">合成示例</span></div>\n  <h3><a href=\"/xiangyin-preview/content/alignment-guangdong-0/?from=%2Fxiangyin-preview%2F%3Fregion%3Dguangdong%23region-panel\">从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事</a></h3>\n  \n  \n  \n  <p>这是一条有意写长的演示标题，用于核对自然换行、卡片高度和纸面切换；不对应真实采访。</p>\n  <a class=\"text-link card-link\" href=\"/xiangyin-preview/content/alignment-guangdong-0/?from=%2Fxiangyin-preview%2F%3Fregion%3Dguangdong%23region-panel\">阅读访谈<span aria-hidden=\"true\">→</span></a>\n</article>\n"
+    },
+    "yunnan": {
+      "region": {
+        "name": "云南",
+        "slug": "yunnan",
+        "description": "空状态的合成测试。数字来自本文件的演示数组；这里没有资料，不代表该地区的真实资料情况。",
+        "city_label": "",
+        "active_count": 0
+      },
+      "contentsHtml": "<div class=\"empty-state\"><h3>这里的故事，正在整理。</h3><p>本地区暂无访谈或作品，可查看全部地区资料。</p></div>"
+    }
+  },
+  "regions": [
+    {
+      "slug": "sichuan",
+      "name": "四川",
+      "url": "/xiangyin-preview/regions/sichuan/",
+      "count": 5
+    },
+    {
+      "slug": "guangdong",
+      "name": "广东",
+      "url": "/xiangyin-preview/regions/guangdong/",
+      "count": 1
+    },
+    {
+      "slug": "yunnan",
+      "name": "云南",
+      "url": "/xiangyin-preview/regions/yunnan/",
+      "count": 0
+    }
+  ],
+  "categories": [
+    {
+      "slug": "animation",
+      "name": "动画",
+      "nameEn": "Animation & Video"
+    },
+    {
+      "slug": "music",
+      "name": "音乐",
+      "nameEn": "Music"
+    },
+    {
+      "slug": "audio",
+      "name": "音频与文字",
+      "nameEn": "Voice & Script"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "sociolinguistics",
+      "name": "社会语言学"
+    }
+  ]
+};
