@@ -54,16 +54,71 @@
   const kind = Object.keys(routes).find(key => path === `/${routes[key]}/`) || '';
   const listing = path === '/library/' || Boolean(kind);
   const regionSlug = path.match(/^\/regions\/([a-zA-Z0-9_-]+)\/$/)?.[1];
+  const sort = ['recommended', 'latest', 'title'].includes(params.get('sort')) ? params.get('sort') : 'recommended';
+  const addHidden = (form, name, value) => {
+    let input = form.querySelector(`[name=${name}]`);
+    if (!input) { input = document.createElement('input'); input.type = 'hidden'; input.name = name; form.append(input); }
+    input.value = value;
+  };
   const form = document.querySelector('.archive-search');
   if (form) {
     form.querySelector('[name=q]').value = query;
     for (const name of ['category', 'topic', 'kind']) {
       if (!params.get(name)) continue;
-      let input = form.querySelector(`[name=${name}]`);
-      if (!input) { input = document.createElement('input'); input.type = 'hidden'; input.name = name; form.append(input); }
-      input.value = params.get(name);
+      addHidden(form, name, params.get(name));
+    }
+    if (listing) addHidden(form, 'sort', sort);
+  }
+  const sortForm = document.querySelector('.archive-sort');
+  if (sortForm) {
+    sortForm.querySelector('[name=sort]').value = sort;
+    for (const name of ['q', 'category', 'topic', 'kind', 'type']) {
+      if (params.get(name)) addHidden(sortForm, name, params.get(name));
     }
   }
+  const clearUrl = (values = {}) => {
+    const url = new URL(base + path, location.origin);
+    if (listing && sort !== 'recommended') url.searchParams.set('sort', sort);
+    for (const [name, value] of Object.entries(values)) if (value) url.searchParams.set(name, value);
+    return url.pathname + url.search;
+  };
+  const paginate = items => {
+    items.sort((a, b) => a.sortRanks[sort] - b.sortRanks[sort]);
+    const pageSize = data.pageSize;
+    const pageCount = Math.max(1, Math.ceil(items.length / pageSize));
+    const rawPage = (params.get('page') || '').trim();
+    let page = /^[+-]?\d+$/.test(rawPage) ? Number(rawPage) : 1;
+    if (page < 1 || page > pageCount) page = pageCount;
+    const nav = document.querySelector('[data-pagination]');
+    nav.replaceChildren(); nav.hidden = pageCount === 1;
+    const pageLink = (number, label, rel = '') => {
+      const link = document.createElement('a');
+      const url = new URL(location.href);
+      url.searchParams.set('sort', sort); url.searchParams.set('page', number);
+      link.href = url.pathname + url.search;
+      link.textContent = label;
+      link.setAttribute('aria-label', `第 ${number} 页`);
+      if (rel) link.rel = rel;
+      return link;
+    };
+    if (page > 1) nav.append(pageLink(page - 1, '上一页', 'prev'));
+    const sequence = pageCount <= 4 ? Array.from({length: pageCount}, (_, index) => index + 1)
+      : [...(page > 3 ? [1, '…', page - 1, page] : Array.from({length: page}, (_, index) => index + 1)),
+         ...(page < pageCount - 3 ? [page + 1, '…', pageCount] : Array.from({length: pageCount - page}, (_, index) => page + index + 1))];
+    for (const number of sequence) {
+      if (number !== page && number !== '…') { nav.append(pageLink(number, String(number))); continue; }
+      const marker = document.createElement('span'); marker.textContent = number;
+      if (number === page) { marker.setAttribute('aria-current', 'page'); marker.setAttribute('aria-label', `第 ${page} 页`); }
+      else marker.className = 'pagination-gap';
+      nav.append(marker);
+    }
+    if (page < pageCount) nav.append(pageLink(page + 1, '下一页', 'next'));
+    const current = document.createElement('span'); current.className = 'pagination-status';
+    current.textContent = `第 ${page} / ${pageCount} 页`; nav.append(current);
+    const range = document.querySelector('[data-results-range]');
+    range.textContent = items.length ? `当前第 ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, items.length)} 份` : '';
+    return items.slice((page - 1) * pageSize, page * pageSize);
+  };
   const results = document.querySelector('.results-meta');
   const showCount = (text, clear) => {
     results.querySelector('span').textContent = text;
@@ -83,12 +138,13 @@
     }
     const items = data.items.filter(item => (kind ? item.kind === kind : item.kind !== 'survey_project')
       && (!category || item.category === category) && (!topic || item.topic === topic) && matches(item));
-    document.querySelector('.archive-list').innerHTML = items.map(item => item.cardHtml).join('') || empty;
-    showCount(`${query ? '“' + query + '” · ' : ''}${items.length} 份资料`, query || category || topic ? base + path : '');
+    document.querySelector('.archive-list').innerHTML = paginate(items).map(item => item.cardHtml).join('') || empty;
+    showCount(`${query ? '“' + query + '” · ' : ''}${items.length} 份资料`, query || category || topic ? clearUrl() : '');
     document.querySelectorAll('.library-tabs a').forEach(link => select(link, new URL(link.href).pathname === base + path));
     document.querySelectorAll('.filter-list a, .xy-media-link').forEach(link => {
       const url = new URL(link.href);
       if (query) url.searchParams.set('q', query);
+      url.searchParams.set('sort', sort); url.searchParams.delete('page');
       link.href = url.pathname + url.search;
       select(link, url.pathname === base + path && (url.searchParams.get('category') || '') === (category || '')
         && (url.searchParams.get('topic') || '') === (topic || ''));
@@ -109,7 +165,7 @@
     }
     const filtered = selected ? all.filter(item => groupKind(item) === selected) : all;
     showCount(`${region.name} · ${names[selected] || (selected === 'related' ? '研究、政策与项目' : '全部类型')} · ${query ? '“' + query + '” · ' : ''}本次 ${filtered.length} 份`,
-      query ? base + path + (selected ? '?kind=' + selected : '') : '');
+      query ? clearUrl({kind: selected}) : '');
     document.querySelectorAll('.library-tabs a').forEach(link => {
       const url = new URL(link.href);
       const group = url.searchParams.get('kind') || '';
@@ -127,8 +183,10 @@
       link.href = url.pathname + url.search;
     });
     document.querySelectorAll('.library-tabs a').forEach(link => {
-      if (!query) return;
-      const url = new URL(link.href); url.searchParams.set('q', query); link.href = url.pathname + url.search;
+      const url = new URL(link.href);
+      if (query) url.searchParams.set('q', query);
+      if (listing) { url.searchParams.set('sort', sort); url.searchParams.delete('page'); }
+      link.href = url.pathname + url.search;
     });
   }
 

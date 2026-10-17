@@ -146,18 +146,18 @@
     },
     {
       "path": "interviews/index.html",
-      "bytes": 8667,
-      "sha256": "72ed3f1602d61f10519ae0f821212540356d41dd30377ff5d1e003d3de0402f0"
+      "bytes": 9424,
+      "sha256": "c794327df3ae768d95d7d2388a8686fc3a19705434b749fa00264367eea3e970"
     },
     {
       "path": "library/index.html",
-      "bytes": 13184,
-      "sha256": "876bce62825a24629e4960389ddf005179db19b0dd0ef550701c97d6e9a63ed6"
+      "bytes": 13942,
+      "sha256": "3ccdd2c1f810ef9da41ee24b3e5e3de05f3c7613e317ea78770a9a2834f9e62b"
     },
     {
       "path": "media/index.html",
-      "bytes": 12338,
-      "sha256": "b3a47319cd4bf62194536e3697b2106cebd97acd16ecced303fcb0e1bf13eb34"
+      "bytes": 13179,
+      "sha256": "768333eb5ef9ea7df4e60ac9d7b91c1fe835d5cf8f9bf8ee091ffb7abcca2e94"
     },
     {
       "path": "participate/index.html",
@@ -166,18 +166,18 @@
     },
     {
       "path": "policies/index.html",
-      "bytes": 7691,
-      "sha256": "7707cfbe6b5eb28a103a9f92737b77e451ba489f620b6022dd919e82f192862f"
+      "bytes": 8448,
+      "sha256": "1789e8843acffb57470e05bec54ac88a7bddbc9f5923dcac841a2fa4e7409244"
     },
     {
       "path": "preview-data.js",
-      "bytes": 45646,
-      "sha256": "2433153913d916905c26f4fceffefb2ebb4f3c725dff0742c3f0998d545735c6"
+      "bytes": 46822,
+      "sha256": "ffc8e31ec8359eba974b8ac347fd4b4bf81dff7707365286f844d5590deb8b0a"
     },
     {
       "path": "preview-data.json",
-      "bytes": 45619,
-      "sha256": "9771d4ccaee59865d88cfcd7a55b65f75adb11e3a77f438ef71f3d3e2cd8ec3b"
+      "bytes": 46795,
+      "sha256": "76557b801cf9efb8a669686793a5147df360c769000e84b346e73d8c43093eab"
     },
     {
       "path": "questionnaire/index.html",
@@ -206,8 +206,8 @@
     },
     {
       "path": "research/index.html",
-      "bytes": 7208,
-      "sha256": "7ee03383af52dfb442dee4e5c9015cbfce808322d39eb13bbb70d0e6717780cc"
+      "bytes": 8007,
+      "sha256": "f8d4062df3b19bbb612747da04ed9bda97799dafa458c51ab38d9dcdf2eda65e"
     },
     {
       "path": "static/css/discovery.css",
@@ -216,8 +216,8 @@
     },
     {
       "path": "static/css/functions.css",
-      "bytes": 6681,
-      "sha256": "68b0f4f62f3a471cf300ec4fcaeffa8b0e1829f860860e72360f941c00a1f811"
+      "bytes": 7463,
+      "sha256": "7eafe668ad7195292fc246086f12fdfa1738bf51c00571fa4b18c6f2baa43462"
     },
     {
       "path": "static/css/home-discovery.css",
@@ -286,8 +286,8 @@
     },
     {
       "path": "static/js/pages-preview.js",
-      "bytes": 9078,
-      "sha256": "b29ec3cfc41726475f578316818bc95ca298ec2bf942d4afc469f433a79b556b"
+      "bytes": 12359,
+      "sha256": "a8fdc0bc7335875c9e7e90562dfe77fef40b9fb9218725521206ca57c761b4f7"
     },
     {
       "path": "static/js/questionnaire-guide.js",
@@ -311,8 +311,8 @@
     },
     {
       "path": "surveys/index.html",
-      "bytes": 6655,
-      "sha256": "6c7ea5dd900647fda6ef860d45473a7641593a00b9b987ad3f5cc4452a61a222"
+      "bytes": 7311,
+      "sha256": "1f94a12d01633bf113201c826ffee358f4c84f14176588db8d4b073fee4c5797"
     }
   ]
 }
