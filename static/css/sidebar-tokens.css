@@ -20,6 +20,9 @@
   --region-exit-y: -3px;
   --region-enter-y: 6px;
   --region-open-x: 10px;
+  --home-explorer-min-height: 720px;
+  --home-enter-duration: 320ms;
+  --home-enter-y: 12px;
   --sidebar-w: 224px;
   --panel-w: 384px;
   --workspace-pad: 32px;

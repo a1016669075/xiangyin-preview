@@ -97,17 +97,29 @@ if (explorer) {
     url.searchParams.set("region", slug);
     if (isClosed) url.searchParams.set("panel", "closed");
     else url.searchParams.delete("panel");
-    url.hash = "";
+    if (!['#home-picks', '#home-latest', '#home-comments'].includes(url.hash)) url.hash = "";
     return url;
   };
   const refreshDetailOrigins = () => {
     const from = location.pathname + location.search + "#region-panel";
+    const homeForm = explorer.querySelector('#home-comments .comment-form');
+    if (homeForm) homeForm.action = location.pathname + location.search + '#home-comments';
     contents.querySelectorAll("a[href]").forEach((link) => {
       const url = new URL(link.href, location.href);
       if (url.origin === location.origin && url.pathname.startsWith(`${siteRoot}/content/`)) {
         url.searchParams.set("from", from);
         link.href = url.pathname + url.search + url.hash;
       }
+    });
+    explorer.querySelectorAll('[data-home-origin]').forEach((section) => {
+      const fromHome = location.pathname + location.search + '#' + section.dataset.homeOrigin;
+      section.querySelectorAll('a[href]').forEach((link) => {
+        const url = new URL(link.href, location.href);
+        if (url.origin === location.origin && url.pathname.startsWith(`${siteRoot}/content/`)) {
+          url.searchParams.set('from', fromHome);
+          link.href = url.pathname + url.search + url.hash;
+        }
+      });
     });
   };
   const animate = async (operation, phase) => {
@@ -228,6 +240,7 @@ if (explorer) {
     closed = true;
     syncPanel();
     history.replaceState(history.state, "", urlFor(committed, true));
+    refreshDetailOrigins();
     const origin = choices.find((link) => link.dataset.region === committed && link.classList.contains("region-map-point"))
       || choices.find((link) => link.dataset.region === committed) || reopenButton;
     origin?.focus({ preventScroll: true });
@@ -325,13 +338,16 @@ if (explorer) {
   window.addEventListener("pageshow", (event) => {
     leaving = false;
     if (event.persisted || returnFocusOnShow) {
-      restorePosition(returnFocusOnShow || Boolean(readPosition(committed).restoreFocus));
+      const lowerSection = ['#home-picks', '#home-latest', '#home-comments'].includes(location.hash);
+      restorePosition(!lowerSection && (returnFocusOnShow || Boolean(readPosition(committed).restoreFocus)));
       savePosition(false);
       refreshDetailOrigins();
       returnFocusOnShow = false;
     }
   });
   window.addEventListener("popstate", () => {
+    const target = new URL(location.href);
+    if (target.searchParams.get('region') === committed && (target.searchParams.get('panel') === 'closed') === closed) return;
     historyNavigation = true;
     leaving = true;
     clearOperation();

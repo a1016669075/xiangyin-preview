@@ -3,9 +3,9 @@
   "basePath": "/xiangyin-preview",
   "syntheticOnly": true,
   "databaseUnchanged": true,
-  "inputDatabaseSha256": "9b84b924535c26d5acf3c8039aa57e562aa2439b3c38a77df510eb46dae883dd",
-  "sourceContentCount": 12,
-  "publishedContentCount": 12,
+  "inputDatabaseSha256": "ffdc9379a439bc96381942450bdda7bb3da76a6de51bb13dc1b1058ea568bfd4",
+  "sourceContentCount": 18,
+  "publishedContentCount": 18,
   "accountCount": 0,
   "commentSubmission": false,
   "pages": [
@@ -24,18 +24,24 @@
     "/regions/sichuan/",
     "/regions/guangdong/",
     "/regions/yunnan/",
-    "/content/sidebar-project/",
-    "/content/sidebar-policy-text/",
-    "/content/sidebar-policy-cover/",
-    "/content/sidebar-research/",
-    "/content/sidebar-audio/",
-    "/content/sidebar-animation/",
-    "/content/sidebar-guangdong-0/",
     "/content/sidebar-sichuan-0/",
     "/content/sidebar-sichuan-1/",
+    "/content/sidebar-policy-cover/",
+    "/content/sidebar-research/",
+    "/content/sidebar-project/",
+    "/content/sidebar-guangdong-0/",
     "/content/sidebar-sichuan-2/",
     "/content/sidebar-sichuan-3/",
-    "/content/sidebar-sichuan-4/"
+    "/content/sidebar-sichuan-4/",
+    "/content/sidebar-animation/",
+    "/content/sidebar-audio/",
+    "/content/sidebar-policy-text/",
+    "/content/home-extension-research-1/",
+    "/content/home-extension-research-2/",
+    "/content/home-extension-research-3/",
+    "/content/home-extension-research-4/",
+    "/content/home-extension-research-5/",
+    "/content/home-extension-research-6/"
   ],
   "attachmentCount": 1,
   "files": [
@@ -51,8 +57,8 @@
     },
     {
       "path": "about/index.html",
-      "bytes": 5575,
-      "sha256": "194cfe3c6ec68cd021ed396b282657a7ed4f30453530285cb0f9b185de80bc1c"
+      "bytes": 5573,
+      "sha256": "5a03719babfe204a32f4440d47a4d3ecb2864b82e89c1cec21047b22c4b678f8"
     },
     {
       "path": "api/regions/guangdong/index.json",
@@ -61,8 +67,8 @@
     },
     {
       "path": "api/regions/sichuan/index.json",
-      "bytes": 13103,
-      "sha256": "0fd422aeab7d01d65f510f7cb9ff3be5b59cc5e0df02849f1113a707e53b8975"
+      "bytes": 12877,
+      "sha256": "16cf900891e683dc53ef9eb6aba36f5892de819900dd2acacf2d88133cfabd60"
     },
     {
       "path": "api/regions/yunnan/index.json",
@@ -76,138 +82,168 @@
     },
     {
       "path": "comments/index.html",
-      "bytes": 5822,
-      "sha256": "6bc87a5dffb98c2d96a5883071ef3c71ee42058b35502dc759db75538c2856f6"
+      "bytes": 5749,
+      "sha256": "a5689d21c66196719b6283469b655f9320644e59706daa572bcb3a72c2239053"
+    },
+    {
+      "path": "content/home-extension-research-1/index.html",
+      "bytes": 6686,
+      "sha256": "b135e2528111d42c26de25378d9f5dbdb7d309eb80d86b6a604ff7efc22119fe"
+    },
+    {
+      "path": "content/home-extension-research-2/index.html",
+      "bytes": 6558,
+      "sha256": "b11ed4ca580794568e54fe14303ded6ce77dfbf21aeeb9220f7d38c3b7818189"
+    },
+    {
+      "path": "content/home-extension-research-3/index.html",
+      "bytes": 6558,
+      "sha256": "ce1d5ed115a7e596e379eb2d17446ab53b76ac5467d0f3ef245344eee6465223"
+    },
+    {
+      "path": "content/home-extension-research-4/index.html",
+      "bytes": 6558,
+      "sha256": "1683571742c4871833e18a260d6f1c928cba5343dde688b714326b3a126b34d4"
+    },
+    {
+      "path": "content/home-extension-research-5/index.html",
+      "bytes": 6558,
+      "sha256": "7d969430afa33bb7b8fed2f261b6dd0dc5540d3412b73fc73fb8899d527de70e"
+    },
+    {
+      "path": "content/home-extension-research-6/index.html",
+      "bytes": 6558,
+      "sha256": "3b39e3feef10a66070955448c393b9db939d89a1af4ba5209555fba4908b6c5b"
     },
     {
       "path": "content/sidebar-animation/index.html",
-      "bytes": 8041,
-      "sha256": "0e941538e799ccedc14ceece543c57f614007114a0c302fe87d3043b8d134870"
+      "bytes": 8039,
+      "sha256": "22fba7fd6eae3115a6d72329f01ee6438ffbd5cd0604de2f7bceb5d1e5fcf47a"
     },
     {
       "path": "content/sidebar-audio/index.html",
-      "bytes": 8064,
-      "sha256": "b5aaf0cd23a22b9d6c85e26bd3ce0a01fe686fa8caa03183c4e9bccba5b93419"
+      "bytes": 8062,
+      "sha256": "c91a36dcfeacc32a4727b0492f8e5076e9584696912293687749f31f10f36ac5"
     },
     {
       "path": "content/sidebar-guangdong-0/index.html",
-      "bytes": 7271,
-      "sha256": "aa25ccc5d575370507be88a8f45db653fd83c524723c6fa89fa032e2decfcc69"
+      "bytes": 7269,
+      "sha256": "1eb40c2b14dd9dd65393f234eabdcdcad7c3f8123f9e22369b9f709acad83ea4"
     },
     {
       "path": "content/sidebar-policy-cover/index.html",
-      "bytes": 6687,
-      "sha256": "da859ec3bc8e1d07ce0cd99b5c3772e159c79456cfe72a5ef94631af32810f78"
+      "bytes": 6685,
+      "sha256": "49e5d94755e7c2f0efa09828b80e151c83a4360865a2347401c670664cc61b8e"
     },
     {
       "path": "content/sidebar-policy-text/index.html",
-      "bytes": 6688,
-      "sha256": "54146a6cc8744c6fa1275f7c279acc19a26c766820a5a759590cae8f42977582"
+      "bytes": 6686,
+      "sha256": "d6b65e863f1ace64cf50e2e33481a400ba15bf8a5a955ad6e35c40ebf0fcf176"
     },
     {
       "path": "content/sidebar-project/index.html",
-      "bytes": 6590,
-      "sha256": "4409d7859676eb2f74fba20a18944acc2d751fa43f932101c323654d23e550f5"
+      "bytes": 6588,
+      "sha256": "7864b3d5966f1befd82cc8fcb8b1985bc2077b401d1bb977e7800cd3c20c210c"
     },
     {
       "path": "content/sidebar-research/index.html",
-      "bytes": 6797,
-      "sha256": "8c48a8b4ee3a9cf6babeefa94f2fc725f3a3c386fae4b71c018d32f0790e48fa"
+      "bytes": 6795,
+      "sha256": "d2289e8c4d30c9be243080aecd9bc7be1d53e98c82ede377f1e48e2e82a30105"
     },
     {
       "path": "content/sidebar-sichuan-0/index.html",
-      "bytes": 21607,
-      "sha256": "f376fc6475eae87fbad07843105ed86c60dddac5b17350ab1240343dd6b4bb45"
+      "bytes": 21536,
+      "sha256": "1b1a18459a97e5a079922c771f53165e96976245ea1b6760eaf5c3226b911185"
     },
     {
       "path": "content/sidebar-sichuan-1/index.html",
-      "bytes": 8594,
-      "sha256": "5e4acef504a3da52999a65a2b6dc4725ccae8eb163062287bf7329612875ab34"
+      "bytes": 8592,
+      "sha256": "ed2392e49e3d57049fecd5f0a1f38c24ab9c4f6674aebd25163bf6c4239833f6"
     },
     {
       "path": "content/sidebar-sichuan-2/index.html",
-      "bytes": 8708,
-      "sha256": "dcb8f693ffb3980d703c132856448833bc4c510943b55d35b1f361943159725b"
+      "bytes": 8637,
+      "sha256": "01cae13ee3d65abe7da39263f45a3933486d09aa7238dc9f055f9c6fc3ad3bf1"
     },
     {
       "path": "content/sidebar-sichuan-3/index.html",
-      "bytes": 8546,
-      "sha256": "c5cc8b48010d8a31b373e06c33d8c5e8d8fc8fb3623fc76a4a0afc87e88b189b"
+      "bytes": 8544,
+      "sha256": "4bc7d73dc5b759a17355a978b605b1bf7aa1ac4f288c9298759897a6b2a35ca2"
     },
     {
       "path": "content/sidebar-sichuan-4/index.html",
-      "bytes": 21316,
-      "sha256": "4fe4cd2061444cfb3f72a5e45a981046125f115fde087f84e54b453a7f38f6f2"
+      "bytes": 21245,
+      "sha256": "42c24df1437f695d51e12b40a7ff6d2ccc229c27d087545195962cba41aec0ab"
     },
     {
       "path": "index.html",
-      "bytes": 17195,
-      "sha256": "37f0e02e7db6c094a9434bba4ec08e22d41841080e6ead3f2fc0d2d75fe0a34e"
+      "bytes": 28405,
+      "sha256": "19066ab8929c29b97b6bb2cec825cfac9ccb287ad3f427d309172b493e94bdec"
     },
     {
       "path": "interviews/index.html",
-      "bytes": 9424,
-      "sha256": "c794327df3ae768d95d7d2388a8686fc3a19705434b749fa00264367eea3e970"
+      "bytes": 9422,
+      "sha256": "020e2f95d3faa67163e8065ccba11e1978813dcfa142ef7dad73ea5576fa5d08"
     },
     {
       "path": "library/index.html",
-      "bytes": 13942,
-      "sha256": "3ccdd2c1f810ef9da41ee24b3e5e3de05f3c7613e317ea78770a9a2834f9e62b"
+      "bytes": 14781,
+      "sha256": "f7ab2c15339e9241c18f3539c14531aa5f02a18f806d46111da8e53a0b2542bd"
     },
     {
       "path": "media/index.html",
-      "bytes": 13179,
-      "sha256": "768333eb5ef9ea7df4e60ac9d7b91c1fe835d5cf8f9bf8ee091ffb7abcca2e94"
+      "bytes": 13177,
+      "sha256": "6dd8b4d7c223cea749044f3c078b39d7a3066375bb2fb3f2ca7ebe86eaf394c7"
     },
     {
       "path": "participate/index.html",
-      "bytes": 6066,
-      "sha256": "afec3eac6ec26faf10ad00f74ed80ccf02444b0aa99a11ccdb56076bea3e7045"
+      "bytes": 6064,
+      "sha256": "8602239b2c57fb8c359d9fe2fce517451bd95453da009d7bb26bc01faf81f8a4"
     },
     {
       "path": "policies/index.html",
-      "bytes": 8448,
-      "sha256": "1789e8843acffb57470e05bec54ac88a7bddbc9f5923dcac841a2fa4e7409244"
+      "bytes": 8446,
+      "sha256": "416553b4dd189199ce647b70c00ca2657422cce1d925ec87c456984f00f094ca"
     },
     {
       "path": "preview-data.js",
-      "bytes": 46822,
-      "sha256": "ffc8e31ec8359eba974b8ac347fd4b4bf81dff7707365286f844d5590deb8b0a"
+      "bytes": 54810,
+      "sha256": "4b01102a21dd02e19afce923d7926d7247d3bb40b35be9f8ed72681b2ce8485f"
     },
     {
       "path": "preview-data.json",
-      "bytes": 46795,
-      "sha256": "76557b801cf9efb8a669686793a5147df360c769000e84b346e73d8c43093eab"
+      "bytes": 54783,
+      "sha256": "6528ea3c090c5f81ddaf9d62568f059fb343e512738fbfddac146a4b9cb0c7eb"
     },
     {
       "path": "questionnaire/index.html",
-      "bytes": 5610,
-      "sha256": "24b66ff1e31a05e794f1b4a6840c358b10665f37c27c58cd12574018ab56a73b"
+      "bytes": 5608,
+      "sha256": "28cd6370bcd0fcc4b23b2595a4f5eb50be8203d6d8cba18cdcee6ce508cb5197"
     },
     {
       "path": "regions/guangdong/index.html",
-      "bytes": 7715,
-      "sha256": "731f493f00201a96bf8c90898e245c306e5cb72e5dcbf52aeb2df7bbc58078a2"
+      "bytes": 7713,
+      "sha256": "99b5b881e57ce73949a97a2b0cf2a5e0c74de27c732752e26d5bc09f8800a554"
     },
     {
       "path": "regions/index.html",
-      "bytes": 6183,
-      "sha256": "ffe748d2e149e6371e5cd2706520d041e59692cb7d52ffb5c419a262cb5bf672"
+      "bytes": 6181,
+      "sha256": "953e6c19503cdb7494bb9a9b774b31f3c6f15b928b5e288e248f6662e5ff30f0"
     },
     {
       "path": "regions/sichuan/index.html",
-      "bytes": 14146,
-      "sha256": "bf9a4540cab78e4d801c3e0c33fce94db88f2c2e05fde5a213c6b7c99ae3968d"
+      "bytes": 14144,
+      "sha256": "7960af819547c041b01ae6697ce0c72f17c5e4b11d7ee992e3c55a725d65e582"
     },
     {
       "path": "regions/yunnan/index.html",
-      "bytes": 6989,
-      "sha256": "5d80f9b0dad9467de7b41834a10869f2906c9db92a98b358b596a1dc7ddc8232"
+      "bytes": 6987,
+      "sha256": "82269d8bb93595eabc8ab9bf28a00cfba05b3075582767951c5fc3243a4b4a92"
     },
     {
       "path": "research/index.html",
-      "bytes": 8007,
-      "sha256": "f8d4062df3b19bbb612747da04ed9bda97799dafa458c51ab38d9dcdf2eda65e"
+      "bytes": 12005,
+      "sha256": "e25b36b8410ece403dd87f8c16f54ecdfca324119ef629852b607880871f31dc"
     },
     {
       "path": "static/css/discovery.css",
@@ -225,19 +261,24 @@
       "sha256": "db2a871c90d53092b9ae729de0aa99315945e74108be8f2fda723109db653780"
     },
     {
+      "path": "static/css/home-extension.css",
+      "bytes": 3993,
+      "sha256": "259039db51790b2c96ab99bebe876733d22647521f317301261de7c5f39b2838"
+    },
+    {
       "path": "static/css/motion.css",
       "bytes": 3782,
       "sha256": "086be4eb1c71c0248abac6f7188eb2bf18d2e9f9b62919aa219dd71da0af8aca"
     },
     {
       "path": "static/css/sidebar-tokens.css",
-      "bytes": 1142,
-      "sha256": "0b077a2d09d2141e193fe1a7aa4e04a1ee4f9b966fc2970bfd84bda1cb0f162e"
+      "bytes": 1238,
+      "sha256": "1f2bab97c197727390942f4516eafbbaed15bcc60fb0678b7a011e1af0562221"
     },
     {
       "path": "static/css/sidebar.css",
-      "bytes": 15693,
-      "sha256": "3a8584781e5996c96498e7ba73d9ca58dfdd94b35b04578a0f250e261909d31c"
+      "bytes": 15818,
+      "sha256": "2deaef6e3ab6f4d434a700beae1c2908b729d0504cdc1cea2ca285487ceea347"
     },
     {
       "path": "static/css/site.css",
@@ -275,6 +316,11 @@
       "sha256": "083ff0874777edd59283f739315022a3ba7eb8a3bfe5aa642c8d0b1fa1a1fcc1"
     },
     {
+      "path": "static/js/home-extension.js",
+      "bytes": 2602,
+      "sha256": "5583aacb934009553938e1be46c6e368807c03d0e160f1bcc213cadac7a230c3"
+    },
+    {
       "path": "static/js/media-preview.js",
       "bytes": 5389,
       "sha256": "c3b52674f72c25918bf9956e6b2dc6bbb862dd41deef93f80f5a4ddb5dbd8dc4"
@@ -286,8 +332,8 @@
     },
     {
       "path": "static/js/pages-preview.js",
-      "bytes": 12359,
-      "sha256": "a8fdc0bc7335875c9e7e90562dfe77fef40b9fb9218725521206ca57c761b4f7"
+      "bytes": 12876,
+      "sha256": "7ee0b5dfb7a2b9ea1a86ed0539300d30dea310604f065ea871b381d010942f25"
     },
     {
       "path": "static/js/questionnaire-guide.js",
@@ -296,8 +342,8 @@
     },
     {
       "path": "static/js/site.js",
-      "bytes": 17548,
-      "sha256": "8c80f550fb59a364d65541d8653950d7950f2c099e7f9bbbce1112b5b12ced58"
+      "bytes": 18633,
+      "sha256": "dd41675d75270a5759417a4fbbdf86967d6703453115cf6e3aa463c432740874"
     },
     {
       "path": "static/maps/SOURCE.md",
@@ -311,8 +357,8 @@
     },
     {
       "path": "surveys/index.html",
-      "bytes": 7311,
-      "sha256": "1f94a12d01633bf113201c826ffee358f4c84f14176588db8d4b073fee4c5797"
+      "bytes": 7309,
+      "sha256": "3efe9cdb7603a416525e9b4e0c2ec51d7424add80bf59234fe3f3f1403daf999"
     }
   ]
 }

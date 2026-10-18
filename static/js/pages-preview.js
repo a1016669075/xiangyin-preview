@@ -196,9 +196,11 @@
     const url = new URL(from, location.origin);
     const route = url.pathname.slice(base.length);
     if (url.origin !== location.origin || !/^\/(?:|library\/|interviews\/|media\/|research\/|policies\/|surveys\/|regions\/(?:[a-zA-Z0-9_-]+\/)?)$/.test(route)) return;
+    if (route === '/' && !['', '#explore', '#region-panel', '#home-picks', '#home-latest', '#home-comments'].includes(url.hash)) return;
     const region = data.regions.find(item => route === `/regions/${item.slug}/` || (route === '/' && url.searchParams.get('region') === item.slug));
     const previousKind = Object.keys(routes).find(key => route === `/${routes[key]}/`);
-    const label = region ? region.name + '资料' : names[previousKind] || (route === '/' ? '首页' : '方言资料');
+    const homeSection = route === '/' ? {'#home-picks': '本站推荐', '#home-latest': '最新整理', '#home-comments': '首页留言'}[url.hash] : '';
+    const label = homeSection || (region ? region.name + '资料' : names[previousKind] || (route === '/' ? '首页' : '方言资料'));
     const back = document.querySelector('.back-link');
     back.href = url.pathname + url.search + url.hash; back.textContent = '返回' + label + ' →';
     const crumb = document.querySelectorAll('.breadcrumb a')[1];
