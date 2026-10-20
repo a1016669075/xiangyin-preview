@@ -1,0 +1,44 @@
+{
+  "checked": "2026-10-18",
+  "hub": "https://tympanus.net/codrops/demos/",
+  "license_page": "https://tympanus.net/codrops/licensing/",
+  "studies": [
+    {
+      "id": "fluid",
+      "author": "Cullen Webber",
+      "repository": "https://github.com/cullenwebber/three-skull",
+      "commit": "5c5d6f84c424e2a5f83dfe7440089d167d0b0530",
+      "license": "MIT",
+      "license_evidence": "README MIT link + Codrops demo MIT; no LICENSE file",
+      "source_files": [
+        {
+          "path": "src/postprocessing/FluidSim.js",
+          "url": "https://github.com/cullenwebber/three-skull/blob/5c5d6f84c424e2a5f83dfe7440089d167d0b0530/src/postprocessing/FluidSim.js",
+          "sha256": "f2991e23ee1043bce9660a8b19330af93f6207b2e25a5fb5a6ad58bf4d20abfc"
+        }
+      ],
+      "implementation": [
+        "surfaces.js"
+      ]
+    },
+    {
+      "id": "dissolve",
+      "author": "Jatin Chopra",
+      "repository": "https://github.com/JatinChopra/emissive-dissolve-effect",
+      "commit": "9a913c840beb6b9e979f43ed07f35ec44cb95f2e",
+      "license": "MIT",
+      "license_evidence": "README MIT link + Codrops demo MIT; no LICENSE file",
+      "source_files": [
+        {
+          "path": "src/main.ts",
+          "url": "https://github.com/JatinChopra/emissive-dissolve-effect/blob/9a913c840beb6b9e979f43ed07f35ec44cb95f2e/src/main.ts",
+          "sha256": "745a754fd066693da1e6fe16a3291518ab1e9477e79cfe019e2a6bbb0473424e"
+        }
+      ],
+      "implementation": [
+        "dissolve.js"
+      ]
+    }
+  ],
+  "note": "实验3既有来源核验记录；本轮实现映射见 ../SOURCES.md，原 implementation 字段保留作追溯。"
+}

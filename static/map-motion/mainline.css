@@ -1,0 +1,11 @@
+/* Local decorative layer; map geometry, links and document layout stay native. */
+.home-explorer[data-map-field]{position:relative;isolation:isolate}
+.map-motion-canvas,.map-motion-connection{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:3}
+.map-motion-connection{z-index:4;overflow:hidden}
+.map-motion-connection path{fill:none;stroke:#648175;stroke-width:1.4;stroke-linecap:round}
+.map-motion-connection .trace-halo{stroke:#b5c6a9;stroke-width:6}
+.site-shell.map-motion-ready{--region-exit-duration:0ms;--region-enter-duration:0ms}
+.map-motion-ready .home-explorer .prism-lens{display:none}
+@media(prefers-reduced-motion:reduce){
+  .map-motion-canvas,.map-motion-connection{display:none}
+}

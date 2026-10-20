@@ -2,84 +2,207 @@
   "region": {
     "name": "广东",
     "slug": "guangdong",
-    "description": "单条长标题的合成示例，用于检查完整阅读与地区切换；不对应真实采访。",
+    "description": "本机合成资料，用于体验地区浏览与完整阅读，不对应真实采访。",
     "city_label": "",
-    "active_count": 1
+    "active_count": 4
   },
   "groups": [
     {
-      "key": "interview",
-      "label": "方言访谈",
-      "total": 1,
-      "url": "/xiangyin-preview/regions/guangdong/?kind=interview",
+      "key": "nonfiction",
+      "label": "非虚构写作",
+      "total": 2,
+      "url": "/xiangyin-preview/regions/guangdong/?kind=nonfiction",
       "contents": [
         {
-          "id": "sidebar-guangdong-0",
-          "title": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事",
-          "url": "/xiangyin-preview/content/sidebar-guangdong-0/",
-          "summary": "这是一条有意写长的演示标题，用于核对自然换行、卡片高度和纸面切换；不对应真实采访。",
-          "category_label": "访谈实录",
-          "kind": "interview",
-          "kind_label": "访谈实录",
+          "id": "prism-ferry",
+          "title": "渡口，等一封家书",
+          "url": "/xiangyin-preview/content/prism-ferry/",
+          "summary": "从一张纸、一段口信开始，走近地方生活的细节。",
+          "category_label": "非虚构写作",
+          "kind": "nonfiction",
+          "kind_label": "非虚构写作",
           "is_synthetic": true,
           "cover_url": "",
           "meta_labels": [
-            "访谈实录",
-            "叙事文章",
+            "非虚构写作",
             "广东"
           ],
-          "action_label": "阅读访谈"
+          "action_label": "阅读全文"
+        },
+        {
+          "id": "prism-names",
+          "title": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事",
+          "url": "/xiangyin-preview/content/prism-names/",
+          "summary": "称呼怎样进入日常，又怎样留在记忆里。",
+          "category_label": "非虚构写作",
+          "kind": "nonfiction",
+          "kind_label": "非虚构写作",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "非虚构写作",
+            "广东"
+          ],
+          "action_label": "阅读全文"
         }
       ]
     },
     {
+      "key": "interview",
+      "label": "方言访谈",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/guangdong/?kind=interview",
+      "contents": []
+    },
+    {
       "key": "media",
       "label": "媒体作品",
-      "total": 0,
+      "total": 1,
       "url": "/xiangyin-preview/regions/guangdong/?kind=media",
-      "contents": []
+      "contents": [
+        {
+          "id": "prism-audio",
+          "title": "慢慢听，一段地方故事",
+          "url": "/xiangyin-preview/content/prism-audio/",
+          "summary": "有声作品介绍；本条没有真实音频。",
+          "category_label": "有声作品",
+          "kind": "media",
+          "kind_label": "媒体中的方言",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "媒体中的方言 · 有声作品",
+            "广东",
+            "作品介绍"
+          ],
+          "action_label": "查看作品介绍"
+        }
+      ]
     },
     {
       "key": "related",
       "label": "相关研究与资料",
-      "total": 0,
+      "total": 1,
       "url": "/xiangyin-preview/regions/guangdong/?kind=related",
-      "contents": []
+      "contents": [
+        {
+          "id": "prism-recording",
+          "title": "把地方声音留下来",
+          "url": "/xiangyin-preview/content/prism-recording/",
+          "summary": "语言记录与传承资料的合成介绍。",
+          "category_label": "方言政策",
+          "kind": "policy",
+          "kind_label": "语言保护资料",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "语言保护资料",
+            "合成演示资料",
+            "广东"
+          ],
+          "action_label": "阅读资料介绍"
+        }
+      ]
     }
   ],
   "contents": [
     {
-      "id": "sidebar-guangdong-0",
-      "title": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事",
-      "url": "/xiangyin-preview/content/sidebar-guangdong-0/",
-      "summary": "这是一条有意写长的演示标题，用于核对自然换行、卡片高度和纸面切换；不对应真实采访。",
-      "category_label": "访谈实录",
-      "kind": "interview",
-      "kind_label": "访谈实录",
+      "id": "prism-ferry",
+      "title": "渡口，等一封家书",
+      "url": "/xiangyin-preview/content/prism-ferry/",
+      "summary": "从一张纸、一段口信开始，走近地方生活的细节。",
+      "category_label": "非虚构写作",
+      "kind": "nonfiction",
+      "kind_label": "非虚构写作",
       "is_synthetic": true,
       "cover_url": "",
       "meta_labels": [
-        "访谈实录",
-        "叙事文章",
+        "非虚构写作",
         "广东"
       ],
-      "action_label": "阅读访谈"
+      "action_label": "阅读全文"
+    },
+    {
+      "id": "prism-names",
+      "title": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事",
+      "url": "/xiangyin-preview/content/prism-names/",
+      "summary": "称呼怎样进入日常，又怎样留在记忆里。",
+      "category_label": "非虚构写作",
+      "kind": "nonfiction",
+      "kind_label": "非虚构写作",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "非虚构写作",
+        "广东"
+      ],
+      "action_label": "阅读全文"
+    },
+    {
+      "id": "prism-audio",
+      "title": "慢慢听，一段地方故事",
+      "url": "/xiangyin-preview/content/prism-audio/",
+      "summary": "有声作品介绍；本条没有真实音频。",
+      "category_label": "有声作品",
+      "kind": "media",
+      "kind_label": "媒体中的方言",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "媒体中的方言 · 有声作品",
+        "广东",
+        "作品介绍"
+      ],
+      "action_label": "查看作品介绍"
+    },
+    {
+      "id": "prism-recording",
+      "title": "把地方声音留下来",
+      "url": "/xiangyin-preview/content/prism-recording/",
+      "summary": "语言记录与传承资料的合成介绍。",
+      "category_label": "方言政策",
+      "kind": "policy",
+      "kind_label": "语言保护资料",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "语言保护资料",
+        "合成演示资料",
+        "广东"
+      ],
+      "action_label": "阅读资料介绍"
     }
   ],
   "query": "",
   "kind": "",
   "group_counts": {
-    "interview": 1,
-    "media": 0,
-    "related": 0
+    "nonfiction": 2,
+    "interview": 0,
+    "media": 1,
+    "related": 1
   },
-  "matched_count": 1,
-  "filtered_count": 1,
+  "matched_count": 4,
+  "filtered_count": 4,
   "results": [
     {
+      "title": "渡口，等一封家书",
+      "url": "/xiangyin-preview/content/prism-ferry/",
+      "kind": "nonfiction"
+    },
+    {
       "title": "从街坊的一声招呼，到日常相处中彼此熟悉的说话方式：一段关于地方记忆的合成故事",
-      "url": "/xiangyin-preview/content/sidebar-guangdong-0/",
-      "kind": "interview"
+      "url": "/xiangyin-preview/content/prism-names/",
+      "kind": "nonfiction"
+    },
+    {
+      "title": "把地方声音留下来",
+      "url": "/xiangyin-preview/content/prism-recording/",
+      "kind": "policy"
+    },
+    {
+      "title": "慢慢听，一段地方故事",
+      "url": "/xiangyin-preview/content/prism-audio/",
+      "kind": "media"
     }
   ]
 }

@@ -85,7 +85,7 @@
       }));
       sections.forEach((section, at) => section.classList.toggle('reading-current-question', at === index));
       currentLabel.hidden = false;
-      currentLabel.textContent = `当前第 ${index + 1} 题`;
+      currentLabel.textContent = window.xyI18n("current_question", {number: index + 1});
     }
     measureBookmarks();
   }

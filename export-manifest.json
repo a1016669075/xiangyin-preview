@@ -3,15 +3,16 @@
   "basePath": "/xiangyin-preview",
   "syntheticOnly": true,
   "databaseUnchanged": true,
-  "inputDatabaseSha256": "ffdc9379a439bc96381942450bdda7bb3da76a6de51bb13dc1b1058ea568bfd4",
-  "sourceContentCount": 18,
-  "publishedContentCount": 18,
+  "inputDatabaseSha256": "54679bfbd8b0b2389412793625414dc68b0de1a17326d3aa4543b6a002848d4d",
+  "sourceContentCount": 13,
+  "publishedContentCount": 12,
   "accountCount": 0,
   "commentSubmission": false,
   "pages": [
     "/",
     "/regions/",
     "/library/",
+    "/nonfiction/",
     "/interviews/",
     "/media/",
     "/research/",
@@ -24,24 +25,112 @@
     "/regions/sichuan/",
     "/regions/guangdong/",
     "/regions/yunnan/",
-    "/content/sidebar-sichuan-0/",
-    "/content/sidebar-sichuan-1/",
-    "/content/sidebar-policy-cover/",
-    "/content/sidebar-research/",
-    "/content/sidebar-project/",
-    "/content/sidebar-guangdong-0/",
-    "/content/sidebar-sichuan-2/",
-    "/content/sidebar-sichuan-3/",
-    "/content/sidebar-sichuan-4/",
-    "/content/sidebar-animation/",
-    "/content/sidebar-audio/",
-    "/content/sidebar-policy-text/",
-    "/content/home-extension-research-1/",
-    "/content/home-extension-research-2/",
-    "/content/home-extension-research-3/",
-    "/content/home-extension-research-4/",
-    "/content/home-extension-research-5/",
-    "/content/home-extension-research-6/"
+    "/regions/beijing/",
+    "/regions/tianjin/",
+    "/regions/hebei/",
+    "/regions/shanxi/",
+    "/regions/neimenggu/",
+    "/regions/liaoning/",
+    "/regions/jilin/",
+    "/regions/heilongjiang/",
+    "/regions/shanghai/",
+    "/regions/jiangsu/",
+    "/regions/zhejiang/",
+    "/regions/anhui/",
+    "/regions/fujian/",
+    "/regions/jiangxi/",
+    "/regions/shandong/",
+    "/regions/henan/",
+    "/regions/hubei/",
+    "/regions/hunan/",
+    "/regions/guangxi/",
+    "/regions/hainan/",
+    "/regions/chongqing/",
+    "/regions/guizhou/",
+    "/regions/xizang/",
+    "/regions/shaanxi/",
+    "/regions/gansu/",
+    "/regions/qinghai/",
+    "/regions/ningxia/",
+    "/regions/xinjiang/",
+    "/regions/taiwan/",
+    "/regions/hongkong/",
+    "/regions/macao/",
+    "/content/prism-street/",
+    "/content/prism-ferry/",
+    "/content/prism-tea/",
+    "/content/prism-song/",
+    "/content/prism-names/",
+    "/content/prism-memory/",
+    "/content/prism-market/",
+    "/content/prism-recording/",
+    "/content/prism-survey/",
+    "/content/prism-animation/",
+    "/content/prism-audio/",
+    "/content/prism-greeting/",
+    "/en/",
+    "/en/regions/",
+    "/en/library/",
+    "/en/nonfiction/",
+    "/en/interviews/",
+    "/en/media/",
+    "/en/research/",
+    "/en/policies/",
+    "/en/surveys/",
+    "/en/about/",
+    "/en/participate/",
+    "/en/questionnaire/",
+    "/en/comments/",
+    "/en/regions/sichuan/",
+    "/en/regions/guangdong/",
+    "/en/regions/yunnan/",
+    "/en/regions/beijing/",
+    "/en/regions/tianjin/",
+    "/en/regions/hebei/",
+    "/en/regions/shanxi/",
+    "/en/regions/neimenggu/",
+    "/en/regions/liaoning/",
+    "/en/regions/jilin/",
+    "/en/regions/heilongjiang/",
+    "/en/regions/shanghai/",
+    "/en/regions/jiangsu/",
+    "/en/regions/zhejiang/",
+    "/en/regions/anhui/",
+    "/en/regions/fujian/",
+    "/en/regions/jiangxi/",
+    "/en/regions/shandong/",
+    "/en/regions/henan/",
+    "/en/regions/hubei/",
+    "/en/regions/hunan/",
+    "/en/regions/guangxi/",
+    "/en/regions/hainan/",
+    "/en/regions/chongqing/",
+    "/en/regions/guizhou/",
+    "/en/regions/xizang/",
+    "/en/regions/shaanxi/",
+    "/en/regions/gansu/",
+    "/en/regions/qinghai/",
+    "/en/regions/ningxia/",
+    "/en/regions/xinjiang/",
+    "/en/regions/taiwan/",
+    "/en/regions/hongkong/",
+    "/en/regions/macao/",
+    "/en/content/prism-street/",
+    "/en/content/prism-ferry/",
+    "/en/content/prism-tea/",
+    "/en/content/prism-song/",
+    "/en/content/prism-names/",
+    "/en/content/prism-memory/",
+    "/en/content/prism-market/",
+    "/en/content/prism-recording/",
+    "/en/content/prism-survey/",
+    "/en/content/prism-animation/",
+    "/en/content/prism-audio/",
+    "/en/content/prism-greeting/"
+  ],
+  "languages": [
+    "zh-hans",
+    "en"
   ],
   "attachmentCount": 1,
   "files": [
@@ -57,23 +146,178 @@
     },
     {
       "path": "about/index.html",
-      "bytes": 5573,
-      "sha256": "5a03719babfe204a32f4440d47a4d3ecb2864b82e89c1cec21047b22c4b678f8"
+      "bytes": 7836,
+      "sha256": "7582798a452115c5b378a2edbbc108e6a81837839a18a5c6c4e8ca701db1ddec"
+    },
+    {
+      "path": "api/regions/anhui/index.json",
+      "bytes": 1052,
+      "sha256": "11a4c6b60f009c52128f8b226a93425486587209cbc7635df6b913ed0f4643a9"
+    },
+    {
+      "path": "api/regions/beijing/index.json",
+      "bytes": 1062,
+      "sha256": "11211c7a6fbb7d5d25381e0e3dd08c4e89769f073a5f95d662a1a37331264207"
+    },
+    {
+      "path": "api/regions/chongqing/index.json",
+      "bytes": 1072,
+      "sha256": "f00f06a2703d9eb4f6fd6fbd00bdacf91bb9cb8230ef4a1b4246610e717f08a2"
+    },
+    {
+      "path": "api/regions/fujian/index.json",
+      "bytes": 1057,
+      "sha256": "1fcf845055b78eed5041559e7c44eaac381d0ad7a66452b485f584297f2cf77c"
+    },
+    {
+      "path": "api/regions/gansu/index.json",
+      "bytes": 1052,
+      "sha256": "07c31f41ca24975ba98f43bf84033899c8957dee81c27440cbb52822294a1a8f"
     },
     {
       "path": "api/regions/guangdong/index.json",
-      "bytes": 2633,
-      "sha256": "d3d68e2183bcb7262c164217dca6373cba05b3622b1ae5c7c5285159e8f38bd0"
+      "bytes": 6344,
+      "sha256": "229cc9d43ac43a1771bcff659bae46681aa967856e1382d970a496987b4cbc9d"
+    },
+    {
+      "path": "api/regions/guangxi/index.json",
+      "bytes": 1062,
+      "sha256": "5d86d6050b923595a3a16ad56798cd9e9fafe8e79127d2b4a41d5245cb28f218"
+    },
+    {
+      "path": "api/regions/guizhou/index.json",
+      "bytes": 1062,
+      "sha256": "f3c1d09e15473e33987196c901108b5a82fa52602e7db40ea34d7666a7aaff41"
+    },
+    {
+      "path": "api/regions/hainan/index.json",
+      "bytes": 1057,
+      "sha256": "5636d39371c8e8858057c4c8dbb4d6bf65fd4f5488cd8ffeb35df74a48ceabbf"
+    },
+    {
+      "path": "api/regions/hebei/index.json",
+      "bytes": 1052,
+      "sha256": "3c6b8699e0c95c0f9c0ec3fdb6791f4281c588747fa1d7572590863ab41090a5"
+    },
+    {
+      "path": "api/regions/heilongjiang/index.json",
+      "bytes": 1090,
+      "sha256": "b8fab424fe01dd1f7b39016995f4f563ceecd77d9d32c8d69a430d6ac813a4c1"
+    },
+    {
+      "path": "api/regions/henan/index.json",
+      "bytes": 1052,
+      "sha256": "25ce42485267fef6386ea5fa720422039d528e372ab69c4e922575a30cc33155"
+    },
+    {
+      "path": "api/regions/hongkong/index.json",
+      "bytes": 1067,
+      "sha256": "05dd71191492e71260b0b900d7ad5fed91a28eeba45f6f17593c52378294b388"
+    },
+    {
+      "path": "api/regions/hubei/index.json",
+      "bytes": 1052,
+      "sha256": "c3b08cd702a6e964febc1aa11a4ea56e2b085379948747fe2b12dff6629503ef"
+    },
+    {
+      "path": "api/regions/hunan/index.json",
+      "bytes": 1052,
+      "sha256": "998078a1630cfc23098d62f26aafe90bffefe86296d0e759a08cb76c1f134389"
+    },
+    {
+      "path": "api/regions/jiangsu/index.json",
+      "bytes": 1062,
+      "sha256": "28880a0d2d5333448ad5afaec260914125b47ec0f1e64f57fc8ad3e7711b54fb"
+    },
+    {
+      "path": "api/regions/jiangxi/index.json",
+      "bytes": 1062,
+      "sha256": "163db8af38e5a4a26a9b3868bfbc617c16bae258e6cca17df875779fd1b4bc63"
+    },
+    {
+      "path": "api/regions/jilin/index.json",
+      "bytes": 1052,
+      "sha256": "5ce09ed160fa15d0d3c9427b77156c3f1e474e17cf301b2fe57387bca374b711"
+    },
+    {
+      "path": "api/regions/liaoning/index.json",
+      "bytes": 1067,
+      "sha256": "af7c8d20905cda39d160cc4ce9a23ee2ce0c6ec907ca04a7e292cd49d0fa68ba"
+    },
+    {
+      "path": "api/regions/macao/index.json",
+      "bytes": 1052,
+      "sha256": "9db1531872de81ef8fea65a15961876a729ade81ea9ae070cca38e8195fd4161"
+    },
+    {
+      "path": "api/regions/neimenggu/index.json",
+      "bytes": 1075,
+      "sha256": "0e14ca257d02c0c00f07cce201d771cd45495e95c5fd9e84508227bce6d13b81"
+    },
+    {
+      "path": "api/regions/ningxia/index.json",
+      "bytes": 1062,
+      "sha256": "ed5fde0d98c8735bc952b45ceabb126c09146633b0ee61f8f7f1a25c8f559a19"
+    },
+    {
+      "path": "api/regions/qinghai/index.json",
+      "bytes": 1062,
+      "sha256": "752f5ecbeaa639a9f7aa13647bc15349ae37eceb76c2ba4cb0753a520d75abef"
+    },
+    {
+      "path": "api/regions/shaanxi/index.json",
+      "bytes": 1062,
+      "sha256": "1d9fb6675277637a47e5385b7f379c51a9b7638cc54ab497d3b06f0db7bcefde"
+    },
+    {
+      "path": "api/regions/shandong/index.json",
+      "bytes": 1067,
+      "sha256": "3637dee3d70bb7d20d220dc88ceb1c1ffc4596d06008e98ff3c3012b26d3bc52"
+    },
+    {
+      "path": "api/regions/shanghai/index.json",
+      "bytes": 1067,
+      "sha256": "f2044fdbf3bd31acf3d8227a713350e8a9cf44c03873d58f3cee0dceb5ee32a4"
+    },
+    {
+      "path": "api/regions/shanxi/index.json",
+      "bytes": 1057,
+      "sha256": "899ac978fc841dbce9cb27cd2ea68ee42f82e9882ba43eb33414efc5e60bd1b4"
     },
     {
       "path": "api/regions/sichuan/index.json",
-      "bytes": 12877,
-      "sha256": "16cf900891e683dc53ef9eb6aba36f5892de819900dd2acacf2d88133cfabd60"
+      "bytes": 10938,
+      "sha256": "afb5f42d933e49cb75623df9875370209805a12ad7f08e04deb2a091430cde2e"
+    },
+    {
+      "path": "api/regions/taiwan/index.json",
+      "bytes": 1057,
+      "sha256": "b01334f3f5c0d5043bc8aeb3cc4082a118bf5e322ba62eb1d6a7e95831766f76"
+    },
+    {
+      "path": "api/regions/tianjin/index.json",
+      "bytes": 1062,
+      "sha256": "5764c6a6f22d886eb0a717848541e0e0e17fdb9adeb57b615ade472edb5a2c89"
+    },
+    {
+      "path": "api/regions/xinjiang/index.json",
+      "bytes": 1067,
+      "sha256": "eaa45d776a8a38ec569b7e83c2edbfb6d69f80a9440193d367673b79f80e90fd"
+    },
+    {
+      "path": "api/regions/xizang/index.json",
+      "bytes": 1057,
+      "sha256": "97a40115e598fc7f34591bc9c42b98fe70dbe5cf38f80c09b788904a26eee7bb"
     },
     {
       "path": "api/regions/yunnan/index.json",
-      "bytes": 944,
-      "sha256": "dc92d49ff03e9a57fe3270b0d3eae8bea0b2cff61476853259ebd2ab37e2ae5a"
+      "bytes": 1144,
+      "sha256": "f3945ea75b17cdb9002b228943929e5b3bee2d82c5a0ee7f3ebcdaf4a9b73469"
+    },
+    {
+      "path": "api/regions/zhejiang/index.json",
+      "bytes": 1067,
+      "sha256": "f45ca7396983f80a8c40a1a6584c29b04e81f31dc0ef6dba6784781d92c1e91f"
     },
     {
       "path": "assets/attachments/1.png",
@@ -82,168 +326,778 @@
     },
     {
       "path": "comments/index.html",
-      "bytes": 5749,
-      "sha256": "a5689d21c66196719b6283469b655f9320644e59706daa572bcb3a72c2239053"
+      "bytes": 7972,
+      "sha256": "eac0636a66e806c31f06d8fa292d68e4efa8bdd4dd0ea2373914f0bf0279b1da"
     },
     {
-      "path": "content/home-extension-research-1/index.html",
-      "bytes": 6686,
-      "sha256": "b135e2528111d42c26de25378d9f5dbdb7d309eb80d86b6a604ff7efc22119fe"
+      "path": "content/prism-animation/index.html",
+      "bytes": 9835,
+      "sha256": "ffe478d664f158ccd40c7e98350b448527a2881de4c3e8ec6a1583594cf16e43"
     },
     {
-      "path": "content/home-extension-research-2/index.html",
-      "bytes": 6558,
-      "sha256": "b11ed4ca580794568e54fe14303ded6ce77dfbf21aeeb9220f7d38c3b7818189"
+      "path": "content/prism-audio/index.html",
+      "bytes": 9448,
+      "sha256": "6717313e4674a889f2cf9fc73ec5bb4ae17723d681a78800b2eb71fa06918e87"
     },
     {
-      "path": "content/home-extension-research-3/index.html",
-      "bytes": 6558,
-      "sha256": "ce1d5ed115a7e596e379eb2d17446ab53b76ac5467d0f3ef245344eee6465223"
+      "path": "content/prism-ferry/index.html",
+      "bytes": 10999,
+      "sha256": "fabebab18421768c560746851ef06c9ca3405dd9ca7f764e56674164eb9ac01a"
     },
     {
-      "path": "content/home-extension-research-4/index.html",
-      "bytes": 6558,
-      "sha256": "1683571742c4871833e18a260d6f1c928cba5343dde688b714326b3a126b34d4"
+      "path": "content/prism-greeting/index.html",
+      "bytes": 9462,
+      "sha256": "9d29a53b4e455d1780c381dbfee6a78d8ec0dd84a7eeac31fffbb8d7527ee9c7"
     },
     {
-      "path": "content/home-extension-research-5/index.html",
-      "bytes": 6558,
-      "sha256": "7d969430afa33bb7b8fed2f261b6dd0dc5540d3412b73fc73fb8899d527de70e"
+      "path": "content/prism-market/index.html",
+      "bytes": 10992,
+      "sha256": "04af8d7728355062a50468c357e395611eae1ebcd2e0f3c4106e08dae62b7fd6"
     },
     {
-      "path": "content/home-extension-research-6/index.html",
-      "bytes": 6558,
-      "sha256": "3b39e3feef10a66070955448c393b9db939d89a1af4ba5209555fba4908b6c5b"
+      "path": "content/prism-memory/index.html",
+      "bytes": 9447,
+      "sha256": "4d31a5f6b0d7043e3dd20cf7224818d1142ae4822644997f8b185b54d04a7c23"
     },
     {
-      "path": "content/sidebar-animation/index.html",
-      "bytes": 8039,
-      "sha256": "22fba7fd6eae3115a6d72329f01ee6438ffbd5cd0604de2f7bceb5d1e5fcf47a"
+      "path": "content/prism-names/index.html",
+      "bytes": 11089,
+      "sha256": "f558710ecce32bb245c4491f385f06d65f9d00063d287c95d9c7965698acb2f4"
     },
     {
-      "path": "content/sidebar-audio/index.html",
-      "bytes": 8062,
-      "sha256": "c91a36dcfeacc32a4727b0492f8e5076e9584696912293687749f31f10f36ac5"
+      "path": "content/prism-recording/index.html",
+      "bytes": 9508,
+      "sha256": "9693cb84ffbdc98f8398e7a2fb73f4bf12e16dddc72b19247777366e14d264cd"
     },
     {
-      "path": "content/sidebar-guangdong-0/index.html",
-      "bytes": 7269,
-      "sha256": "1eb40c2b14dd9dd65393f234eabdcdcad7c3f8123f9e22369b9f709acad83ea4"
+      "path": "content/prism-song/index.html",
+      "bytes": 10032,
+      "sha256": "10f8ea046781b496fa6eb02b9a7801f85571acc58469b1a2f59cdb52ad3c6729"
     },
     {
-      "path": "content/sidebar-policy-cover/index.html",
-      "bytes": 6685,
-      "sha256": "49e5d94755e7c2f0efa09828b80e151c83a4360865a2347401c670664cc61b8e"
+      "path": "content/prism-street/index.html",
+      "bytes": 10995,
+      "sha256": "054747fba285fae78c36d3d719ba78aa28ac5f6f4131c78ea366615fab1c9d18"
     },
     {
-      "path": "content/sidebar-policy-text/index.html",
-      "bytes": 6686,
-      "sha256": "d6b65e863f1ace64cf50e2e33481a400ba15bf8a5a955ad6e35c40ebf0fcf176"
+      "path": "content/prism-survey/index.html",
+      "bytes": 9408,
+      "sha256": "e4d5bffc04bb5442bfc62f70f5c458aef3356783cecdb662ee26f015914358c9"
     },
     {
-      "path": "content/sidebar-project/index.html",
-      "bytes": 6588,
-      "sha256": "7864b3d5966f1befd82cc8fcb8b1985bc2077b401d1bb977e7800cd3c20c210c"
+      "path": "content/prism-tea/index.html",
+      "bytes": 16300,
+      "sha256": "e1cddd989a37521670830e24e9ad90976e71a2a15168e5464ffeac1c8aab950f"
     },
     {
-      "path": "content/sidebar-research/index.html",
-      "bytes": 6795,
-      "sha256": "d2289e8c4d30c9be243080aecd9bc7be1d53e98c82ede377f1e48e2e82a30105"
+      "path": "en/about/index.html",
+      "bytes": 7528,
+      "sha256": "352a05449db0b56e6410bb00de9d3857a1795fc7c51b748096cadaa934abc1e5"
     },
     {
-      "path": "content/sidebar-sichuan-0/index.html",
-      "bytes": 21536,
-      "sha256": "1b1a18459a97e5a079922c771f53165e96976245ea1b6760eaf5c3226b911185"
+      "path": "en/api/regions/anhui/index.json",
+      "bytes": 1064,
+      "sha256": "4837610ad3f46896c68cea8dcc144efd92ab6540edd40dc1424129a77fa0a0bd"
     },
     {
-      "path": "content/sidebar-sichuan-1/index.html",
-      "bytes": 8592,
-      "sha256": "ed2392e49e3d57049fecd5f0a1f38c24ab9c4f6674aebd25163bf6c4239833f6"
+      "path": "en/api/regions/beijing/index.json",
+      "bytes": 1076,
+      "sha256": "640db3821f643d179b91cecb3cae668050b244f0a588a5c44756350d6f891437"
     },
     {
-      "path": "content/sidebar-sichuan-2/index.html",
-      "bytes": 8637,
-      "sha256": "01cae13ee3d65abe7da39263f45a3933486d09aa7238dc9f055f9c6fc3ad3bf1"
+      "path": "en/api/regions/chongqing/index.json",
+      "bytes": 1088,
+      "sha256": "333a1fb9df0938fe8bb0f922ff6b2c2c0d9be34ff701403cd6b694211a71af33"
     },
     {
-      "path": "content/sidebar-sichuan-3/index.html",
-      "bytes": 8544,
-      "sha256": "4bc7d73dc5b759a17355a978b605b1bf7aa1ac4f288c9298759897a6b2a35ca2"
+      "path": "en/api/regions/fujian/index.json",
+      "bytes": 1070,
+      "sha256": "c61c2e1ed8cdd27f31b1445b54098c135ed6383e664ab78380b86a2ad57409cb"
     },
     {
-      "path": "content/sidebar-sichuan-4/index.html",
-      "bytes": 21245,
-      "sha256": "42c24df1437f695d51e12b40a7ff6d2ccc229c27d087545195962cba41aec0ab"
+      "path": "en/api/regions/gansu/index.json",
+      "bytes": 1064,
+      "sha256": "043ef70330da2bf3c49d0a9e613867990365a7345e2add59c556785576f224b7"
+    },
+    {
+      "path": "en/api/regions/guangdong/index.json",
+      "bytes": 6406,
+      "sha256": "e1d0af9e5986b39307a1059d8e6c5c33bdfbeb8ba8a9ae54567d3239525068b9"
+    },
+    {
+      "path": "en/api/regions/guangxi/index.json",
+      "bytes": 1076,
+      "sha256": "461cfb0cc58db017c3c5309dc1033ceb0c5f50ac4f166fa2efcdda25ee86495a"
+    },
+    {
+      "path": "en/api/regions/guizhou/index.json",
+      "bytes": 1076,
+      "sha256": "3d0f993b7b38219aabd8d67091c02b402d0a05aeece40720c1d7a22bd02f1d21"
+    },
+    {
+      "path": "en/api/regions/hainan/index.json",
+      "bytes": 1070,
+      "sha256": "34735ed4ef232976dcd3248b695d7d089ab1b253af0569e5a61181ae4e845eb6"
+    },
+    {
+      "path": "en/api/regions/hebei/index.json",
+      "bytes": 1064,
+      "sha256": "59ff5dd93f25ab3f31d69e76a2d8dc3b159610518d721984c5b2cb59649b55c1"
+    },
+    {
+      "path": "en/api/regions/heilongjiang/index.json",
+      "bytes": 1106,
+      "sha256": "a40be120db059a2da21c5a4181f952233cdb43901d261003d883d17aa870da13"
+    },
+    {
+      "path": "en/api/regions/henan/index.json",
+      "bytes": 1064,
+      "sha256": "c564de6f29334d6da26e1a9b02da2a2d5de84a32361bd6140f9a691c85613e20"
+    },
+    {
+      "path": "en/api/regions/hongkong/index.json",
+      "bytes": 1083,
+      "sha256": "bcbb55ab8ee0759d4de9957ff119d99066810d7e2ccd42eeda4bc36099082c99"
+    },
+    {
+      "path": "en/api/regions/hubei/index.json",
+      "bytes": 1064,
+      "sha256": "26b385ab82341c83172095e601fdc5a7277d3e9362aa3c34cada932e366293d0"
+    },
+    {
+      "path": "en/api/regions/hunan/index.json",
+      "bytes": 1064,
+      "sha256": "d555f8d0fbe9577e92537a1033461a5560abac17bd4bf69ad75533872bf4f5d2"
+    },
+    {
+      "path": "en/api/regions/jiangsu/index.json",
+      "bytes": 1076,
+      "sha256": "3e6cee19a5d759ba5f9816df5cfd31212361321952729a24bd37085d627e5452"
+    },
+    {
+      "path": "en/api/regions/jiangxi/index.json",
+      "bytes": 1076,
+      "sha256": "4bdbe9bcaf2174ba49c218bb4a35f3f0dfb8695ae0e97d867ada199d5048ffb5"
+    },
+    {
+      "path": "en/api/regions/jilin/index.json",
+      "bytes": 1064,
+      "sha256": "f9ade64095fd8a8341a134ef4cbf5ff425b6d8dc2d44a5ad03948030d9fa944c"
+    },
+    {
+      "path": "en/api/regions/liaoning/index.json",
+      "bytes": 1082,
+      "sha256": "f4410d59afc747022cd125c46d99914ff61cebd42cc9277e098855e61b681e8d"
+    },
+    {
+      "path": "en/api/regions/macao/index.json",
+      "bytes": 1064,
+      "sha256": "3d1ccaeb85929d59c3990ca0b4c32c52d141d5b3e05878a9349a36dd2ca3e3f9"
+    },
+    {
+      "path": "en/api/regions/neimenggu/index.json",
+      "bytes": 1093,
+      "sha256": "c4877da964578376f106cee69140f8f6f899c9db61f460564cabcff71035b033"
+    },
+    {
+      "path": "en/api/regions/ningxia/index.json",
+      "bytes": 1076,
+      "sha256": "d2365cb78be48b9345554067c5a8b7de3644b03cdd36ea78dd430b69ced0a3ab"
+    },
+    {
+      "path": "en/api/regions/qinghai/index.json",
+      "bytes": 1076,
+      "sha256": "9754423a4e7a92d45d34ca079de06286618216c47fb3eeb33b01634629679833"
+    },
+    {
+      "path": "en/api/regions/shaanxi/index.json",
+      "bytes": 1076,
+      "sha256": "9f34a98a52b787928ec992c7f8eb34bd525c8033adeb935ac7bb6606c20e6a8b"
+    },
+    {
+      "path": "en/api/regions/shandong/index.json",
+      "bytes": 1082,
+      "sha256": "a34bc3d0c2658a26ac42323fd10c964c1c9177d73008ba12c0dc3ef2f7455c71"
+    },
+    {
+      "path": "en/api/regions/shanghai/index.json",
+      "bytes": 1082,
+      "sha256": "b6defb71434477674ce6ed081822940cee5344f08b56d097433202180e701875"
+    },
+    {
+      "path": "en/api/regions/shanxi/index.json",
+      "bytes": 1070,
+      "sha256": "408cb01910ae6f0184ac34fb4c195c199587a611d982d84ba4a6a9f5a12cac0f"
+    },
+    {
+      "path": "en/api/regions/sichuan/index.json",
+      "bytes": 11016,
+      "sha256": "322ae9a92771af5b482061dc26177761cf74a1ea92c8122bec07a7cf56a04032"
+    },
+    {
+      "path": "en/api/regions/taiwan/index.json",
+      "bytes": 1070,
+      "sha256": "b9f09c75bea8e012c476cb08932ab2b4c8c83a2ca2e04c348754548b53cd891c"
+    },
+    {
+      "path": "en/api/regions/tianjin/index.json",
+      "bytes": 1076,
+      "sha256": "ff52c7a9a2d560d18c35a0acc531937475648f2ea1af9caf8b1c95cb4925a7ed"
+    },
+    {
+      "path": "en/api/regions/xinjiang/index.json",
+      "bytes": 1082,
+      "sha256": "58b4310b5266a5c8575bef1c68c2c225b3f6861c55b11dfa57a0448b34037fba"
+    },
+    {
+      "path": "en/api/regions/xizang/index.json",
+      "bytes": 1070,
+      "sha256": "62947982b64477ca9d31ef5c89f6bb7f76ee1baa4219428b4caff13a761b9247"
+    },
+    {
+      "path": "en/api/regions/yunnan/index.json",
+      "bytes": 1157,
+      "sha256": "fc4621cd693ccfd9f134d62698cf101d4ccc45940890864f85b91a0a66923526"
+    },
+    {
+      "path": "en/api/regions/zhejiang/index.json",
+      "bytes": 1082,
+      "sha256": "f07e1b6db5430d798b2290da968dbbca536292e6e9a925067a5e7e4356c42f3e"
+    },
+    {
+      "path": "en/assets/attachments/1.png",
+      "bytes": 2622436,
+      "sha256": "b052de7dd1556a8d344f8c8f059677dbe655496438b9433121d0e2fcaf3d4ab3"
+    },
+    {
+      "path": "en/comments/index.html",
+      "bytes": 7673,
+      "sha256": "9e5414b12174fce9412feb28418c13993358396c4e6edf324a5169001618f01b"
+    },
+    {
+      "path": "en/content/prism-animation/index.html",
+      "bytes": 9593,
+      "sha256": "8fa3a184300bdef1dd5ec2920e2af1e4c626263ea55c39b1cdecdc8c5f1ad9f9"
+    },
+    {
+      "path": "en/content/prism-audio/index.html",
+      "bytes": 9216,
+      "sha256": "3b6d37f37df8c19711882e37c4e274f0cbb33102d7b318e22427fabe80fcc105"
+    },
+    {
+      "path": "en/content/prism-ferry/index.html",
+      "bytes": 10763,
+      "sha256": "e6f7ca78fba50ab1bb9c490f62c8c6ff47945fa8eac30d9a3a847e7c83226155"
+    },
+    {
+      "path": "en/content/prism-greeting/index.html",
+      "bytes": 9206,
+      "sha256": "ca1f6ba5f19e6a83818fd21aec0f034459de3037e13e310a7d5be2572ff30afe"
+    },
+    {
+      "path": "en/content/prism-market/index.html",
+      "bytes": 10756,
+      "sha256": "77d047b184eaba05771848237ce9030aa1283ffc4810744621b46e716dbe84d0"
+    },
+    {
+      "path": "en/content/prism-memory/index.html",
+      "bytes": 9191,
+      "sha256": "6da6a86c6b1cc6760ba5e24e98f541ecae55b65b450c247cd4b40e662d070a45"
+    },
+    {
+      "path": "en/content/prism-names/index.html",
+      "bytes": 10853,
+      "sha256": "a3dc1d3e2fda33b61a44c05663022f56375c6fcb8d967daf841562ac9d9a646e"
+    },
+    {
+      "path": "en/content/prism-recording/index.html",
+      "bytes": 9318,
+      "sha256": "f26f4035c618276d4116fa1c66a3e1d3faf24c463828bdfb65fb1a7fd2bf3fc8"
+    },
+    {
+      "path": "en/content/prism-song/index.html",
+      "bytes": 9785,
+      "sha256": "5084cb88967b28d554cc430170eb956c7b753cc6805ac6d57e1fb0b5159f6cbf"
+    },
+    {
+      "path": "en/content/prism-street/index.html",
+      "bytes": 10759,
+      "sha256": "c97261b690f6b0afb9926076a93b6bc24ecfe1b554705cfb0872b28f861c7fd4"
+    },
+    {
+      "path": "en/content/prism-survey/index.html",
+      "bytes": 9121,
+      "sha256": "f4c1e1fd1d12ed6b66fa6d0db9787a14ad88190046e319fe25f89afa73723fcd"
+    },
+    {
+      "path": "en/content/prism-tea/index.html",
+      "bytes": 16123,
+      "sha256": "037b427ceb98d30c6dad71447f9151db23eb4b8a38fdb52626f1e3f4e50a357a"
+    },
+    {
+      "path": "en/index.html",
+      "bytes": 411295,
+      "sha256": "fe0d0de7de90d129a0dee89370f32a6ed2e0c63e35d55e217273980cb733bbcb"
+    },
+    {
+      "path": "en/interviews/index.html",
+      "bytes": 9473,
+      "sha256": "3c81d42946ae035c19c22f38b38c88ed07f4fe96b522ba848dd69c9e1a4228ac"
+    },
+    {
+      "path": "en/library/index.html",
+      "bytes": 15567,
+      "sha256": "592cf9e98fdb2e4dfa64e979c6ab1c91dd82eb29c9db481bfe2b5c7b978421f1"
+    },
+    {
+      "path": "en/media/index.html",
+      "bytes": 15117,
+      "sha256": "6473c8de045f02b02c08cc52438d61ce1d3ee43bbafd688937b319df72f36ddb"
+    },
+    {
+      "path": "en/nonfiction/index.html",
+      "bytes": 11306,
+      "sha256": "5d6f3e8b4263272ad2cb8b9ba4869ca1de31895067949a4ed4309b7968ef295c"
+    },
+    {
+      "path": "en/participate/index.html",
+      "bytes": 7959,
+      "sha256": "8ff8e0e370e9c387c3607c33773c8491e6d95e48c5c5e73a4a18b5be430b978f"
+    },
+    {
+      "path": "en/policies/index.html",
+      "bytes": 9608,
+      "sha256": "5c229c0b1c67c532ef0ded658d6ede0048c84b674b770fb86c1a1a638e26c562"
+    },
+    {
+      "path": "en/preview-data.js",
+      "bytes": 59927,
+      "sha256": "5f65083fbbdd9fbefb22807d86271d894178477d2edf26c885677ab8645ff30f"
+    },
+    {
+      "path": "en/preview-data.json",
+      "bytes": 59900,
+      "sha256": "ee53363a3a375be9909654b4f786ab8d22ae3e1ff78737d6da5b5085faf453a1"
+    },
+    {
+      "path": "en/questionnaire/index.html",
+      "bytes": 7575,
+      "sha256": "e15423b82d44a0cad434451462747e3a98bfe15fcb8720384571b39b708012b4"
+    },
+    {
+      "path": "en/regions/anhui/index.html",
+      "bytes": 9228,
+      "sha256": "ff265eda7c409f369e61d689ba74382042c95fd62e577f0e603dc557c30fc890"
+    },
+    {
+      "path": "en/regions/beijing/index.html",
+      "bytes": 9246,
+      "sha256": "fb441e5a0d84d8abd7817f70a3aeb8d6bead09dde7aa3a96e1c96bf0a4db5054"
+    },
+    {
+      "path": "en/regions/chongqing/index.html",
+      "bytes": 9264,
+      "sha256": "5dd45c4fb33c65fcca34a8de4c65a0dcbea8a9cd5f34a2aca21473ad441058b2"
+    },
+    {
+      "path": "en/regions/fujian/index.html",
+      "bytes": 9237,
+      "sha256": "fd2f663b72c679eee0f5af6bc63af873177900d3034a1df2f42835f1d49bbcec"
+    },
+    {
+      "path": "en/regions/gansu/index.html",
+      "bytes": 9228,
+      "sha256": "dc60be36fe476fa730f2963ebabda4e1a1ab2079c0a49c4b328f20f39e59ea30"
+    },
+    {
+      "path": "en/regions/guangdong/index.html",
+      "bytes": 11804,
+      "sha256": "fd8690d881125ced2583c644a8643a66491db6493aada64068ea8523a99ab919"
+    },
+    {
+      "path": "en/regions/guangxi/index.html",
+      "bytes": 9246,
+      "sha256": "ad10811739d3ef9517950c563888ff11b1a993bdb0dbb7b5ae111521a80e4e2b"
+    },
+    {
+      "path": "en/regions/guizhou/index.html",
+      "bytes": 9246,
+      "sha256": "10fb4e59b81d8027b4dae03cdf3eacd59e365db5c6f239ec6c5e2b0ecdb9c15b"
+    },
+    {
+      "path": "en/regions/hainan/index.html",
+      "bytes": 9237,
+      "sha256": "612c68f30d27c6192060abd56d348786d09429bd28d70516bd794a5f636da262"
+    },
+    {
+      "path": "en/regions/hebei/index.html",
+      "bytes": 9228,
+      "sha256": "8b406102c17befa924d41aaa2f5e753971ad50d6d43693d6b160c7e34d79631f"
+    },
+    {
+      "path": "en/regions/heilongjiang/index.html",
+      "bytes": 9291,
+      "sha256": "9a2376ae234c3e018f17dc3b9cbdc1d4d05bef4c480d8f101b778e7ba257c487"
+    },
+    {
+      "path": "en/regions/henan/index.html",
+      "bytes": 9228,
+      "sha256": "1cd5d077f1c45365f0aebc82850d29a0f0e75ba5a5aacaf74d88e6d2408714f1"
+    },
+    {
+      "path": "en/regions/hongkong/index.html",
+      "bytes": 9260,
+      "sha256": "53943ccceb24c7fa23439f0ac92b6a62c1e5a1daaa391e9732bea4a448052434"
+    },
+    {
+      "path": "en/regions/hubei/index.html",
+      "bytes": 9228,
+      "sha256": "ab22dd55971b6620820e7299190a12ba7ff61224e0c7ad2068db17b4abd59401"
+    },
+    {
+      "path": "en/regions/hunan/index.html",
+      "bytes": 9228,
+      "sha256": "435243d0855195359fe1d198aed44f76111a8f1ea77ee6dc2f79b992c8ca1ee3"
+    },
+    {
+      "path": "en/regions/index.html",
+      "bytes": 8078,
+      "sha256": "dda161d07e313d28cd7fdf0c998d55c6e42d4ec9643d2cf5f5e17cbe0265fb8b"
+    },
+    {
+      "path": "en/regions/jiangsu/index.html",
+      "bytes": 9246,
+      "sha256": "886708a5b6a90c73e7bbb1e420ffe1c2301811991a85603a89c6b17cc4eab298"
+    },
+    {
+      "path": "en/regions/jiangxi/index.html",
+      "bytes": 9246,
+      "sha256": "27114e7f18f9fb5772be00bb313f268d77c160cffda7b7f500048df6dd4b12aa"
+    },
+    {
+      "path": "en/regions/jilin/index.html",
+      "bytes": 9228,
+      "sha256": "c5c6619d954ebacd6460d278ca33f58b6d2c0c083b15b5ca3e18e1fea71b0e1d"
+    },
+    {
+      "path": "en/regions/liaoning/index.html",
+      "bytes": 9255,
+      "sha256": "c67da7d70ecdfd56699045ed889ed10ca738e109ca1ee0c9b5d20110e63033b2"
+    },
+    {
+      "path": "en/regions/macao/index.html",
+      "bytes": 9228,
+      "sha256": "b933518831f09fc1a2e39a7b734fca152e6d34663f09e64dee2ece8460af95b0"
+    },
+    {
+      "path": "en/regions/neimenggu/index.html",
+      "bytes": 9289,
+      "sha256": "52396e17bca39e9bdbe7d8b47909dc9652ceafc1a7214832fcf422d6310d5925"
+    },
+    {
+      "path": "en/regions/ningxia/index.html",
+      "bytes": 9246,
+      "sha256": "b7fac3cb1d2dc33a22eb3240ca2299dcf7c0708f3450e8ae7fdc697308db227e"
+    },
+    {
+      "path": "en/regions/qinghai/index.html",
+      "bytes": 9246,
+      "sha256": "d634e4f42d1f8f232f4d0deb9be28769bc66046802e483ecc736da9df6fa4254"
+    },
+    {
+      "path": "en/regions/shaanxi/index.html",
+      "bytes": 9246,
+      "sha256": "0e90a1bfb8b3f49ac39c15847dc9483016335c21b6b302a88fe685278a987957"
+    },
+    {
+      "path": "en/regions/shandong/index.html",
+      "bytes": 9255,
+      "sha256": "2fbf3fe4f1a26c89c974045d4b28b56f2968c818707951c8fdc7a8ba35b592ef"
+    },
+    {
+      "path": "en/regions/shanghai/index.html",
+      "bytes": 9255,
+      "sha256": "b726c70f7d8d7d054e9ffc80e3773947d289e973fff5554643c1a26e5212d1d7"
+    },
+    {
+      "path": "en/regions/shanxi/index.html",
+      "bytes": 9237,
+      "sha256": "9f29765e3d8333dbe6db2987374567b3b8ce46bbb26f8ec4c867b1c272ffe6f5"
+    },
+    {
+      "path": "en/regions/sichuan/index.html",
+      "bytes": 14305,
+      "sha256": "fe94e65cea0d03fd07899a6c5afa4472e0ee40ae1f6fedc47c70e81bdc7a6269"
+    },
+    {
+      "path": "en/regions/taiwan/index.html",
+      "bytes": 9237,
+      "sha256": "d767212a4427a4721c9a1b1544b3656d951b19755815ef5a29462ba84f39e686"
+    },
+    {
+      "path": "en/regions/tianjin/index.html",
+      "bytes": 9246,
+      "sha256": "cecf72eb991a0b318a56856807907faadc23fe92d0ad3f97d22f864bffd8c2b3"
+    },
+    {
+      "path": "en/regions/xinjiang/index.html",
+      "bytes": 9255,
+      "sha256": "0bda449d9a7a05a6c3d332bde109fe8fa73d303ef89342c663cc6f0728c313ca"
+    },
+    {
+      "path": "en/regions/xizang/index.html",
+      "bytes": 9237,
+      "sha256": "b5fcf558fa9462d0b7dbe54e9624dad2fb9ea82429778dd663587af4574dcea1"
+    },
+    {
+      "path": "en/regions/yunnan/index.html",
+      "bytes": 9331,
+      "sha256": "75ea601d3d94005a127e1b0698e331d286d87d558691f5382b42a5c4833d7333"
+    },
+    {
+      "path": "en/regions/zhejiang/index.html",
+      "bytes": 9255,
+      "sha256": "e201cb78b626db05f8e6ca7bb3388140c9956c16c4e7c3dfaead5e99116f5572"
+    },
+    {
+      "path": "en/research/index.html",
+      "bytes": 10119,
+      "sha256": "51cef03a6d4e8a330e9292e72a457947921a20efd20b162fa3ff5300187f8c40"
+    },
+    {
+      "path": "en/surveys/index.html",
+      "bytes": 9078,
+      "sha256": "7dedd7edd6181030df0cbd2df5062e1f61d335f1713d10274963d460249a8c70"
     },
     {
       "path": "index.html",
-      "bytes": 28405,
-      "sha256": "19066ab8929c29b97b6bb2cec825cfac9ccb287ad3f427d309172b493e94bdec"
+      "bytes": 410380,
+      "sha256": "d19c8cc909810c4d886bb854017b79f238e9ba8e1bf059bb10de6d3db03136b2"
     },
     {
       "path": "interviews/index.html",
-      "bytes": 9422,
-      "sha256": "020e2f95d3faa67163e8065ccba11e1978813dcfa142ef7dad73ea5576fa5d08"
+      "bytes": 9738,
+      "sha256": "9dc872a998c8c4305fff874c0b8a29348daf56ab0139dd3d32767b27334a2634"
     },
     {
       "path": "library/index.html",
-      "bytes": 14781,
-      "sha256": "f7ab2c15339e9241c18f3539c14531aa5f02a18f806d46111da8e53a0b2542bd"
+      "bytes": 15611,
+      "sha256": "2259c6a28cae789ac29c65a277eb41b14a626dfcf30d739e0ce82f3ee5e8446a"
     },
     {
       "path": "media/index.html",
-      "bytes": 13177,
-      "sha256": "6dd8b4d7c223cea749044f3c078b39d7a3066375bb2fb3f2ca7ebe86eaf394c7"
+      "bytes": 15443,
+      "sha256": "92fc06afe1d631284ee641ec6f81348a12b8749662c99a4f7112a54475f38d7c"
+    },
+    {
+      "path": "nonfiction/index.html",
+      "bytes": 11530,
+      "sha256": "e4b6021d87ebf196aad76df370e300d45082326bfd2b101393e38600baf76067"
     },
     {
       "path": "participate/index.html",
-      "bytes": 6064,
-      "sha256": "8602239b2c57fb8c359d9fe2fce517451bd95453da009d7bb26bc01faf81f8a4"
+      "bytes": 8293,
+      "sha256": "769c05c8c08381af0bce2d6afb86b5ca03895913f53c5e1f92ffbe10199b748a"
     },
     {
       "path": "policies/index.html",
-      "bytes": 8446,
-      "sha256": "416553b4dd189199ce647b70c00ca2657422cce1d925ec87c456984f00f094ca"
+      "bytes": 9844,
+      "sha256": "309d37fa0efcce17262f9b8a223789f655ae7f298b4720b25c5c14cd339172ea"
     },
     {
       "path": "preview-data.js",
-      "bytes": 54810,
-      "sha256": "4b01102a21dd02e19afce923d7926d7247d3bb40b35be9f8ed72681b2ce8485f"
+      "bytes": 59032,
+      "sha256": "104a0b730161f6985e2473ffe6c9578f32dfae4d51db20b961d20c48b47b091e"
     },
     {
       "path": "preview-data.json",
-      "bytes": 54783,
-      "sha256": "6528ea3c090c5f81ddaf9d62568f059fb343e512738fbfddac146a4b9cb0c7eb"
+      "bytes": 59005,
+      "sha256": "5facc10bdb0eb3a07ea31b965be5edba6aa017e565195def66193b89f190162a"
     },
     {
       "path": "questionnaire/index.html",
-      "bytes": 5608,
-      "sha256": "28cd6370bcd0fcc4b23b2595a4f5eb50be8203d6d8cba18cdcee6ce508cb5197"
+      "bytes": 7841,
+      "sha256": "238166bb0916763d61a7d2b87b6ad82fd9cadbeadd842a7eb6fb36bcf98eb977"
+    },
+    {
+      "path": "regions/anhui/index.html",
+      "bytes": 9443,
+      "sha256": "857969c5f7861ea69d157db3cba7f1cde7fcbfab3520f383bec907d338a4fd19"
+    },
+    {
+      "path": "regions/beijing/index.html",
+      "bytes": 9451,
+      "sha256": "7773454c8e7f12caf864a04f94855f9731fd1fd48684e8a45d1cd4b50de5bdba"
+    },
+    {
+      "path": "regions/chongqing/index.html",
+      "bytes": 9459,
+      "sha256": "263b946303ccb16d91b05ff55249cc597193f36f4e6a5853a2c53a4d27fc6e9c"
+    },
+    {
+      "path": "regions/fujian/index.html",
+      "bytes": 9447,
+      "sha256": "6730d96d935fc70b8e291dd9ab9b02175a7bd06f9a019fa6b0c273435d7478e7"
+    },
+    {
+      "path": "regions/gansu/index.html",
+      "bytes": 9443,
+      "sha256": "04a181d929afff6d0176610da1fa4cfcdfda620e58ad335784c91c9048f8fd1d"
     },
     {
       "path": "regions/guangdong/index.html",
-      "bytes": 7713,
-      "sha256": "99b5b881e57ce73949a97a2b0cf2a5e0c74de27c732752e26d5bc09f8800a554"
+      "bytes": 11924,
+      "sha256": "4ed9912ced98fe0d11914d3702f83cb82481278b4042e71fe4196f63d8cda5c7"
+    },
+    {
+      "path": "regions/guangxi/index.html",
+      "bytes": 9451,
+      "sha256": "ea22ae04c51c9c61e2d740f7cae44d3781f1a6f091ec9f027a942943aab6b983"
+    },
+    {
+      "path": "regions/guizhou/index.html",
+      "bytes": 9451,
+      "sha256": "47c421e60f334427bede487511c1d102b82f04fea0f4f1176a40dde1ca7321ed"
+    },
+    {
+      "path": "regions/hainan/index.html",
+      "bytes": 9447,
+      "sha256": "e4e9f578a9bdb9db02e6c5e41afe8088c5c432430457e555684f54a58966e1d9"
+    },
+    {
+      "path": "regions/hebei/index.html",
+      "bytes": 9443,
+      "sha256": "d1f8c3d32bbb4f706f4cccc06a1714019ee6d7fa63cc40f540685d4e1288a226"
+    },
+    {
+      "path": "regions/heilongjiang/index.html",
+      "bytes": 9486,
+      "sha256": "d1037a774411573918e906ef8a115eacefc26343944be88766c20d16f747b04a"
+    },
+    {
+      "path": "regions/henan/index.html",
+      "bytes": 9443,
+      "sha256": "f4c631d24b97f67bce90a82aab73855c54542b5195e730bb6ef50e89889a1e8b"
+    },
+    {
+      "path": "regions/hongkong/index.html",
+      "bytes": 9455,
+      "sha256": "d03646cec58b82a5ae477c9be7b2b3fd894cb0ab79bcacb58b4fac4bbf588bea"
+    },
+    {
+      "path": "regions/hubei/index.html",
+      "bytes": 9443,
+      "sha256": "744b9f5510e154b135a5facc69b26cfdc6024385e9fccced57ecb1383520ec28"
+    },
+    {
+      "path": "regions/hunan/index.html",
+      "bytes": 9443,
+      "sha256": "d17f10069ec03e9f3dea9d845f20cde8a2192e767192f4352df2b67b9a9b343e"
     },
     {
       "path": "regions/index.html",
-      "bytes": 6181,
-      "sha256": "953e6c19503cdb7494bb9a9b774b31f3c6f15b928b5e288e248f6662e5ff30f0"
+      "bytes": 8353,
+      "sha256": "466e8cd944ddf0e00eba2fb614ba971e53d72b69998b3367ce796fcda9e2577b"
+    },
+    {
+      "path": "regions/jiangsu/index.html",
+      "bytes": 9451,
+      "sha256": "fdfe0abf08bbb67a3a9a966c62b3be3a27e9f8f3ace33d1265fa317263cdc599"
+    },
+    {
+      "path": "regions/jiangxi/index.html",
+      "bytes": 9451,
+      "sha256": "472ba1ae8ac60f68d33213179cf41d2ea67ceebd80b75bde77d109a593c42491"
+    },
+    {
+      "path": "regions/jilin/index.html",
+      "bytes": 9443,
+      "sha256": "7e2d90269ba0bd6d306298e3dcf0f8aa2d6f156fad88ebbe272407841843737b"
+    },
+    {
+      "path": "regions/liaoning/index.html",
+      "bytes": 9455,
+      "sha256": "53ed089185cb5e912504f79d4b37e83dcb5610f879889f6fadaa8dcc3a8db17d"
+    },
+    {
+      "path": "regions/macao/index.html",
+      "bytes": 9443,
+      "sha256": "e2c28ae0e84f8cdd30038c7301d21c4b0a98f7e795dc6502b547d8e72f911d90"
+    },
+    {
+      "path": "regions/neimenggu/index.html",
+      "bytes": 9474,
+      "sha256": "cb74be23b883abbfde56e0b21cf0e82c147283304d4b4abb17aaffec12752692"
+    },
+    {
+      "path": "regions/ningxia/index.html",
+      "bytes": 9451,
+      "sha256": "d1057fa407ce895c2c5109a8585b1bf8c664f6f4a628437c9686918d6b60497d"
+    },
+    {
+      "path": "regions/qinghai/index.html",
+      "bytes": 9451,
+      "sha256": "5374f797ee224ae3882451f3694fbe7785c4b32300cc6c9381cff21bdd410b36"
+    },
+    {
+      "path": "regions/shaanxi/index.html",
+      "bytes": 9451,
+      "sha256": "f04dfb8bfa302b847af4642daa12a72f7aae3939c332f07f55ba1dabc1311331"
+    },
+    {
+      "path": "regions/shandong/index.html",
+      "bytes": 9455,
+      "sha256": "29369e81f9efcc9ceb524e6866f22a212bbc93c5beb366b837d64315647a25cb"
+    },
+    {
+      "path": "regions/shanghai/index.html",
+      "bytes": 9455,
+      "sha256": "abb4829c4ed67e5f20790a1fe5e27d1677806eeabc7bfa0d9d38c2837d99ef26"
+    },
+    {
+      "path": "regions/shanxi/index.html",
+      "bytes": 9447,
+      "sha256": "ad4ed7e143ba1eb1d361a8dfbdfda5b4ca50333136bb539bbedff764db6711c2"
     },
     {
       "path": "regions/sichuan/index.html",
-      "bytes": 14144,
-      "sha256": "7960af819547c041b01ae6697ce0c72f17c5e4b11d7ee992e3c55a725d65e582"
+      "bytes": 14353,
+      "sha256": "afcd72b554874de66eba4ec3461c9b6fac7275446a80b61e4539b08e8461ff56"
+    },
+    {
+      "path": "regions/taiwan/index.html",
+      "bytes": 9447,
+      "sha256": "73e0c65d895145c4ab06c4db6f2030b9ca2a0f97aa91e94bcefe3ce9bae75e3b"
+    },
+    {
+      "path": "regions/tianjin/index.html",
+      "bytes": 9451,
+      "sha256": "415308a2a4519a858597ffae3c355b144214b307130522fc619722028b80805d"
+    },
+    {
+      "path": "regions/xinjiang/index.html",
+      "bytes": 9455,
+      "sha256": "eb730002a9d164e2ee3e035f96eae61faca970930e667b0412ab0278403c1677"
+    },
+    {
+      "path": "regions/xizang/index.html",
+      "bytes": 9447,
+      "sha256": "4b6b8e182a26f6a83cff67d7d8afcb84482780455fa6a06f248e372e298bf057"
     },
     {
       "path": "regions/yunnan/index.html",
-      "bytes": 6987,
-      "sha256": "82269d8bb93595eabc8ab9bf28a00cfba05b3075582767951c5fc3243a4b4a92"
+      "bytes": 9541,
+      "sha256": "e495e11f099f95441c11108951c1c92a0e38566839113aeee62ecdfafa9d7283"
+    },
+    {
+      "path": "regions/zhejiang/index.html",
+      "bytes": 9455,
+      "sha256": "86f18927325128feb545d6593a1b05aa2661d6f09d9267ef1c9000e851b640b7"
     },
     {
       "path": "research/index.html",
-      "bytes": 12005,
-      "sha256": "e25b36b8410ece403dd87f8c16f54ecdfca324119ef629852b607880871f31dc"
+      "bytes": 10394,
+      "sha256": "dea512349738db6689b1a2b0d22a01292d160a593d000634e21b8559864fbbf2"
     },
     {
       "path": "static/css/discovery.css",
@@ -262,8 +1116,13 @@
     },
     {
       "path": "static/css/home-extension.css",
-      "bytes": 3993,
-      "sha256": "259039db51790b2c96ab99bebe876733d22647521f317301261de7c5f39b2838"
+      "bytes": 2139,
+      "sha256": "59c5df699e9f449d164acc3d9d4a99156a87bd1c45f523e2d87e3fbe9b4d26b9"
+    },
+    {
+      "path": "static/css/interface.css",
+      "bytes": 1692,
+      "sha256": "dacee739b9f6bc156a7f2f9e1c34f0920ab1d3846a21412094ace38dbf191d25"
     },
     {
       "path": "static/css/motion.css",
@@ -271,14 +1130,24 @@
       "sha256": "086be4eb1c71c0248abac6f7188eb2bf18d2e9f9b62919aa219dd71da0af8aca"
     },
     {
+      "path": "static/css/prism-recommendations.css",
+      "bytes": 8045,
+      "sha256": "230b03a1fdda7cceaf61721095992c9812308dac658f06997b0d9926d66016a3"
+    },
+    {
+      "path": "static/css/prism-site.css",
+      "bytes": 6052,
+      "sha256": "3097457adcc123edcdaaaff7630f986f31db928c659ba631a321a1c34545317b"
+    },
+    {
       "path": "static/css/sidebar-tokens.css",
-      "bytes": 1238,
-      "sha256": "1f2bab97c197727390942f4516eafbbaed15bcc60fb0678b7a011e1af0562221"
+      "bytes": 1162,
+      "sha256": "61ec8cd619b7ea4cab074e3512a0d166ec242e7c3e842495d579a0ca78665d90"
     },
     {
       "path": "static/css/sidebar.css",
-      "bytes": 15818,
-      "sha256": "2deaef6e3ab6f4d434a700beae1c2908b729d0504cdc1cea2ca285487ceea347"
+      "bytes": 15392,
+      "sha256": "480278af30a16d5724251923ced2e72edd233e91c50f4046aedfeae477055410"
     },
     {
       "path": "static/css/site.css",
@@ -317,8 +1186,13 @@
     },
     {
       "path": "static/js/home-extension.js",
-      "bytes": 2602,
-      "sha256": "5583aacb934009553938e1be46c6e368807c03d0e160f1bcc213cadac7a230c3"
+      "bytes": 96,
+      "sha256": "faf3fc58dd7d9af71f21b9bcab7f756fc1e4e9830f302a54cd91274899dc1799"
+    },
+    {
+      "path": "static/js/interface.js",
+      "bytes": 435,
+      "sha256": "92ed4c888dac2a969a544d4d83540e7aebc55c152885abaa20beda371cdf243b"
     },
     {
       "path": "static/js/media-preview.js",
@@ -327,13 +1201,23 @@
     },
     {
       "path": "static/js/motion.js",
-      "bytes": 11820,
-      "sha256": "7fd918438cf572f3e709478fb1ed947a96f8501d315b422a4348d1afb9ed1dab"
+      "bytes": 11845,
+      "sha256": "9d5e09cb48c17d07a34bcd7521ac519132440b1328883415e1d1a78453ddfb15"
     },
     {
       "path": "static/js/pages-preview.js",
-      "bytes": 12876,
-      "sha256": "7ee0b5dfb7a2b9ea1a86ed0539300d30dea310604f065ea871b381d010942f25"
+      "bytes": 15011,
+      "sha256": "effc2e3837017eca03e35321fc3a4d84d30d889b607af1735b217170c1aceea2"
+    },
+    {
+      "path": "static/js/prism-recommendations.js",
+      "bytes": 7854,
+      "sha256": "59e7afde979f317bee19a97ba44a92a1b6ddb36d0eff3fa6c419b198e86be2c6"
+    },
+    {
+      "path": "static/js/prism-site.js",
+      "bytes": 2520,
+      "sha256": "99077c9365060855de37af4de26b51a5e260b8bab97e7ab326419e84afde2695"
     },
     {
       "path": "static/js/questionnaire-guide.js",
@@ -342,13 +1226,63 @@
     },
     {
       "path": "static/js/site.js",
-      "bytes": 18633,
-      "sha256": "dd41675d75270a5759417a4fbbdf86967d6703453115cf6e3aa463c432740874"
+      "bytes": 18701,
+      "sha256": "a4c4a470ef062e18baea948fa194884f1e1cde3a1c4e58c04152fd5e13fb8ea6"
+    },
+    {
+      "path": "static/map-motion/SOURCES.md",
+      "bytes": 2835,
+      "sha256": "aa617a4bec675d0b7964f946cde0b1401eb3c622f00a5efd63f1d94cf2e2b6c8"
+    },
+    {
+      "path": "static/map-motion/field.js",
+      "bytes": 6602,
+      "sha256": "bd172cd3176bd76f91456d0150269a54131b28219a1ad294896aba9c6c44b0cd"
+    },
+    {
+      "path": "static/map-motion/mainline.css",
+      "bytes": 724,
+      "sha256": "2f75ce344fcbf57bf9b901ba182f1c11f3e558d7464aae887fa6e169e075c5b9"
+    },
+    {
+      "path": "static/map-motion/mainline.js",
+      "bytes": 7671,
+      "sha256": "50b43d07d7f8be2210e1bead91b84855f9048446f6abcab1ba6dcf4c0824762e"
+    },
+    {
+      "path": "static/map-motion/vendor/CODROPS-LICENSE.txt",
+      "bytes": 1899,
+      "sha256": "693494ebfb219be6c3cd5be3ace262f20cde2098bf5567f418e8649ff9b0cbda"
+    },
+    {
+      "path": "static/map-motion/vendor/RESEARCH-SOURCES.json",
+      "bytes": 1695,
+      "sha256": "fe675648e801f1b5106eb5ad6100d8f6b8b2468c94de4497ae287582dbec7721"
+    },
+    {
+      "path": "static/map-motion/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "static/map-motion/vendor/THREE-SOURCES.json",
+      "bytes": 586,
+      "sha256": "f19fc89113a05009eb6df8ea73564fd11e2ca96a5687cd9e60f61f4c2a3b3a36"
+    },
+    {
+      "path": "static/map-motion/vendor/three.core.js",
+      "bytes": 415816,
+      "sha256": "3b346151f65ffdfca3e4c002bd58966b78c423087fb48a873f83200de1bffc48"
+    },
+    {
+      "path": "static/map-motion/vendor/three.module.min.js",
+      "bytes": 392831,
+      "sha256": "3bc833fceb6577bd1a380388f832ae61cd6e2f78ad02b0bf0d5adf5a4a9334fe"
     },
     {
       "path": "static/maps/SOURCE.md",
-      "bytes": 1646,
-      "sha256": "34e9d03bb9d243e78ae83ddeb0da421ca208ea061589420ce02b50ff47b3c7b0"
+      "bytes": 3427,
+      "sha256": "cb4a8ed57e14eb2330d674d044fecd9e1fc855357f332ce295aa28552435e720"
     },
     {
       "path": "static/maps/china-gs-2019-1823.jpg",
@@ -356,9 +1290,14 @@
       "sha256": "56a0cf7b8d5e97c7e6488666b2f74c0736c4a0a90761bb060b703178201aeb84"
     },
     {
+      "path": "static/maps/china-provinces.geojson",
+      "bytes": 582522,
+      "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275"
+    },
+    {
       "path": "surveys/index.html",
-      "bytes": 7309,
-      "sha256": "3efe9cdb7603a416525e9b4e0c2ec51d7424add80bf59234fe3f3f1403daf999"
+      "bytes": 9371,
+      "sha256": "9d373f2e0cb0f712929f18c78e8d24e52842efc1586b6800991eb27ba489799c"
     }
   ]
 }

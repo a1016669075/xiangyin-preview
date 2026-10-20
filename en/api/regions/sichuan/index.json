@@ -1,0 +1,359 @@
+{
+  "region": {
+    "name": "Sichuan",
+    "slug": "sichuan",
+    "description": "本机合成资料，用于体验地区浏览与完整阅读，不对应真实采访。",
+    "city_label": "",
+    "active_count": 8
+  },
+  "groups": [
+    {
+      "key": "nonfiction",
+      "label": "Nonfiction",
+      "total": 2,
+      "url": "/xiangyin-preview/en/regions/sichuan/?kind=nonfiction",
+      "contents": [
+        {
+          "id": "prism-street",
+          "title": "巷口的一声招呼",
+          "url": "/xiangyin-preview/en/content/prism-street/",
+          "summary": "沿着一条老街，读懂称呼里的亲疏与日常。",
+          "category_label": "Nonfiction",
+          "kind": "nonfiction",
+          "kind_label": "Nonfiction",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "Nonfiction",
+            "Sichuan"
+          ],
+          "action_label": "Read the article"
+        },
+        {
+          "id": "prism-market",
+          "title": "清晨的菜市场",
+          "url": "/xiangyin-preview/en/content/prism-market/",
+          "summary": "一份关于日常节奏与声音的合成写作练习。",
+          "category_label": "Nonfiction",
+          "kind": "nonfiction",
+          "kind_label": "Nonfiction",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "Nonfiction",
+            "Sichuan"
+          ],
+          "action_label": "Read the article"
+        }
+      ]
+    },
+    {
+      "key": "interview",
+      "label": "Dialect interviews",
+      "total": 1,
+      "url": "/xiangyin-preview/en/regions/sichuan/?kind=interview",
+      "contents": [
+        {
+          "id": "prism-tea",
+          "title": "一碗茶之间，听见家乡",
+          "url": "/xiangyin-preview/en/content/prism-tea/",
+          "summary": "一声问候，一段故事。在交谈中理解声音与归属。",
+          "category_label": "Interviews",
+          "kind": "interview",
+          "kind_label": "Interviews",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "Interviews",
+            "Q&A interview",
+            "Sichuan"
+          ],
+          "action_label": "Read the interview"
+        }
+      ]
+    },
+    {
+      "key": "media",
+      "label": "Media works",
+      "total": 2,
+      "url": "/xiangyin-preview/en/regions/sichuan/?kind=media",
+      "contents": [
+        {
+          "id": "prism-song",
+          "title": "把家常话写进一首歌",
+          "url": "/xiangyin-preview/en/content/prism-song/",
+          "summary": "从作品介绍里，发现方言与音乐相遇的另一种方式。",
+          "category_label": "音乐",
+          "kind": "media",
+          "kind_label": "Dialect in media",
+          "is_synthetic": true,
+          "cover_url": "/xiangyin-preview/en/assets/attachments/1.png",
+          "meta_labels": [
+            "Dialect in media · 音乐",
+            "Sichuan",
+            "Work introduction"
+          ],
+          "action_label": "Explore the work"
+        },
+        {
+          "id": "prism-animation",
+          "title": "画面之外的乡音",
+          "url": "/xiangyin-preview/en/content/prism-animation/",
+          "summary": "动漫作品中的方言表达与人物生活。",
+          "category_label": "动漫",
+          "kind": "media",
+          "kind_label": "Dialect in media",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "Dialect in media · 动漫",
+            "Sichuan",
+            "Work introduction"
+          ],
+          "action_label": "Explore the work"
+        }
+      ]
+    },
+    {
+      "key": "related",
+      "label": "Research and resources",
+      "total": 3,
+      "url": "/xiangyin-preview/en/regions/sichuan/?kind=related",
+      "contents": [
+        {
+          "id": "prism-memory",
+          "title": "语言与地方记忆",
+          "url": "/xiangyin-preview/en/content/prism-memory/",
+          "summary": "在研究介绍中，寻找理解地方生活的新线索。",
+          "category_label": "Dialect research",
+          "kind": "research",
+          "kind_label": "Dialect research",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "Dialect research",
+            "Sichuan"
+          ],
+          "action_label": "Read about the research"
+        },
+        {
+          "id": "prism-survey",
+          "title": "街巷里的乡音",
+          "url": "/xiangyin-preview/en/content/prism-survey/",
+          "summary": "了解方言社会调查如何提出问题、记录生活。",
+          "category_label": "Fieldwork",
+          "kind": "survey_project",
+          "kind_label": "Fieldwork",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "Fieldwork",
+            "Sichuan"
+          ],
+          "action_label": "Explore the project"
+        },
+        {
+          "id": "prism-greeting",
+          "title": "日常问候里的语言选择",
+          "url": "/xiangyin-preview/en/content/prism-greeting/",
+          "summary": "阅读社会语言学研究主题的合成介绍。",
+          "category_label": "Dialect research",
+          "kind": "research",
+          "kind_label": "Dialect research",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "Dialect research",
+            "Sichuan"
+          ],
+          "action_label": "Read about the research"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "id": "prism-street",
+      "title": "巷口的一声招呼",
+      "url": "/xiangyin-preview/en/content/prism-street/",
+      "summary": "沿着一条老街，读懂称呼里的亲疏与日常。",
+      "category_label": "Nonfiction",
+      "kind": "nonfiction",
+      "kind_label": "Nonfiction",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "Nonfiction",
+        "Sichuan"
+      ],
+      "action_label": "Read the article"
+    },
+    {
+      "id": "prism-market",
+      "title": "清晨的菜市场",
+      "url": "/xiangyin-preview/en/content/prism-market/",
+      "summary": "一份关于日常节奏与声音的合成写作练习。",
+      "category_label": "Nonfiction",
+      "kind": "nonfiction",
+      "kind_label": "Nonfiction",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "Nonfiction",
+        "Sichuan"
+      ],
+      "action_label": "Read the article"
+    },
+    {
+      "id": "prism-tea",
+      "title": "一碗茶之间，听见家乡",
+      "url": "/xiangyin-preview/en/content/prism-tea/",
+      "summary": "一声问候，一段故事。在交谈中理解声音与归属。",
+      "category_label": "Interviews",
+      "kind": "interview",
+      "kind_label": "Interviews",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "Interviews",
+        "Q&A interview",
+        "Sichuan"
+      ],
+      "action_label": "Read the interview"
+    },
+    {
+      "id": "prism-song",
+      "title": "把家常话写进一首歌",
+      "url": "/xiangyin-preview/en/content/prism-song/",
+      "summary": "从作品介绍里，发现方言与音乐相遇的另一种方式。",
+      "category_label": "音乐",
+      "kind": "media",
+      "kind_label": "Dialect in media",
+      "is_synthetic": true,
+      "cover_url": "/xiangyin-preview/en/assets/attachments/1.png",
+      "meta_labels": [
+        "Dialect in media · 音乐",
+        "Sichuan",
+        "Work introduction"
+      ],
+      "action_label": "Explore the work"
+    },
+    {
+      "id": "prism-animation",
+      "title": "画面之外的乡音",
+      "url": "/xiangyin-preview/en/content/prism-animation/",
+      "summary": "动漫作品中的方言表达与人物生活。",
+      "category_label": "动漫",
+      "kind": "media",
+      "kind_label": "Dialect in media",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "Dialect in media · 动漫",
+        "Sichuan",
+        "Work introduction"
+      ],
+      "action_label": "Explore the work"
+    },
+    {
+      "id": "prism-memory",
+      "title": "语言与地方记忆",
+      "url": "/xiangyin-preview/en/content/prism-memory/",
+      "summary": "在研究介绍中，寻找理解地方生活的新线索。",
+      "category_label": "Dialect research",
+      "kind": "research",
+      "kind_label": "Dialect research",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "Dialect research",
+        "Sichuan"
+      ],
+      "action_label": "Read about the research"
+    },
+    {
+      "id": "prism-survey",
+      "title": "街巷里的乡音",
+      "url": "/xiangyin-preview/en/content/prism-survey/",
+      "summary": "了解方言社会调查如何提出问题、记录生活。",
+      "category_label": "Fieldwork",
+      "kind": "survey_project",
+      "kind_label": "Fieldwork",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "Fieldwork",
+        "Sichuan"
+      ],
+      "action_label": "Explore the project"
+    },
+    {
+      "id": "prism-greeting",
+      "title": "日常问候里的语言选择",
+      "url": "/xiangyin-preview/en/content/prism-greeting/",
+      "summary": "阅读社会语言学研究主题的合成介绍。",
+      "category_label": "Dialect research",
+      "kind": "research",
+      "kind_label": "Dialect research",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "Dialect research",
+        "Sichuan"
+      ],
+      "action_label": "Read about the research"
+    }
+  ],
+  "query": "",
+  "kind": "",
+  "group_counts": {
+    "nonfiction": 2,
+    "interview": 1,
+    "media": 2,
+    "related": 3
+  },
+  "matched_count": 8,
+  "filtered_count": 8,
+  "results": [
+    {
+      "title": "巷口的一声招呼",
+      "url": "/xiangyin-preview/en/content/prism-street/",
+      "kind": "nonfiction"
+    },
+    {
+      "title": "一碗茶之间，听见家乡",
+      "url": "/xiangyin-preview/en/content/prism-tea/",
+      "kind": "interview"
+    },
+    {
+      "title": "把家常话写进一首歌",
+      "url": "/xiangyin-preview/en/content/prism-song/",
+      "kind": "media"
+    },
+    {
+      "title": "语言与地方记忆",
+      "url": "/xiangyin-preview/en/content/prism-memory/",
+      "kind": "research"
+    },
+    {
+      "title": "清晨的菜市场",
+      "url": "/xiangyin-preview/en/content/prism-market/",
+      "kind": "nonfiction"
+    },
+    {
+      "title": "街巷里的乡音",
+      "url": "/xiangyin-preview/en/content/prism-survey/",
+      "kind": "survey_project"
+    },
+    {
+      "title": "画面之外的乡音",
+      "url": "/xiangyin-preview/en/content/prism-animation/",
+      "kind": "media"
+    },
+    {
+      "title": "日常问候里的语言选择",
+      "url": "/xiangyin-preview/en/content/prism-greeting/",
+      "kind": "research"
+    }
+  ]
+}

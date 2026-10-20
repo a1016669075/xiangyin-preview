@@ -1,0 +1,51 @@
+{
+  "region": {
+    "name": "Taiwan",
+    "slug": "taiwan",
+    "description": "",
+    "city_label": "",
+    "active_count": 0
+  },
+  "groups": [
+    {
+      "key": "nonfiction",
+      "label": "Nonfiction",
+      "total": 0,
+      "url": "/xiangyin-preview/en/regions/taiwan/?kind=nonfiction",
+      "contents": []
+    },
+    {
+      "key": "interview",
+      "label": "Dialect interviews",
+      "total": 0,
+      "url": "/xiangyin-preview/en/regions/taiwan/?kind=interview",
+      "contents": []
+    },
+    {
+      "key": "media",
+      "label": "Media works",
+      "total": 0,
+      "url": "/xiangyin-preview/en/regions/taiwan/?kind=media",
+      "contents": []
+    },
+    {
+      "key": "related",
+      "label": "Research and resources",
+      "total": 0,
+      "url": "/xiangyin-preview/en/regions/taiwan/?kind=related",
+      "contents": []
+    }
+  ],
+  "contents": [],
+  "query": "",
+  "kind": "",
+  "group_counts": {
+    "nonfiction": 0,
+    "interview": 0,
+    "media": 0,
+    "related": 0
+  },
+  "matched_count": 0,
+  "filtered_count": 0,
+  "results": []
+}

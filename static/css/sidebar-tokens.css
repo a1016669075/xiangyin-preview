@@ -29,7 +29,7 @@
   --workspace-heading-h: 155px;
   --panel-heading-h: 150px;
   --toolbar-h: 69px;
-  --map-max-w: min(100%, calc((100dvh - 235px) * 1.3084));
+  --map-max-w: 100%;
 }
 @media (min-width:1200px) and (max-width:1399px) {
 :root {
@@ -39,6 +39,6 @@
   --workspace-heading-h: 140px;
   --panel-heading-h: 140px;
   --toolbar-h: 61px;
-  --map-max-w: min(100%, calc((100dvh - 245px) * 1.3084));
+  --map-max-w: 100%;
 }
 }

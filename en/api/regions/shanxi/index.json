@@ -1,0 +1,51 @@
+{
+  "region": {
+    "name": "Shanxi",
+    "slug": "shanxi",
+    "description": "",
+    "city_label": "",
+    "active_count": 0
+  },
+  "groups": [
+    {
+      "key": "nonfiction",
+      "label": "Nonfiction",
+      "total": 0,
+      "url": "/xiangyin-preview/en/regions/shanxi/?kind=nonfiction",
+      "contents": []
+    },
+    {
+      "key": "interview",
+      "label": "Dialect interviews",
+      "total": 0,
+      "url": "/xiangyin-preview/en/regions/shanxi/?kind=interview",
+      "contents": []
+    },
+    {
+      "key": "media",
+      "label": "Media works",
+      "total": 0,
+      "url": "/xiangyin-preview/en/regions/shanxi/?kind=media",
+      "contents": []
+    },
+    {
+      "key": "related",
+      "label": "Research and resources",
+      "total": 0,
+      "url": "/xiangyin-preview/en/regions/shanxi/?kind=related",
+      "contents": []
+    }
+  ],
+  "contents": [],
+  "query": "",
+  "kind": "",
+  "group_counts": {
+    "nonfiction": 0,
+    "interview": 0,
+    "media": 0,
+    "related": 0
+  },
+  "matched_count": 0,
+  "filtered_count": 0,
+  "results": []
+}

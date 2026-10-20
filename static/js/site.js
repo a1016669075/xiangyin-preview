@@ -146,9 +146,9 @@ if (explorer) {
   const prepareContents = (data, slug) => {
     if (!data || !data.region || data.region.slug !== slug || typeof data.region.name !== "string"
         || typeof data.region.description !== "string" || !Number.isInteger(data.region.active_count)
-        || data.region.active_count < 0 || !Array.isArray(data.groups) || data.groups.length !== 3) throw new Error("Invalid region response");
+        || data.region.active_count < 0 || !Array.isArray(data.groups) || data.groups.length !== 4) throw new Error("Invalid region response");
     const fragment = document.createDocumentFragment();
-    const groupKinds = { interview: ["interview"], media: ["media"], related: ["research", "policy", "survey_project"] };
+    const groupKinds = { nonfiction: ["nonfiction"], interview: ["interview"], media: ["media"], related: ["research", "policy", "survey_project"] };
     const seen = new Set();
     let total = 0;
     for (const group of data.groups) {
@@ -170,7 +170,7 @@ if (explorer) {
       title.textContent = group.label;
       const all = document.createElement("a");
       all.href = group.url;
-      all.textContent = `全部 ${group.total} 份 ›`;
+      all.textContent = window.xyI18n("all_items", {count: group.total});
       groupHeading.append(title, all);
       section.append(groupHeading);
       for (const item of group.contents) {
@@ -209,13 +209,13 @@ if (explorer) {
       const empty = document.createElement("div");
       empty.className = "empty-state region-empty";
       const title = document.createElement("h3");
-      title.textContent = "该地区暂未发布资料";
+      title.textContent = window.xyI18n("empty_region");
       const note = document.createElement("p");
-      note.textContent = "新的声音与故事，将在整理完成后陆续与您见面。";
+      note.textContent = window.xyI18n("empty_region_note");
       const link = document.createElement("a");
       link.className = "text-link";
       link.href = `${siteRoot}/regions/`;
-      link.textContent = "浏览其他地区 →";
+      link.textContent = window.xyI18n("other_regions");
       empty.append(title, note, link);
       fragment.append(empty);
     }
@@ -229,7 +229,7 @@ if (explorer) {
     refreshDetailOrigins();
     restorePosition();
     if (focus && !document.hidden) heading?.focus({ preventScroll: true });
-    announce("地区资料已打开。");
+    announce(window.xyI18n("panel_opened"));
     const operation = { id: operationId, controller: new AbortController(), animation: null };
     currentOperation = operation;
     animate(operation, "open").then(() => { if (isCurrent(operation)) clearOperation(); });
@@ -241,10 +241,10 @@ if (explorer) {
     syncPanel();
     history.replaceState(history.state, "", urlFor(committed, true));
     refreshDetailOrigins();
-    const origin = choices.find((link) => link.dataset.region === committed && link.classList.contains("region-map-point"))
+    const origin = choices.find((link) => link.dataset.region === committed && link.classList.contains("region-map-province"))
       || choices.find((link) => link.dataset.region === committed) || reopenButton;
     origin?.focus({ preventScroll: true });
-    announce("地区资料已收起，地图已展开。");
+    announce(window.xyI18n("panel_closed"));
   };
   const chooseRegion = async (link) => {
     clearOperation();
@@ -256,7 +256,7 @@ if (explorer) {
     currentOperation = operation;
     panel.setAttribute("aria-busy", "true");
     choices.filter((choice) => choice.dataset.region === link.dataset.region).forEach((choice) => choice.classList.add("is-pending"));
-    announce(`正在加载${link.textContent.trim() || link.getAttribute("aria-label")}资料…`);
+    announce(window.xyI18n("loading_region", {region: link.textContent.trim() || link.getAttribute("aria-label")}));
     let data, nextContents;
     try {
       const response = await fetch(link.dataset.api, { signal: operation.controller.signal, headers: { Accept: "application/json" } });
@@ -268,17 +268,17 @@ if (explorer) {
     } catch (error) {
       if (!isCurrent(operation)) return;
       clearOperation();
-      announce("切换未完成，已保留当前地区。可重试或打开地区资料页。");
+      announce(window.xyI18n("region_failed"));
       if (errorBox) {
         const note = document.createElement("p");
-        note.textContent = "暂时未能加载该地区，当前资料已保留。";
+        note.textContent = window.xyI18n("region_error");
         const retry = document.createElement("button");
         retry.type = "button";
-        retry.textContent = "重试";
+        retry.textContent = window.xyI18n("retry");
         retry.addEventListener("click", () => chooseRegion(link));
         const fallback = document.createElement("a");
         fallback.href = `${siteRoot}/regions/${encodeURIComponent(link.dataset.region)}/`;
-        fallback.textContent = "打开该地区资料页 →";
+        fallback.textContent = window.xyI18n("region_page");
         errorBox.replaceChildren(note, retry, fallback);
         errorBox.hidden = false;
       }
@@ -306,7 +306,8 @@ if (explorer) {
     history.pushState({ xyRegion: { region: committed, scrollTop: 0, focusId: "" } }, "", urlFor(committed));
     refreshDetailOrigins();
     panel.removeAttribute("aria-busy");
-    announce(`已显示${data.region.name}地区资料，共 ${data.region.active_count} 份。`);
+    announce(window.xyI18n("region_loaded", {region: data.region.name, count: data.region.active_count}));
+    explorer.dispatchEvent(new CustomEvent("xiangyin:regionchange", {detail: {region: committed}}));
     await animate(operation, wasClosed ? "open" : "enter");
     if (isCurrent(operation)) clearOperation();
   };

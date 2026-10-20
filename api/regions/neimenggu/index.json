@@ -1,0 +1,51 @@
+{
+  "region": {
+    "name": "内蒙古",
+    "slug": "neimenggu",
+    "description": "",
+    "city_label": "",
+    "active_count": 0
+  },
+  "groups": [
+    {
+      "key": "nonfiction",
+      "label": "非虚构写作",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/neimenggu/?kind=nonfiction",
+      "contents": []
+    },
+    {
+      "key": "interview",
+      "label": "方言访谈",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/neimenggu/?kind=interview",
+      "contents": []
+    },
+    {
+      "key": "media",
+      "label": "媒体作品",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/neimenggu/?kind=media",
+      "contents": []
+    },
+    {
+      "key": "related",
+      "label": "相关研究与资料",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/neimenggu/?kind=related",
+      "contents": []
+    }
+  ],
+  "contents": [],
+  "query": "",
+  "kind": "",
+  "group_counts": {
+    "nonfiction": 0,
+    "interview": 0,
+    "media": 0,
+    "related": 0
+  },
+  "matched_count": 0,
+  "filtered_count": 0,
+  "results": []
+}

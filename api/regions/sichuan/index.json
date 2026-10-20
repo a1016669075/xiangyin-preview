@@ -2,56 +2,62 @@
   "region": {
     "name": "四川",
     "slug": "sichuan",
-    "description": "从日常称呼，到街巷中的地方记忆。以下内容为合成示例，用于展示访谈、媒体与相关资料。",
+    "description": "本机合成资料，用于体验地区浏览与完整阅读，不对应真实采访。",
     "city_label": "",
-    "active_count": 11
+    "active_count": 8
   },
   "groups": [
     {
-      "key": "interview",
-      "label": "方言访谈",
-      "total": 3,
-      "url": "/xiangyin-preview/regions/sichuan/?kind=interview",
+      "key": "nonfiction",
+      "label": "非虚构写作",
+      "total": 2,
+      "url": "/xiangyin-preview/regions/sichuan/?kind=nonfiction",
       "contents": [
         {
-          "id": "sidebar-sichuan-0",
-          "title": "一碗茶之间，听见家乡",
-          "url": "/xiangyin-preview/content/sidebar-sichuan-0/",
-          "summary": "从一声问候开始，读一段关于声音与归属的日常。 配图为合成水岸意象，非地区实景。",
-          "category_label": "访谈实录",
-          "kind": "interview",
-          "kind_label": "访谈实录",
-          "is_synthetic": true,
-          "cover_url": "/xiangyin-preview/assets/attachments/1.png",
-          "meta_labels": [
-            "访谈实录",
-            "问答访谈",
-            "四川"
-          ],
-          "action_label": "阅读访谈"
-        },
-        {
-          "id": "sidebar-sichuan-2",
-          "title": "合成资料：回乡时的一段对话",
-          "url": "/xiangyin-preview/content/sidebar-sichuan-2/",
-          "summary": "",
-          "category_label": "访谈实录",
-          "kind": "interview",
-          "kind_label": "访谈实录",
+          "id": "prism-street",
+          "title": "巷口的一声招呼",
+          "url": "/xiangyin-preview/content/prism-street/",
+          "summary": "沿着一条老街，读懂称呼里的亲疏与日常。",
+          "category_label": "非虚构写作",
+          "kind": "nonfiction",
+          "kind_label": "非虚构写作",
           "is_synthetic": true,
           "cover_url": "",
           "meta_labels": [
-            "访谈实录",
-            "叙事文章",
+            "非虚构写作",
             "四川"
           ],
-          "action_label": "阅读访谈"
+          "action_label": "阅读全文"
         },
         {
-          "id": "sidebar-sichuan-4",
-          "title": "合成资料：院子里的问候",
-          "url": "/xiangyin-preview/content/sidebar-sichuan-4/",
-          "summary": "",
+          "id": "prism-market",
+          "title": "清晨的菜市场",
+          "url": "/xiangyin-preview/content/prism-market/",
+          "summary": "一份关于日常节奏与声音的合成写作练习。",
+          "category_label": "非虚构写作",
+          "kind": "nonfiction",
+          "kind_label": "非虚构写作",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "非虚构写作",
+            "四川"
+          ],
+          "action_label": "阅读全文"
+        }
+      ]
+    },
+    {
+      "key": "interview",
+      "label": "方言访谈",
+      "total": 1,
+      "url": "/xiangyin-preview/regions/sichuan/?kind=interview",
+      "contents": [
+        {
+          "id": "prism-tea",
+          "title": "一碗茶之间，听见家乡",
+          "url": "/xiangyin-preview/content/prism-tea/",
+          "summary": "一声问候，一段故事。在交谈中理解声音与归属。",
           "category_label": "访谈实录",
           "kind": "interview",
           "kind_label": "访谈实录",
@@ -69,19 +75,19 @@
     {
       "key": "media",
       "label": "媒体作品",
-      "total": 4,
+      "total": 2,
       "url": "/xiangyin-preview/regions/sichuan/?kind=media",
       "contents": [
         {
-          "id": "sidebar-sichuan-1",
+          "id": "prism-song",
           "title": "把家常话写进一首歌",
-          "url": "/xiangyin-preview/content/sidebar-sichuan-1/",
-          "summary": "作品介绍的合成版式示例，不提供真实音视频或播放链接。",
+          "url": "/xiangyin-preview/content/prism-song/",
+          "summary": "从作品介绍里，发现方言与音乐相遇的另一种方式。",
           "category_label": "音乐",
           "kind": "media",
           "kind_label": "媒体中的方言",
           "is_synthetic": true,
-          "cover_url": "",
+          "cover_url": "/xiangyin-preview/assets/attachments/1.png",
           "meta_labels": [
             "媒体中的方言 · 音乐",
             "四川",
@@ -90,34 +96,17 @@
           "action_label": "查看作品介绍"
         },
         {
-          "id": "sidebar-sichuan-3",
-          "title": "合成资料：日常表达的声音笔记",
-          "url": "/xiangyin-preview/content/sidebar-sichuan-3/",
-          "summary": "",
-          "category_label": "音乐",
+          "id": "prism-animation",
+          "title": "画面之外的乡音",
+          "url": "/xiangyin-preview/content/prism-animation/",
+          "summary": "动漫作品中的方言表达与人物生活。",
+          "category_label": "动漫",
           "kind": "media",
           "kind_label": "媒体中的方言",
           "is_synthetic": true,
           "cover_url": "",
           "meta_labels": [
-            "媒体中的方言 · 音乐",
-            "四川",
-            "作品介绍"
-          ],
-          "action_label": "查看作品介绍"
-        },
-        {
-          "id": "sidebar-animation",
-          "title": "合成示例 · 动画",
-          "url": "/xiangyin-preview/content/sidebar-animation/",
-          "summary": "合成示例：完整保留介绍与出处，供页面和权限检查。",
-          "category_label": "动画",
-          "kind": "media",
-          "kind_label": "媒体中的方言",
-          "is_synthetic": true,
-          "cover_url": "",
-          "meta_labels": [
-            "媒体中的方言 · 动画",
+            "媒体中的方言 · 动漫",
             "四川",
             "作品介绍"
           ],
@@ -128,31 +117,14 @@
     {
       "key": "related",
       "label": "相关研究与资料",
-      "total": 4,
+      "total": 3,
       "url": "/xiangyin-preview/regions/sichuan/?kind=related",
       "contents": [
         {
-          "id": "sidebar-policy-cover",
-          "title": "合成保护资料 · 语言记录与传承",
-          "url": "/xiangyin-preview/content/sidebar-policy-cover/",
-          "summary": "合成示例：完整保留介绍与出处，供页面和权限检查。",
-          "category_label": "方言政策",
-          "kind": "policy",
-          "kind_label": "语言保护资料",
-          "is_synthetic": true,
-          "cover_url": "",
-          "meta_labels": [
-            "语言保护资料",
-            "报道",
-            "四川"
-          ],
-          "action_label": "阅读资料介绍"
-        },
-        {
-          "id": "sidebar-research",
-          "title": "合成研究 · 语言与日常交往",
-          "url": "/xiangyin-preview/content/sidebar-research/",
-          "summary": "合成示例：完整保留介绍与出处，供页面和权限检查。",
+          "id": "prism-memory",
+          "title": "语言与地方记忆",
+          "url": "/xiangyin-preview/content/prism-memory/",
+          "summary": "在研究介绍中，寻找理解地方生活的新线索。",
           "category_label": "方言研究",
           "kind": "research",
           "kind_label": "方言研究",
@@ -165,10 +137,10 @@
           "action_label": "阅读研究介绍"
         },
         {
-          "id": "sidebar-project",
-          "title": "合成课题 · 街巷里的乡音",
-          "url": "/xiangyin-preview/content/sidebar-project/",
-          "summary": "合成示例：完整保留介绍与出处，供页面和权限检查。",
+          "id": "prism-survey",
+          "title": "街巷里的乡音",
+          "url": "/xiangyin-preview/content/prism-survey/",
+          "summary": "了解方言社会调查如何提出问题、记录生活。",
           "category_label": "方言社会调查",
           "kind": "survey_project",
           "kind_label": "方言社会调查",
@@ -179,73 +151,87 @@
             "四川"
           ],
           "action_label": "了解调查项目"
+        },
+        {
+          "id": "prism-greeting",
+          "title": "日常问候里的语言选择",
+          "url": "/xiangyin-preview/content/prism-greeting/",
+          "summary": "阅读社会语言学研究主题的合成介绍。",
+          "category_label": "方言研究",
+          "kind": "research",
+          "kind_label": "方言研究",
+          "is_synthetic": true,
+          "cover_url": "",
+          "meta_labels": [
+            "方言研究",
+            "四川"
+          ],
+          "action_label": "阅读研究介绍"
         }
       ]
     }
   ],
   "contents": [
     {
-      "id": "sidebar-sichuan-0",
+      "id": "prism-street",
+      "title": "巷口的一声招呼",
+      "url": "/xiangyin-preview/content/prism-street/",
+      "summary": "沿着一条老街，读懂称呼里的亲疏与日常。",
+      "category_label": "非虚构写作",
+      "kind": "nonfiction",
+      "kind_label": "非虚构写作",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "非虚构写作",
+        "四川"
+      ],
+      "action_label": "阅读全文"
+    },
+    {
+      "id": "prism-market",
+      "title": "清晨的菜市场",
+      "url": "/xiangyin-preview/content/prism-market/",
+      "summary": "一份关于日常节奏与声音的合成写作练习。",
+      "category_label": "非虚构写作",
+      "kind": "nonfiction",
+      "kind_label": "非虚构写作",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "非虚构写作",
+        "四川"
+      ],
+      "action_label": "阅读全文"
+    },
+    {
+      "id": "prism-tea",
       "title": "一碗茶之间，听见家乡",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-0/",
-      "summary": "从一声问候开始，读一段关于声音与归属的日常。 配图为合成水岸意象，非地区实景。",
+      "url": "/xiangyin-preview/content/prism-tea/",
+      "summary": "一声问候，一段故事。在交谈中理解声音与归属。",
       "category_label": "访谈实录",
       "kind": "interview",
       "kind_label": "访谈实录",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "访谈实录",
+        "问答访谈",
+        "四川"
+      ],
+      "action_label": "阅读访谈"
+    },
+    {
+      "id": "prism-song",
+      "title": "把家常话写进一首歌",
+      "url": "/xiangyin-preview/content/prism-song/",
+      "summary": "从作品介绍里，发现方言与音乐相遇的另一种方式。",
+      "category_label": "音乐",
+      "kind": "media",
+      "kind_label": "媒体中的方言",
       "is_synthetic": true,
       "cover_url": "/xiangyin-preview/assets/attachments/1.png",
       "meta_labels": [
-        "访谈实录",
-        "问答访谈",
-        "四川"
-      ],
-      "action_label": "阅读访谈"
-    },
-    {
-      "id": "sidebar-sichuan-2",
-      "title": "合成资料：回乡时的一段对话",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-2/",
-      "summary": "",
-      "category_label": "访谈实录",
-      "kind": "interview",
-      "kind_label": "访谈实录",
-      "is_synthetic": true,
-      "cover_url": "",
-      "meta_labels": [
-        "访谈实录",
-        "叙事文章",
-        "四川"
-      ],
-      "action_label": "阅读访谈"
-    },
-    {
-      "id": "sidebar-sichuan-4",
-      "title": "合成资料：院子里的问候",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-4/",
-      "summary": "",
-      "category_label": "访谈实录",
-      "kind": "interview",
-      "kind_label": "访谈实录",
-      "is_synthetic": true,
-      "cover_url": "",
-      "meta_labels": [
-        "访谈实录",
-        "问答访谈",
-        "四川"
-      ],
-      "action_label": "阅读访谈"
-    },
-    {
-      "id": "sidebar-sichuan-1",
-      "title": "把家常话写进一首歌",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-1/",
-      "summary": "作品介绍的合成版式示例，不提供真实音视频或播放链接。",
-      "category_label": "音乐",
-      "kind": "media",
-      "kind_label": "媒体中的方言",
-      "is_synthetic": true,
-      "cover_url": "",
-      "meta_labels": [
         "媒体中的方言 · 音乐",
         "四川",
         "作品介绍"
@@ -253,61 +239,27 @@
       "action_label": "查看作品介绍"
     },
     {
-      "id": "sidebar-sichuan-3",
-      "title": "合成资料：日常表达的声音笔记",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-3/",
-      "summary": "",
-      "category_label": "音乐",
+      "id": "prism-animation",
+      "title": "画面之外的乡音",
+      "url": "/xiangyin-preview/content/prism-animation/",
+      "summary": "动漫作品中的方言表达与人物生活。",
+      "category_label": "动漫",
       "kind": "media",
       "kind_label": "媒体中的方言",
       "is_synthetic": true,
       "cover_url": "",
       "meta_labels": [
-        "媒体中的方言 · 音乐",
+        "媒体中的方言 · 动漫",
         "四川",
         "作品介绍"
       ],
       "action_label": "查看作品介绍"
     },
     {
-      "id": "sidebar-animation",
-      "title": "合成示例 · 动画",
-      "url": "/xiangyin-preview/content/sidebar-animation/",
-      "summary": "合成示例：完整保留介绍与出处，供页面和权限检查。",
-      "category_label": "动画",
-      "kind": "media",
-      "kind_label": "媒体中的方言",
-      "is_synthetic": true,
-      "cover_url": "",
-      "meta_labels": [
-        "媒体中的方言 · 动画",
-        "四川",
-        "作品介绍"
-      ],
-      "action_label": "查看作品介绍"
-    },
-    {
-      "id": "sidebar-policy-cover",
-      "title": "合成保护资料 · 语言记录与传承",
-      "url": "/xiangyin-preview/content/sidebar-policy-cover/",
-      "summary": "合成示例：完整保留介绍与出处，供页面和权限检查。",
-      "category_label": "方言政策",
-      "kind": "policy",
-      "kind_label": "语言保护资料",
-      "is_synthetic": true,
-      "cover_url": "",
-      "meta_labels": [
-        "语言保护资料",
-        "报道",
-        "四川"
-      ],
-      "action_label": "阅读资料介绍"
-    },
-    {
-      "id": "sidebar-research",
-      "title": "合成研究 · 语言与日常交往",
-      "url": "/xiangyin-preview/content/sidebar-research/",
-      "summary": "合成示例：完整保留介绍与出处，供页面和权限检查。",
+      "id": "prism-memory",
+      "title": "语言与地方记忆",
+      "url": "/xiangyin-preview/content/prism-memory/",
+      "summary": "在研究介绍中，寻找理解地方生活的新线索。",
       "category_label": "方言研究",
       "kind": "research",
       "kind_label": "方言研究",
@@ -320,10 +272,10 @@
       "action_label": "阅读研究介绍"
     },
     {
-      "id": "sidebar-project",
-      "title": "合成课题 · 街巷里的乡音",
-      "url": "/xiangyin-preview/content/sidebar-project/",
-      "summary": "合成示例：完整保留介绍与出处，供页面和权限检查。",
+      "id": "prism-survey",
+      "title": "街巷里的乡音",
+      "url": "/xiangyin-preview/content/prism-survey/",
+      "summary": "了解方言社会调查如何提出问题、记录生活。",
       "category_label": "方言社会调查",
       "kind": "survey_project",
       "kind_label": "方言社会调查",
@@ -334,72 +286,74 @@
         "四川"
       ],
       "action_label": "了解调查项目"
+    },
+    {
+      "id": "prism-greeting",
+      "title": "日常问候里的语言选择",
+      "url": "/xiangyin-preview/content/prism-greeting/",
+      "summary": "阅读社会语言学研究主题的合成介绍。",
+      "category_label": "方言研究",
+      "kind": "research",
+      "kind_label": "方言研究",
+      "is_synthetic": true,
+      "cover_url": "",
+      "meta_labels": [
+        "方言研究",
+        "四川"
+      ],
+      "action_label": "阅读研究介绍"
     }
   ],
   "query": "",
   "kind": "",
   "group_counts": {
-    "interview": 3,
-    "media": 4,
-    "related": 4
+    "nonfiction": 2,
+    "interview": 1,
+    "media": 2,
+    "related": 3
   },
-  "matched_count": 11,
-  "filtered_count": 11,
+  "matched_count": 8,
+  "filtered_count": 8,
   "results": [
     {
+      "title": "巷口的一声招呼",
+      "url": "/xiangyin-preview/content/prism-street/",
+      "kind": "nonfiction"
+    },
+    {
       "title": "一碗茶之间，听见家乡",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-0/",
+      "url": "/xiangyin-preview/content/prism-tea/",
       "kind": "interview"
     },
     {
       "title": "把家常话写进一首歌",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-1/",
+      "url": "/xiangyin-preview/content/prism-song/",
       "kind": "media"
     },
     {
-      "title": "合成保护资料 · 语言记录与传承",
-      "url": "/xiangyin-preview/content/sidebar-policy-cover/",
-      "kind": "policy"
-    },
-    {
-      "title": "合成研究 · 语言与日常交往",
-      "url": "/xiangyin-preview/content/sidebar-research/",
+      "title": "语言与地方记忆",
+      "url": "/xiangyin-preview/content/prism-memory/",
       "kind": "research"
     },
     {
-      "title": "合成课题 · 街巷里的乡音",
-      "url": "/xiangyin-preview/content/sidebar-project/",
+      "title": "清晨的菜市场",
+      "url": "/xiangyin-preview/content/prism-market/",
+      "kind": "nonfiction"
+    },
+    {
+      "title": "街巷里的乡音",
+      "url": "/xiangyin-preview/content/prism-survey/",
       "kind": "survey_project"
     },
     {
-      "title": "合成资料：回乡时的一段对话",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-2/",
-      "kind": "interview"
-    },
-    {
-      "title": "合成资料：日常表达的声音笔记",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-3/",
+      "title": "画面之外的乡音",
+      "url": "/xiangyin-preview/content/prism-animation/",
       "kind": "media"
     },
     {
-      "title": "合成资料：院子里的问候",
-      "url": "/xiangyin-preview/content/sidebar-sichuan-4/",
-      "kind": "interview"
-    },
-    {
-      "title": "合成示例 · 动画",
-      "url": "/xiangyin-preview/content/sidebar-animation/",
-      "kind": "media"
-    },
-    {
-      "title": "合成示例 · 音频与文字",
-      "url": "/xiangyin-preview/content/sidebar-audio/",
-      "kind": "media"
-    },
-    {
-      "title": "合成文件 · 无封面时的完整文字列表",
-      "url": "/xiangyin-preview/content/sidebar-policy-text/",
-      "kind": "policy"
+      "title": "日常问候里的语言选择",
+      "url": "/xiangyin-preview/content/prism-greeting/",
+      "kind": "research"
     }
   ]
 }

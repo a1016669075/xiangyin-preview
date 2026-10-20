@@ -1,0 +1,143 @@
+/* F 棱光声场: a shared palette and local light effects, with native page flow. */
+.sidebar-layout {
+  --paper: #f6f5f1;
+  --panel: #fafaf6;
+  --ink: #293e40;
+  --body: #4d605b;
+  --green: #365d59;
+  --green-light: #e4ece4;
+  --line: #dce2dc;
+  --muted: #5d7067;
+  --small-information: #5d7067;
+  --action: #365d59;
+  --olive: #648175;
+  --copper: #737d57;
+  --prism-ease: cubic-bezier(.2,.7,.2,1);
+}
+
+.sidebar-layout .site-sidebar {
+  background: linear-gradient(160deg, #f8f8f3, #eef2eb);
+}
+.sidebar-layout .site-sidebar svg,
+.sidebar-layout .brand-note,
+.sidebar-layout .nav-item.nav-priority { color: #42665b; }
+.sidebar-layout .nav-item:hover { background: #e6ede5; }
+.sidebar-layout .nav-item[aria-current=page] { color: #31574f; background: #dfe9e2; }
+.sidebar-layout .sidebar-bottom p,
+.sidebar-layout .sidebar-bottom > span,
+.sidebar-layout .sidebar-bottom > a { color: #5d7067; }
+.sidebar-layout .sidebar-landscape {
+  background: radial-gradient(ellipse 70% 38% at 72% 80%, #a1b7a9 0, transparent 90%),
+    radial-gradient(ellipse 90% 45% at 6% 100%, #a5b2a7 0, transparent 70%);
+}
+.sidebar-layout .workspace-heading .eyebrow,
+.sidebar-layout .panel-header .eyebrow,
+.sidebar-layout .edition { color: #5d796d; }
+.sidebar-layout .region-selector > a:hover,
+.sidebar-layout .region-selector > a[aria-current=true] {
+  background: #e4ece4;
+  border-color: #c7d7cc;
+}
+.sidebar-layout .region-map-point { border-color: #64817594; background: #f6f5f1e6; }
+.sidebar-layout .region-map-point:hover { background: #e4ece4; box-shadow: 0 0 0 7px #6481751c; }
+.sidebar-layout .region-map-point[aria-current=true] {
+  background: var(--olive);
+  border-color: var(--olive);
+  box-shadow: 0 0 0 5px #64817524;
+}
+.sidebar-layout .region-map-point > span { background: #f6f5f1f0; border-color: #cedbd3; }
+.sidebar-layout .region-map-point[aria-current=true] > span { background: var(--olive); border-color: var(--olive); }
+.sidebar-layout .button:hover { background: #284d47; }
+.sidebar-layout .button.secondary:hover { background: var(--green-light); }
+.sidebar-layout .sample-label { color: #60705a; border-color: #cbd6c5; background: #edf1e8; }
+.sidebar-layout .sample-notice { color: #506651; background: #eaf0e5; border-color: #91a086; }
+.sidebar-layout .reading-bookmark { background: #e4ede3; border-color: #c9d9ce; border-left-color: #6b8878; }
+.sidebar-layout .comment-form input,
+.sidebar-layout .comment-form textarea,
+.sidebar-layout .archive-search input[type=search] { background: #fafbf6; }
+
+/* Only the decorative layer clips. Headings, focus rings and close buttons do not. */
+.prism-heading { position: relative; isolation: isolate; }
+.prism-lens {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+.prism-lens > span {
+  position: absolute;
+  left: -55%;
+  top: -45%;
+  width: 45%;
+  height: 190%;
+  opacity: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, #a9c6bd35 22%, #ffffffa3 45%, #b6b9e42d 60%, transparent);
+  transform: skewX(-25deg);
+}
+
+.sidebar-layout .home-latest-list .content-card,
+.sidebar-layout .archive-list > .content-card,
+.sidebar-layout .featured-grid > .content-card {
+  transition: border-color 220ms ease, background-color 220ms ease;
+}
+.sidebar-layout .content-card .card-art { position: relative; }
+.sidebar-layout .content-card .card-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(125deg, transparent 23%, #c8ece33d 42%, #dad5ed38 52%, transparent 73%);
+  transition: opacity 300ms var(--prism-ease);
+}
+.sidebar-layout .content-card .card-art img { transition: transform 420ms var(--prism-ease); }
+.sidebar-layout .content-card:focus-within .card-art::after { opacity: 1; }
+@media (hover:hover) and (pointer:fine) {
+  .sidebar-layout .home-latest-list .content-card:hover,
+  .sidebar-layout .archive-list > .content-card:hover,
+  .sidebar-layout .featured-grid > .content-card:hover { border-color: #9bb5a7; background-color: #edf1e740; }
+  .sidebar-layout .content-card:hover .card-art::after { opacity: 1; }
+  .sidebar-layout .content-card:hover .card-art img { transform: scale(1.025); }
+}
+
+/* Existing media categories still navigate and filter through their real links. */
+.sidebar-layout .xy-media-discovery { --preview-paper: #e6eee7; --preview-copper: #638376; }
+.sidebar-layout .xy-media-board { border-color: #ccdcd2; }
+.sidebar-layout .xy-media-visual { background: linear-gradient(90deg, #e6eee7 15%, #dfe9e2); }
+.sidebar-layout .xy-media-link {
+  position: relative;
+  isolation: isolate;
+  background: linear-gradient(90deg, #e6eee7fa, #e6eee7ec 75%, #e6eee7d4);
+}
+.sidebar-layout .xy-media-link::before,
+.sidebar-layout .filter-list a[data-media-style]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  opacity: .16;
+  background: repeating-linear-gradient(90deg, #90ab99 0 1px, transparent 1px 13px);
+  transform-origin: left;
+  transform: perspective(360px) rotateY(0deg) scaleX(1);
+  transition: transform 450ms var(--prism-ease), opacity 450ms var(--prism-ease);
+}
+.sidebar-layout .xy-media-link:is(:hover, :focus-visible, [aria-current=page])::before,
+.sidebar-layout .filter-list a[data-media-style][aria-current=page]::before {
+  transform: perspective(360px) rotateY(42deg) scaleX(.45);
+  opacity: .42;
+}
+.sidebar-layout .filter-list a[data-media-style] { position: relative; isolation: isolate; border-radius: 3px; }
+.sidebar-layout .xy-preview-button[aria-pressed=true] { background: #dfeae2; border-color: #638376; }
+.sidebar-layout .xy-media-annotation { background: #e6eee7ef; }
+.sidebar-layout .xy-media-link small { color: #526e61; }
+
+@media (prefers-reduced-motion:reduce) {
+  .prism-lens { display: none; }
+  .sidebar-layout .content-card .card-art img { transform: none; transition: none; }
+  .sidebar-layout .content-card .card-art::after,
+  .sidebar-layout .xy-media-link::before,
+  .sidebar-layout .filter-list a[data-media-style]::before { transition: none; }
+}

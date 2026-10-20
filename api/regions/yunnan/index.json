@@ -2,11 +2,18 @@
   "region": {
     "name": "云南",
     "slug": "yunnan",
-    "description": "此处为暂无资料的合成测试状态，不代表该地区的实际资料情况。",
+    "description": "本机合成资料，用于体验地区浏览与完整阅读，不对应真实采访。",
     "city_label": "",
     "active_count": 0
   },
   "groups": [
+    {
+      "key": "nonfiction",
+      "label": "非虚构写作",
+      "total": 0,
+      "url": "/xiangyin-preview/regions/yunnan/?kind=nonfiction",
+      "contents": []
+    },
     {
       "key": "interview",
       "label": "方言访谈",
@@ -33,6 +40,7 @@
   "query": "",
   "kind": "",
   "group_counts": {
+    "nonfiction": 0,
     "interview": 0,
     "media": 0,
     "related": 0
