@@ -2,11 +2,11 @@
 .sidebar-layout {
   --paper: #f6f5f1;
   --panel: #fafaf6;
-  --ink: #293e40;
+  --ink: #303c35;
   --body: #4d605b;
   --green: #365d59;
   --green-light: #e4ece4;
-  --line: #dce2dc;
+  --line: #dedfd3;
   --muted: #5d7067;
   --small-information: #5d7067;
   --action: #365d59;
@@ -16,7 +16,19 @@
 }
 
 .sidebar-layout .site-sidebar {
-  background: linear-gradient(160deg, #f8f8f3, #eef2eb);
+  background: url('../img/ink-landscape.svg') center bottom / 100% auto no-repeat,
+    linear-gradient(160deg, #faf9f3, #f1f1e7);
+}
+.site-sidebar .brand { position: relative; }
+.site-sidebar .brand::after {
+  content: "";
+  position: absolute;
+  left: 27px;
+  bottom: 4px;
+  width: 76px;
+  height: 18px;
+  background: url('../img/ridge-mark.svg') center / contain no-repeat;
+  pointer-events: none;
 }
 .sidebar-layout .site-sidebar svg,
 .sidebar-layout .brand-note,
@@ -27,8 +39,25 @@
 .sidebar-layout .sidebar-bottom > span,
 .sidebar-layout .sidebar-bottom > a { color: #5d7067; }
 .sidebar-layout .sidebar-landscape {
-  background: radial-gradient(ellipse 70% 38% at 72% 80%, #a1b7a9 0, transparent 90%),
-    radial-gradient(ellipse 90% 45% at 6% 100%, #a5b2a7 0, transparent 70%);
+  background: none;
+}
+.sidebar-layout .panel-header {
+  background: url('../img/ink-landscape.svg') right -12px bottom -36px / 220px auto no-repeat,
+    linear-gradient(110deg, #fcfbf7, #f5f4eb);
+}
+.workspace-heading { position: relative; }
+.workspace-heading::after {
+  content: "";
+  position: absolute;
+  left: var(--workspace-pad);
+  bottom: -2px;
+  width: 92px;
+  height: 1px;
+  background: linear-gradient(90deg, #969f80, #969f8000);
+  pointer-events: none;
+}
+.sidebar-layout .nav-divider {
+  background: linear-gradient(90deg, #d6d9c9, #d6d9c900);
 }
 .sidebar-layout .workspace-heading .eyebrow,
 .sidebar-layout .panel-header .eyebrow,

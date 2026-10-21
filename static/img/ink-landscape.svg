@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" fill="none">
+  <defs>
+    <linearGradient id="wash" x2="0" y2="1"><stop stop-color="#71816b" stop-opacity=".34"/><stop offset="1" stop-color="#71816b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="near" x2="0" y2="1"><stop stop-color="#64735d" stop-opacity=".5"/><stop offset="1" stop-color="#64735d" stop-opacity=".03"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="white" stop-opacity="0"/><stop offset=".15" stop-color="white"/><stop offset=".85" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+    <mask id="mist"><path fill="url(#edge)" d="M0 0h360v240H0z"/></mask>
+    <filter id="ink" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".045" numOctaves="2" seed="8" result="grain"/><feDisplacementMap in="SourceGraphic" in2="grain" scale="2.5" xChannelSelector="R" yChannelSelector="G"/><feGaussianBlur stdDeviation=".3"/></filter>
+  </defs>
+  <g mask="url(#mist)" filter="url(#ink)">
+  <path d="M-15 132Q5 114 28 124C41 121 45 99 59 99S76 77 85 80C98 81 105 105 118 107S135 99 146 112Q162 127 182 110C201 100 207 112 220 98S239 98 250 84C261 86 265 105 280 103S305 123 318 116Q341 105 375 130V202H-15Z" fill="url(#wash)"/>
+  <path d="M-8 144Q10 128 31 137C46 141 49 119 63 123S79 112 88 120Q108 143 131 130C144 139 150 155 172 149S203 153 217 157Q240 144 267 159C280 152 285 137 299 141S325 128 337 134L375 155V204H-8Z" fill="url(#wash)"/>
+  <path d="M-8 169Q7 169 24 155T52 151Q62 137 72 151C88 169 101 163 119 180S152 194 180 189S216 199 243 189Q267 171 283 181C297 176 302 166 316 173S342 153 359 162L375 169V220H-8Z" fill="url(#near)"/>
+  <g stroke="#71806a" stroke-linecap="round">
+    <path d="m19 122 11 1 23-26 16 4 16-20 15 8 17 17m103-10 15 6 15-17 17 20" opacity=".19"/>
+    <path d="m30 157 10-3 12 2m-5 12 24 3m218 7 19-5 11 2m-193 25 43 1m39 6 26-1m-141 13 42-1m135-17 37-2m-31 22 22-1" opacity=".3"/>
+    <path d="m42 178-1-46m1 27-15-15m15 7 12-16m-13 4-9-9m10 11 6-18" stroke-width="1.5" opacity=".45"/>
+    <path d="m309 187 1-30m0 14-9-8m9 2 8-12" opacity=".42"/>
+  </g>
+  <g fill="#66765e" opacity=".35">
+    <path d="m15 144 12-10 9 3 5-6 10 5 12 7-15 3-8-2-13 4Zm13-15 9-7 7-6 5 6 8 8-13 3Zm267 34 10-9 6 3 7-8 10 12-15 3-8-1Z"/>
+    <path d="m162 207 8 4h16l9-5-16 2Z"/>
+  </g>
+  <path d="m177 206 1-9 3 7m-3-8 13 15" stroke="#66765e" stroke-width="1" opacity=".35"/>
+  </g>
+</svg>
