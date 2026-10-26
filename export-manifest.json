@@ -147,7 +147,7 @@
     {
       "path": "about/index.html",
       "bytes": 7836,
-      "sha256": "6cc0e942154c4359709d28d6548cab83994cd9192ff7be76cf77ac844c4960cf"
+      "sha256": "7bf44bbe9a51de516bdc74cd38c4d1afe7cd379b39714887a813c0c135d24742"
     },
     {
       "path": "api/regions/anhui/index.json",
@@ -391,8 +391,8 @@
     },
     {
       "path": "en/about/index.html",
-      "bytes": 7528,
-      "sha256": "fb14a52869d027cc2b6c39a7318217517bcf93fa237d20775ac9aa77ab5c8546"
+      "bytes": 7526,
+      "sha256": "89c1983a7dfdd797b5ce7fe51bce0a1af24e4823deedda8798ace87c7af6c6b0"
     },
     {
       "path": "en/api/regions/anhui/index.json",
